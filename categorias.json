@@ -1,0 +1,88 @@
+{
+"meals": [
+{
+"idCategory": "1",
+"strCategory": "Carne de res",
+"strCategoryThumb": "https://www.themealdb.com/images/category/beef.png",
+"strDescription": "La carne es el nombre culinario de la carne del ganado, particularmente el músculo esquelético. Los humanos han estado comiendo carne desde tiempos prehistóricos. [1 ] La carne es una fuente de proteínas y nutrientes esenciales de alta calidad. [2 ]"
+},
+{
+"idCategory": "2",
+"strCategory": "Pollo",
+"strCategoryThumb": "https://www.themealdb.com/images/category/chicken.png",
+"strDescription": "El pollo es un tipo de ave domesticada, una subespecie de las aves rojas de la jungla. Es uno de los animales domésticos más comunes y extendidos, con una población total de más de 19 mil millones a partir de 2011. [1 ] Los humanos comúnmente mantienen a los pollos como fuente de alimento ( consumiendo tanto su carne como sus huevos ) y, más raramente, como mascotas."
+},
+{
+"idCategory": "3",
+"strCategory": "Postre",
+"strCategoryThumb": "https://www.themealdb.com/images/category/dessert.png",
+"strDescription": "El postre es un curso que concluye una comida. El curso generalmente consiste en alimentos dulces, como platos de dulces o frutas, y posiblemente una bebida como vino de postre o licor, sin embargo, en los Estados Unidos puede incluir café, quesos, nueces u otros artículos salados considerados como un curso separado en otros lugares. En algunas partes del mundo, como gran parte de África central y occidental, y la mayor parte de China, no existe la tradición de un curso de postres para concluir una comida\r El término postre se puede aplicar a muchos dulces, como galletas, pasteles, galletas, natillas, gelatinas, helados, pasteles, pasteles, budines y sopas dulces y tartas. La fruta también se encuentra comúnmente en los cursos de postres debido a su dulzura natural. Algunas culturas endulzan los alimentos que son más comúnmente sabrosos para crear postres."
+},
+{
+"idCategory": "4",
+"strCategory": "Cordero",
+"strCategoryThumb": "https://www.themealdb.com/images/category/lamb.png",
+"strDescription": "Cordero, cerdito y cordero son la carne de oveja doméstica ( especie Ovis aries ) a diferentes edades.  \r \nA ovejas en su primer año se llama cordero, y su carne también se llama cordero. La carne de una oveja juvenil mayor de un año es hogget; fuera de los Estados Unidos, este también es un término para el animal vivo. La carne de una oveja adulta es cordero, un término que solo se usa para la carne, no para los animales vivos. El término cordero casi siempre se usa para referirse a la carne de cabra en el subcontinente indio.   "
+},
+{
+"idCategory": "5",
+"strCategory": "Varios",
+"strCategoryThumb": "https://www.themealdb.com/images/category/miscellaneous.png",
+"strDescription": "Alimentos generales que no encajan en otra categoría"
+},
+{
+"idCategory": "6",
+"strCategory": "Pasta",
+"strCategoryThumb": "https://www.themealdb.com/images/category/pasta.png",
+"strDescription": "La pasta es un alimento básico de la cocina tradicional italiana, con la primera referencia que data de 1154 en Sicilia. También se usa comúnmente para referirse a la variedad de platos de pasta, la pasta es típicamente un fideo hecho de una masa sin levadura de una harina de trigo duro mezclada con agua o huevos y formada en láminas o varias formas, luego cocinada hirviendo o horneando. Como alternativa para aquellos que desean un sabor diferente, o que necesitan evitar productos que contengan gluten, algunas pastas se pueden hacer con harina de arroz en lugar de trigo. [3 ] [ 4 ] Las pastas se pueden dividir en dos grandes categorías, secadas ( pasta secca ) y frescas ( pasta fresca )."
+},
+{
+"idCategory": "7",
+"strCategory": "Cerdo",
+"strCategoryThumb": "https://www.themealdb.com/images/category/pork.png",
+"strDescription": "El cerdo es el nombre culinario de la carne de un cerdo doméstico ( Sus scrofa domesticus ). Es la carne más comúnmente consumida en todo el mundo, [ 1 ] con evidencia de cría de cerdos que data del 5000 a. C. El cerdo se come recién cocinado y conservado. El curado extiende la vida útil de los productos de cerdo. El jamón, el cerdo ahumado, el gammon, el tocino y la salchicha son ejemplos de carne de cerdo en conserva. Charcuterie es la rama de la cocina dedicada a los productos cárnicos preparados, muchos de carne de cerdo. Pork es la carne más popular en el este y sureste de Asia, y también es muy común en el mundo occidental, especialmente en Europa Central. Es muy apreciado en las cocinas asiáticas por su contenido de grasa y textura agradable. El consumo de carne de cerdo está prohibido por la ley dietética judía y musulmana, un tabú profundamente arraigado en la tradición, con varias causas posibles sugeridas.La venta de carne de cerdo es limitada en Israel e ilegal en ciertos países musulmanes."
+},
+{
+"idCategory": "8",
+"strCategory": "Mariscos",
+"strCategoryThumb": "https://www.themealdb.com/images/category/seafood.png",
+"strDescription": "Los mariscos son cualquier forma de vida marina considerada como alimento por los humanos. Los mariscos incluyen prominentemente peces y mariscos. Los mariscos incluyen varias especies de moluscos, crustáceos y equinodermos. Históricamente, los mamíferos marinos como las ballenas y los delfines se han consumido como alimento, aunque eso sucede en menor medida en los tiempos modernos. Las plantas marinas comestibles, como algunas algas y microalgas, se comen ampliamente como mariscos en todo el mundo, especialmente en Asia (, consulte la categoría de algas marinas ). En América del Norte, aunque generalmente no en el Reino Unido, el término mariscos se extiende a los organismos de agua dulce que comen los humanos, por lo tanto, toda la vida acuática comestible puede denominarse mariscos. En aras de la exhaustividad, este artículo incluye toda la vida acuática comestible."
+},
+{
+"idCategory": "9",
+"strCategory": "Lado",
+"strCategoryThumb": "https://www.themealdb.com/images/category/side.png",
+"strDescription": "Una guarnición, a veces denominada orden lateral, artículo secundario o simplemente un lado, es un alimento que acompaña al plato principal o plato principal en una comida. Los guarniciones como ensalada, papas y pan se usan comúnmente con platos principales en muchos países del mundo occidental. Las nuevas órdenes paralelas introducidas en la última década [ cita necesaria ], como el arroz y el cuscús, se han vuelto bastante populares en toda Europa, especialmente en ocasiones formales ( con cuscús que aparece más comúnmente en cenas con platos del Medio Oriente )."
+},
+{
+"idCategory": "10",
+"strCategory": "Arrancador",
+"strCategoryThumb": "https://www.themealdb.com/images/category/starter.png",
+"strDescription": "Un plato principal en el moderno servicio de mesa francés y el de gran parte del mundo de habla inglesa ( aparte de los Estados Unidos y partes de Canadá ) es un plato servido antes del plato principal de una comida; puede ser el primer plato servido, o puede seguir una sopa u otro plato o platos pequeños. En los Estados Unidos y partes de Canadá, un plato principal es el plato principal o el único plato de una comida. Históricamente, el plato principal fue una de las etapas de la Orden clásica “ ” del servicio formal de mesa francés de los siglos XVIII y XIX. Formó una parte del primer servicio “ ” de la comida, que consistía en potage, hors d’œuvre y entrée ( incluyendo el bouilli y el relevé ). El segundo servicio “ ” consistió en tostado ( rôti ), ensalada y entrantes ( los entrantes a veces se separan en un tercer servicio “ ” propio ). El servicio final consistió solo en postre. [3 ]: 3 – 11 :13 – 25"
+},
+{
+"idCategory": "11",
+"strCategory": "vegano",
+"strCategoryThumb": "https://www.themealdb.com/images/category/vegan.png",
+"strDescription": "El veganismo es tanto la práctica de abstenerse del uso de productos animales, particularmente en la dieta, como una filosofía asociada que rechaza el estado de los productos básicos de los animales.[ b ] Un seguidor de la dieta o la filosofía se conoce como vegano ( pronunciado / ˈviːɡən / VEE- gən ). A veces se hacen distinciones entre varias categorías de veganismo. Los veganos dietéticos ( o vegetarianos estrictos ) se abstienen de consumir productos animales, no solo carne sino también huevos, productos lácteos y otras sustancias derivadas de animales.[ c ] El término vegano ético a menudo se aplica a aquellos que no solo siguen una dieta vegana sino que extienden la filosofía a otras áreas de sus vidas, y oponerse al uso de animales para cualquier propósito. [ d ] Otro término es veganismo ambiental,que se refiere a evitar los productos animales con la premisa de que la cosecha o la cría industrial de animales es perjudicial para el medio ambiente e insostenible."
+},
+{
+"idCategory": "12",
+"strCategory": "Vegetariano",
+"strCategoryThumb": "https://www.themealdb.com/images/category/vegetarian.png",
+"strDescription": "El vegetarianismo es la práctica de abstenerse del consumo de carne ( carne roja, aves, mariscos y la carne de cualquier otro animal ), y también puede incluir la abstención de subproductos de la matanza de animales. El vegetarianismo puede adoptarse por varias razones. Muchas personas se oponen a comer carne por respeto a la vida sensible. Tales motivaciones éticas han sido codificadas bajo diversas creencias religiosas, así como la defensa de los derechos de los animales. Otras motivaciones para el vegetarianismo son las preferencias relacionadas con la salud, políticas, ambientales, culturales, estéticas, económicas o personales. También hay variaciones de la dieta: una dieta vegetariana ovo-lacto incluye huevos y productos lácteos, una dieta ovo-vegetariana incluye huevos pero no productos lácteos, y una dieta lacto-vegetariana incluye productos lácteos pero no huevos.Una dieta vegana excluye todos los productos animales, incluidos los huevos y los lácteos. Algunos veganos también evitan otros productos animales como la cera de abejas, la ropa de cuero o seda y el betún con grasa de ganso."
+},
+{
+"idCategory": "13",
+"strCategory": "Desayuno",
+"strCategoryThumb": "https://www.themealdb.com/images/category/breakfast.png",
+"strDescription": "El desayuno es la primera comida de un día. La palabra en inglés se refiere a romper el período de ayuno de la noche anterior. Existe una gran probabilidad de que existan uno o más menús de desayuno típicos o tradicionales en la mayoría de los lugares, pero su composición varía ampliamente de un lugar a otro, y ha variado con el tiempo, de modo que a nivel mundial una amplia gama de preparaciones e ingredientes ahora están asociados con el desayuno."
+},
+{
+"idCategory": "14",
+"strCategory": "Cabra",
+"strCategoryThumb": "https://www.themealdb.com/images/category/goat.png",
+"strDescription": "La cabra doméstica o simplemente la cabra ( Capra aegagrus hircus ) es una subespecie de C. aegagrus domesticada de la cabra salvaje del suroeste de Asia y Europa del Este. La cabra es miembro de la familia de animales Bovidae y la subfamilia Caprinae, lo que significa que está estrechamente relacionada con las ovejas. Hay más de 300 razas distintas de cabras. Las cabras son una de las especies de animales domesticados más antiguas y se han utilizado para la leche, la carne, el pelaje y las pieles en gran parte del mundo. La leche de las cabras a menudo se convierte en queso de cabra."
+}
+]
+}

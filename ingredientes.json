@@ -1,0 +1,3446 @@
+{"meals":[
+{
+"idIngredient": "1",
+"strIngredient": "Pollo",
+"strDescription": "El pollo es un tipo de ave domesticada, una subespecie de las aves de la selva roja ( Gallus gallus ). Es uno de los animales domésticos más comunes y extendidos, con una población total de más de 19 mil millones a partir de 2011. Hay más pollos en el mundo que cualquier otro pájaro o ave domesticada. Los humanos mantienen a los pollos principalmente como fuente de alimento ( consumiendo tanto su carne como sus huevos ) y, con menos frecuencia, como mascotas. Originalmente criados para peleas de gallos o para ceremonias especiales, los pollos no se guardaron para comer hasta el período helenístico ( 4to  2do siglo BC ).   n  r\nLos estudios genéticos han señalado múltiples orígenes maternos en el sur de Asia, el sudeste asiático y el este de Asia, pero con el clado encontrado en América, Europa, Oriente Medio y África originarios del subcontinente indio. De la antigua India,el pollo domesticado se extendió a Lydia en Asia occidental Menor y a Grecia en el siglo V a. C. Fowl se conocía en Egipto desde mediados del siglo XV a. C., con el pájaro que da a luz todos los días que había venido a Egipto desde la tierra entre Siria y Sinar, Babilonia, según los anales de Thutmose III.",
+"strType": null
+},
+{
+"idIngredient": "2",
+"strIngredient": "Salmón",
+"strDescription": "El salmón es el nombre común de varias especies de peces con aletas radiadas de la familia Salmonidae. Otros peces de la misma familia incluyen trucha, carbón, canas y pescado blanco. Los salmones son nativos de los afluentes del gen del Atlántico Norte ( Salmo ) y el Océano Pacífico ( genus Oncorhynchus ). Muchas especies de salmón se han introducido en entornos no nativos como los Grandes Lagos de América del Norte y la Patagonia en América del Sur. El salmón se cultiva intensamente en muchas partes del mundo.  Por lo general, el salmón es anádromo: eclosionan en agua dulce, migran al océano, luego volver al agua dulce para reproducirse. Sin embargo, las poblaciones de varias especies están restringidas al agua dulce a través de sus vidas. El folklore dice que los peces regresan al lugar exacto donde nacieron para desovar. Los estudios de seguimiento han demostrado que esto es principalmente cierto.Una porción de una corrida de salmón que regresa puede extraviarse y desovar en diferentes sistemas de agua dulce; El porcentaje de extracción depende de la especie de salmón. Se ha demostrado que el comportamiento de dominación depende de la memoria olfativa. El salmón se remonta al Neogene.",
+"strType": null
+},
+{
+"idIngredient": "3",
+"strIngredient": "Carne de res",
+"strDescription": "La carne es el nombre culinario de la carne del ganado, particularmente el músculo esquelético. Los humanos han estado comiendo carne desde tiempos prehistóricos. La carne de res es una fuente de proteínas y nutrientes de alta calidad.  La mayoría de la carne de músculo esquelético de la carne se puede usar simplemente cortando ciertas partes, como los asados, costillas cortas o filete ( filete mignon, filete de solomillo, filete de grupa, filete de costilla, filete de costilla, filete de percha, etc. ) se procesan otros cortes ( carne de res en conserva o carne seca ). Los recortes, por otro lado, generalmente se mezclan con carne de ganado más viejo y delgado ( por lo tanto más duro ), se muelen, pican o usan en salchichas. La sangre se usa en algunas variedades llamadas morcilla. Otras partes que se comen incluyen otros músculos y despojos, como la cola de buey, el hígado, la lengua, las tripas del retículo o el rumen, las glándulas ( particularmente el páncreas y el timo,conocido como pan dulce ), el corazón, el cerebro ( aunque prohibido donde existe el peligro de encefalopatía espongiforme bovina, EEB, comúnmente conocida como enfermedad de las vacas locas ), los riñones, y los tiernos testículos del toro ( conocidos en los Estados Unidos como papas fritas para terneros, ostras de pradera o ostras de las Montañas Rocosas ). Algunos intestinos se cocinan y se comen tal cual, pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.",
+"strType": null
+},
+{
+"idIngredient": "4",
+"strIngredient": "Cerdo",
+"strDescription": "El cerdo es el nombre culinario de la carne de un cerdo doméstico ( Sus scrofa domesticus ). Es la carne más comúnmente consumida en todo el mundo, [ 1 ] con evidencia de cría de cerdos que data del 5000 a. C. El cerdo se come recién cocinado y conservado. El curado extiende la vida útil de los productos de cerdo. El jamón, el cerdo ahumado, el gammon, el tocino y la salchicha son ejemplos de carne de cerdo en conserva. Charcuterie es la rama de la cocina dedicada a los productos cárnicos preparados, muchos de carne de cerdo.  r\nPig es la carne más popular en las partes oriental y no musulmana del sudeste asiático ( Indochina, Filipinas, Singapur, Timor Oriental ) y también es muy común en el mundo occidental, especialmente en Europa Central. Es muy apreciado en las cocinas asiáticas por su contenido de grasa y textura agradable. El consumo de carne de cerdo está prohibido por la ley dietética judía, musulmana y rastafari,por razones religiosas, con varias posibles causas sugeridas.",
+"strType": null
+},
+{
+"idIngredient": "5",
+"strIngredient": "Aguacate",
+"strDescription": "El aguacate, un árbol de origen probable en el centro sur de México, está clasificado como miembro de la familia de plantas con flores Lauraceae. El fruto de la planta, también llamado aguacate ( o pera de aguacate o pera de cocodrilo ), es botánicamente una baya grande que contiene una sola semilla grande. Los nAvocados son comercialmente valiosos y se cultivan en climas tropicales y mediterráneos en todo el mundo. Tienen un cuerpo carnoso de piel verde que puede ser en forma de pera, en forma de huevo o esférico. Comercialmente, maduran después de la cosecha. Los árboles de aguacate son parcialmente autopolinizantes y a menudo se propagan a través del injerto para mantener la calidad y cantidad predecible de la fruta. En 2017, México produjo el 34% del suministro mundial de aguacates.",
+"strType": null
+},
+{
+"idIngredient": "9",
+"strIngredient": "Vinagre de sidra de manzana",
+"strDescription": "El vinagre de sidra de manzana, o vinagre de sidra, es un vinagre hecho de jugo de manzana fermentado y utilizado en aderezos para ensaladas, adobos, vinagretas, conservantes de alimentos y chutneys. Se hace triturando manzanas y luego exprimiendo el jugo. Se agregan bacterias y levadura al líquido para iniciar el proceso de fermentación alcohólica, que convierte los azúcares en alcohol. En una segunda etapa de fermentación, el alcohol se convierte en vinagre por bacterias formadoras de ácido acético ( Especies de acetobacter ). El ácido acético y el ácido málico se combinan para dar al vinagre su sabor agrio. El vinagre de sidra de manzana no tiene valor medicinal o nutricional. No existe evidencia clínica de alta calidad de que el consumo regular de vinagre de sidra de manzana ayude a mantener o perder peso corporal, o sea efectivo para controlar los niveles de glucosa y lípidos en sangre.",
+"strType": null
+},
+{
+"idIngredient": "10",
+"strIngredient": "Espárragos",
+"strDescription": "Espárragos, o espárragos de jardín, nombre popular de hierba de gorrión, nombre científico Asparagus officinalis, es una especie de planta con flores perennes del género Asparagus. Sus brotes jóvenes se usan como vegetales de primavera. Una vez se clasificó en la familia de los lirios, como las especies de Allium, cebollas y ajo relacionados. Sin embargo, la investigación genética coloca lirios, Allium y espárragos en tres familias separadas — las Liliaceae, Amaryllidaceae y Asparagaceae, respectivamente — con las Amaryllidaceae y Asparagaceae agrupadas en el orden Asparagales. Las fuentes difieren en cuanto a la gama nativa de Asparagus officinalis, pero generalmente incluyen la mayor parte de Europa y Asia templada occidental. Es ampliamente cultivado como cultivo vegetal.",
+"strType": null
+},
+{
+"idIngredient": "11",
+"strIngredient": "Berenjena",
+"strDescription": "Berenjena ( EE. UU., Australia ), berenjena ( Reino Unido ) o brinjal ( Asia del Sur y Sudáfrica ) es una especie de planta de la familia de las solanáceas Solanaceae. Solanum melongena se cultiva en todo el mundo por su fruta comestible. Más comúnmente púrpura, la fruta esponjosa y absorbente se usa en varias cocinas. Aunque a menudo se considera un vegetal, es una baya por definición botánica. Como miembro del género Solanum, está relacionado con el tomate y la papa. Al igual que el tomate, se puede comer su piel y semillas, pero, al igual que la papa, generalmente se come cocida. La berenjena es nutricionalmente baja en contenido de macronutrientes y micronutrientes, pero la capacidad de la fruta para absorber aceites y sabores en su carne a través de la cocción expande su uso en las artes culinarias\r  Originalmente fue domesticado de la espina de la especie de solanácea silvestre o manzana amarga, S. incanum,probablemente con dos domesticaciones independientes: una en el sur de Asia y otra en el este de Asia.",
+"strType": null
+},
+{
+"idIngredient": "13",
+"strIngredient": "Baby Plum Tomatoes",
+"strDescription": "El tomate es la baya comestible, a menudo roja, de la planta Solanum lycopersicum, comúnmente conocida como planta de tomate. La especie se originó en América del Sur occidental y América Central. La palabra náhuatl ( idioma azteca ) tomatl dio lugar a la palabra española tomate, de la cual se deriva la palabra inglesa tomate. [3 ] [ 4 ] Su domesticación y uso como alimento cultivado puede haberse originado con los pueblos indígenas de México. Los aztecas usaban tomates en su cocina en el momento de la conquista española del Imperio azteca, y después de que los españoles se encontraron con el tomate por primera vez después de su contacto con los aztecas, llevaron la planta a Europa. A partir de ahí, el tomate se introdujo en otras partes del mundo colonizado en Europa durante el siglo XVI.",
+"strType": null
+},
+{
+"idIngredient": "14",
+"strIngredient": "Tocino",
+"strDescription": "El tocino es un tipo de cerdo curado con sal. El tocino se prepara a partir de varios cortes diferentes de carne, generalmente de la panceta de cerdo o de cortes en la espalda, que tienen menos grasa que la barriga. Se come solo, como guarnición ( particularmente en desayunos ), o se usa como ingrediente menor para dar sabor a platos ( por ejemplo, el sándwich club ). El tocino también se usa para barbar y amarrar asados, especialmente el juego, incluida la venado y el faisán. La palabra se deriva del antiguo bacho alemán alto, que significa llave, jamón o lado del tocino \", y está relacionada con el tocino francés antiguo.",
+"strType": null
+},
+{
+"idIngredient": "15",
+"strIngredient": "Polvo para hornear",
+"strDescription": "El polvo de hornear es un agente fermentante químico seco, una mezcla de carbonato o bicarbonato y un ácido débil. La base y el ácido no pueden reaccionar prematuramente mediante la inclusión de un tampón como la maicena. El polvo de hornear se usa para aumentar el volumen y aligerar la textura de los productos horneados. Funciona liberando gas dióxido de carbono en una masa o masa a través de una reacción ácido-base, haciendo que las burbujas en la mezcla húmeda se expandan y así fermentar la mezcla. El primer polvo de hornear de acción única fue desarrollado por el fabricante de alimentos con sede en Birmingham Alfred Bird en Inglaterra en 1843. El primer polvo de hornear de doble acción fue desarrollado por Eben Norton Horsford en Estados Unidos en la década de 1860.",
+"strType": null
+},
+{
+"idIngredient": "16",
+"strIngredient": "Vinagre balsámico",
+"strDescription": "Vinagre balsámico ( Italiano: aceto balsámico ), ocasionalmente acortado a balsámico, es un vinagre muy oscuro, concentrado e intensamente aromatizado originario de Italia, hecho total o parcialmente de mosto de uva. El mosto de uva es un jugo de uva recién triturado con todas las pieles, semillas y tallos.",
+"strType": null
+},
+{
+"idIngredient": "17",
+"strIngredient": "albahaca",
+"strDescription": "La albahaca, también llamada gran albahaca, es una hierba culinaria de la familia Lamiaceae ( mentas ).  nBasil es nativa de las regiones tropicales desde África central hasta el sudeste asiático. Es una planta tierna y se utiliza en cocinas de todo el mundo. Dependiendo de la especie y el cultivar, las hojas pueden tener un sabor a anís, con un olor fuerte, picante y a menudo dulce.",
+"strType": null
+},
+{
+"idIngredient": "18",
+"strIngredient": "Hojas de albahaca",
+"strDescription": "La albahaca, también llamada gran albahaca, es una hierba culinaria de la familia Lamiaceae ( mentas ).",
+"strType": null
+},
+{
+"idIngredient": "19",
+"strIngredient": "Arroz Basmati",
+"strDescription": "Basmati es una variedad de arroz aromático largo y de grano delgado que tradicionalmente proviene del subcontinente indio. A partir de 2018-19, India exportó a más del 90% del mercado de arroz basmati en el extranjero, mientras que Pakistán representó el resto, de acuerdo con la Autoridad de Desarrollo de Exportaciones de Productos Alimenticios Agrícolas y Procesados de la India y la Encuesta Económica de Pakistán dirigida por el gobierno de Pakistán. Muchos países utilizan cultivos de arroz basmati cultivados en el país; sin embargo, basmati es geográficamente exclusivo de distritos seleccionados de India, Pakistán, Nepal y Bangladesh.",
+"strType": null
+},
+{
+"idIngredient": "20",
+"strIngredient": "Hoja de la bahía",
+"strDescription": "La hoja de laurel es una hoja aromática comúnmente utilizada en la cocina. Se puede usar entero, o como seco y molido.",
+"strType": null
+},
+{
+"idIngredient": "21",
+"strIngredient": "Hojas de la bahía",
+"strDescription": "La hoja de laurel es una hoja aromática comúnmente utilizada en la cocina. Se puede usar entero, o como seco y molido.",
+"strType": null
+},
+{
+"idIngredient": "23",
+"strIngredient": "Pechuga de res",
+"strDescription": "La carne es el nombre culinario de la carne del ganado, particularmente el músculo esquelético. Los humanos han estado comiendo carne desde tiempos prehistóricos. La carne de res es una fuente de proteínas y nutrientes de alta calidad.  La mayoría de la carne de músculo esquelético de la carne se puede usar simplemente cortando ciertas partes, como los asados, costillas cortas o filete ( filete mignon, filete de solomillo, filete de grupa, filete de costilla, filete de costilla, filete de percha, etc. ) se procesan otros cortes ( carne de res en conserva o carne seca ). Los recortes, por otro lado, generalmente se mezclan con carne de ganado más viejo y delgado ( por lo tanto más duro ), se muelen, pican o usan en salchichas. La sangre se usa en algunas variedades llamadas morcilla. Otras partes que se comen incluyen otros músculos y despojos, como la cola de buey, el hígado, la lengua, las tripas del retículo o el rumen, las glándulas ( particularmente el páncreas y el timo,conocido como pan dulce ), el corazón, el cerebro ( aunque prohibido donde existe el peligro de encefalopatía espongiforme bovina, EEB, comúnmente conocida como enfermedad de las vacas locas ), los riñones, y los tiernos testículos del toro ( conocidos en los Estados Unidos como papas fritas para terneros, ostras de pradera o ostras de las Montañas Rocosas ). Algunos intestinos se cocinan y se comen tal cual, pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.",
+"strType": null
+},
+{
+"idIngredient": "24",
+"strIngredient": "Filete de carne",
+"strDescription": "La carne es el nombre culinario de la carne del ganado, particularmente el músculo esquelético. Los humanos han estado comiendo carne desde tiempos prehistóricos. La carne de res es una fuente de proteínas y nutrientes de alta calidad.  La mayoría de la carne de músculo esquelético de la carne se puede usar simplemente cortando ciertas partes, como los asados, costillas cortas o filete ( filete mignon, filete de solomillo, filete de grupa, filete de costilla, filete de costilla, filete de percha, etc. ) se procesan otros cortes ( carne de res en conserva o carne seca ). Los recortes, por otro lado, generalmente se mezclan con carne de ganado más viejo y delgado ( por lo tanto más duro ), se muelen, pican o usan en salchichas. La sangre se usa en algunas variedades llamadas morcilla. Otras partes que se comen incluyen otros músculos y despojos, como la cola de buey, el hígado, la lengua, las tripas del retículo o el rumen, las glándulas ( particularmente el páncreas y el timo,conocido como pan dulce ), el corazón, el cerebro ( aunque prohibido donde existe el peligro de encefalopatía espongiforme bovina, EEB, comúnmente conocida como enfermedad de las vacas locas ), los riñones, y los tiernos testículos del toro ( conocidos en los Estados Unidos como papas fritas para terneros, ostras de pradera o ostras de las Montañas Rocosas ). Algunos intestinos se cocinan y se comen tal cual, pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.",
+"strType": null
+},
+{
+"idIngredient": "25",
+"strIngredient": "Salsa de carne",
+"strDescription": "La carne es el nombre culinario de la carne del ganado, particularmente el músculo esquelético. Los humanos han estado comiendo carne desde tiempos prehistóricos. La carne de res es una fuente de proteínas y nutrientes de alta calidad.  La mayoría de la carne de músculo esquelético de la carne se puede usar simplemente cortando ciertas partes, como los asados, costillas cortas o filete ( filete mignon, filete de solomillo, filete de grupa, filete de costilla, filete de costilla, filete de percha, etc. ) se procesan otros cortes ( carne de res en conserva o carne seca ). Los recortes, por otro lado, generalmente se mezclan con carne de ganado más viejo y delgado ( por lo tanto más duro ), se muelen, pican o usan en salchichas. La sangre se usa en algunas variedades llamadas morcilla. Otras partes que se comen incluyen otros músculos y despojos, como la cola de buey, el hígado, la lengua, las tripas del retículo o el rumen, las glándulas ( particularmente el páncreas y el timo,conocido como pan dulce ), el corazón, el cerebro ( aunque prohibido donde existe el peligro de encefalopatía espongiforme bovina, EEB, comúnmente conocida como enfermedad de las vacas locas ), los riñones, y los tiernos testículos del toro ( conocidos en los Estados Unidos como papas fritas para terneros, ostras de pradera o ostras de las Montañas Rocosas ). Algunos intestinos se cocinan y se comen tal cual, pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.",
+"strType": null
+},
+{
+"idIngredient": "26",
+"strIngredient": "Stock de carne",
+"strDescription": "La carne es el nombre culinario de la carne del ganado, particularmente el músculo esquelético. Los humanos han estado comiendo carne desde tiempos prehistóricos. La carne de res es una fuente de proteínas y nutrientes de alta calidad.  La mayoría de la carne de músculo esquelético de la carne se puede usar simplemente cortando ciertas partes, como los asados, costillas cortas o filete ( filete mignon, filete de solomillo, filete de grupa, filete de costilla, filete de costilla, filete de percha, etc. ) se procesan otros cortes ( carne de res en conserva o carne seca ). Los recortes, por otro lado, generalmente se mezclan con carne de ganado más viejo y delgado ( por lo tanto más duro ), se muelen, pican o usan en salchichas. La sangre se usa en algunas variedades llamadas morcilla. Otras partes que se comen incluyen otros músculos y despojos, como la cola de buey, el hígado, la lengua, las tripas del retículo o el rumen, las glándulas ( particularmente el páncreas y el timo,conocido como pan dulce ), el corazón, el cerebro ( aunque prohibido donde existe el peligro de encefalopatía espongiforme bovina, EEB, comúnmente conocida como enfermedad de las vacas locas ), los riñones, y los tiernos testículos del toro ( conocidos en los Estados Unidos como papas fritas para terneros, ostras de pradera o ostras de las Montañas Rocosas ). Algunos intestinos se cocinan y se comen tal cual, pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.pero se limpian y usan con mayor frecuencia como tripas de salchichas naturales. Los huesos se usan para hacer caldo de carne.",
+"strType": null
+},
+{
+"idIngredient": "27",
+"strIngredient": "Bicarbonato de sodio",
+"strDescription": "El bicarbonato de sodio, comúnmente conocido como bicarbonato de sodio, es un compuesto químico con la fórmula NaHCO3. Es una sal compuesta de un catión de sodio ( Na + ) y un anión de bicarbonato ( HCO3 − ). El bicarbonato de sodio es un sólido blanco que es cristalino, pero a menudo aparece como un polvo fino. Tiene un sabor alcalino ligeramente salado que se asemeja al de lavar refrescos ( carbonato de sodio ). La forma mineral natural es nahcolita. Es un componente del mineral natron y se encuentra disuelto en muchos manantiales minerales.",
+"strType": null
+},
+{
+"idIngredient": "28",
+"strIngredient": "Biryani Masala",
+"strDescription": "Biryani, también conocido como biriyani, biriani, birani o briyani, es un plato de arroz mixto con sus orígenes entre los musulmanes del subcontinente indio. Se puede comparar con mezclar un curry, luego combinarlo con arroz semicocinado por separado. Este plato es especialmente popular en todo el subcontinente indio, así como entre la diáspora de la región. También se prepara en otras regiones, como el Kurdistán iraquí. Está hecho con especias indias, arroz, carne ( pollo, cabra, ternera, cordero, gambas o pescado ), verduras o huevos.",
+"strType": null
+},
+{
+"idIngredient": "29",
+"strIngredient": "Pimienta Negra",
+"strDescription": "La pimienta negra ( Piper nigrum ) es una vid en flor de la familia Piperaceae, cultivada por su fruto, conocida como un granos de pimienta, que generalmente se seca y se usa como especia y condimento. Cuando está fresco y completamente maduro, mide aproximadamente 5 mm ( 0.20 in ) de diámetro y rojo oscuro, y contiene una sola semilla, como todas las drupas. Los granos de pimienta y la pimienta molida derivada de ellos pueden describirse simplemente como pimienta, o más precisamente como pimienta negra ( fruta cruda y seca sin madurar ), pimienta verde ( fruta seca sin madurar ), o pimienta blanca ( semillas de fruta madura ) . La pimienta negra es nativa de la actual Kerala en el suroeste de la India, y se cultiva ampliamente allí y en otras partes de las regiones tropicales. Vietnam es el mayor productor y exportador mundial de pimienta, produciendo el 34% de la cosecha mundial, a partir de 2013.",
+"strType": null
+},
+{
+"idIngredient": "30",
+"strIngredient": "Milagro negro",
+"strDescription": "Melaza ( Inglés americano ) o melaza negra ( Inglés británico ) es un producto viscoso resultante de refinar la caña de azúcar o la remolacha azucarera en azúcar. La melaza varía según la cantidad de azúcar, el método de extracción y la edad de la planta. La melaza de azúcar se usa principalmente para endulzar y aromatizar alimentos en los Estados Unidos, Canadá y otros lugares. La melaza es un componente definitorio del azúcar moreno comercial fino.  El jarabe de sorgo dulce puede llamarse coloquialmente melaza de sorgo \" en el sur de los Estados Unidos. [2 ] [ 3 ] Los productos similares incluyen miel, jarabe de arce, jarabe de maíz y jarabe invertido. La mayoría de estos jarabes alternativos tienen sabores más suaves.",
+"strType": null
+},
+{
+"idIngredient": "31",
+"strIngredient": "Frijoles Borlotti",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "32",
+"strIngredient": "Pasta Bowtie",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "33",
+"strIngredient": "Manzanas Bramley",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "34",
+"strIngredient": "Brandy",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "35",
+"strIngredient": "Pan",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "36",
+"strIngredient": "Pan rallado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "37",
+"strIngredient": "Brócoli",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "38",
+"strIngredient": "Lentejas marrones",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "39",
+"strIngredient": "Arroz marrón",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "40",
+"strIngredient": "Azúcar moreno",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "41",
+"strIngredient": "Mantequilla",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "43",
+"strIngredient": "Cacao",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "44",
+"strIngredient": "Cajun",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "45",
+"strIngredient": "Tomates enlatados",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "46",
+"strIngredient": "Frijoles Cannellini",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "47",
+"strIngredient": "Cardamomo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "49",
+"strIngredient": "Zanahorias",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "50",
+"strIngredient": "Anacardos",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "51",
+"strIngredient": "Anacardos",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "52",
+"strIngredient": "Azúcar en polvo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "53",
+"strIngredient": "Pimienta de cayena",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "54",
+"strIngredient": "Celeriac",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "55",
+"strIngredient": "Apio",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "56",
+"strIngredient": "Sal de apio",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "57",
+"strIngredient": "Chalotes",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "58",
+"strIngredient": "Charlotte Potatoes",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "59",
+"strIngredient": "Queso Cheddar",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "60",
+"strIngredient": "Queso",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "61",
+"strIngredient": "Cuajada de queso",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "62",
+"strIngredient": "Tomates de cereza",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "63",
+"strIngredient": "Champiñón de castañas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "65",
+"strIngredient": "Pechuga de pollo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "66",
+"strIngredient": "Pechugas de pollo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "67",
+"strIngredient": "Patas de pollo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "68",
+"strIngredient": "Stock de pollo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "70",
+"strIngredient": "Muslos de pollo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "71",
+"strIngredient": "Garbanzos",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "72",
+"strIngredient": "Polvo de chile",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "73",
+"strIngredient": "Mantequilla enfriada",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "74",
+"strIngredient": "Chilli",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "75",
+"strIngredient": "Polvo de chile",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "76",
+"strIngredient": "Brócoli chino",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "77",
+"strIngredient": "Chips de chocolate",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "78",
+"strIngredient": "Cebolla picada",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "79",
+"strIngredient": "Perejil picado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "80",
+"strIngredient": "Tomates picados",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "81",
+"strIngredient": "Chorizo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "82",
+"strIngredient": "Pudín de Navidad",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "83",
+"strIngredient": "Cilantro",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "84",
+"strIngredient": "Canela",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "85",
+"strIngredient": "Cinnamon Stick",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "87",
+"strIngredient": "Clavos",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "88",
+"strIngredient": "Azúcar de coco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "89",
+"strIngredient": "Cacao",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "90",
+"strIngredient": "Crema de coco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "91",
+"strIngredient": "Leche de coco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "92",
+"strIngredient": "Colby Jack Cheese",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "93",
+"strIngredient": "Agua fría",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "94",
+"strIngredient": "Leche condensada",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "95",
+"strIngredient": "Cilantro",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "96",
+"strIngredient": "Hojas de cilantro",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "97",
+"strIngredient": "Semillas de cilantro",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "98",
+"strIngredient": "Tortillas de maíz",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "99",
+"strIngredient": "Maicena",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "100",
+"strIngredient": "Crema",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "101",
+"strIngredient": "Creme Fraiche",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "102",
+"strIngredient": "Queso feta cubrizado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "103",
+"strIngredient": "Pepino",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "104",
+"strIngredient": "Comino",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "105",
+"strIngredient": "Semillas de comino",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "106",
+"strIngredient": "Curry Powder",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "107",
+"strIngredient": "Azúcar marrón oscuro",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "108",
+"strIngredient": "Azúcar marrón oscuro",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "109",
+"strIngredient": "Salsa de soja oscura",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "110",
+"strIngredient": "Demerara Sugar",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "111",
+"strIngredient": "Tomates picados",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "112",
+"strIngredient": "Galletas digestivas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "113",
+"strIngredient": "Eneldo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "114",
+"strIngredient": "Carne Doner",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "115",
+"strIngredient": "Crema Doble",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "116",
+"strIngredient": "Orégano seco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "117",
+"strIngredient": "Vino blanco seco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "119",
+"strIngredient": "Plantas de huevo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "120",
+"strIngredient": "Rollos de huevo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "121",
+"strIngredient": "Blanco de huevo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "122",
+"strIngredient": "Yemas de huevo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "123",
+"strIngredient": "Huevos",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "124",
+"strIngredient": "Salsa Enchilada",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "125",
+"strIngredient": "Mostaza inglesa",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "126",
+"strIngredient": "Aceite de oliva virgen extra",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "127",
+"strIngredient": "Condimento Fajita",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "128",
+"strIngredient": "Farfalle",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "130",
+"strIngredient": "Fennel Bulb",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "131",
+"strIngredient": "Semillas de hinojo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "132",
+"strIngredient": "Fenogreco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "133",
+"strIngredient": "queso feta",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "134",
+"strIngredient": "Salsa de pescado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "135",
+"strIngredient": "Almendras en escamas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "136",
+"strIngredient": "Huevos de lino",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "137",
+"strIngredient": "Harina",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "138",
+"strIngredient": "Tortilla de harina",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "139",
+"strIngredient": "Patatas harinosas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "140",
+"strIngredient": "Huevo de corral, Batir",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "141",
+"strIngredient": "Huevos de corral, Batir",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "142",
+"strIngredient": "Lentejas francesas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "143",
+"strIngredient": "Albahaca fresca",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "144",
+"strIngredient": "Tomillo fresco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "145",
+"strIngredient": "Perejil recién picado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "146",
+"strIngredient": "Papas fritas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "147",
+"strIngredient": "Yogurt gordo completo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "148",
+"strIngredient": "Garam Masala",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "149",
+"strIngredient": "Ajo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "150",
+"strIngredient": "Clove de ajo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "151",
+"strIngredient": "Polvo de ajo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "152",
+"strIngredient": "Salsa de ajo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "153",
+"strIngredient": "Ghee",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "154",
+"strIngredient": "Jengibre",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "155",
+"strIngredient": "Ginger Cordial",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "156",
+"strIngredient": "Ginger Garlic Paste",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "157",
+"strIngredient": "Pegado de jengibre",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "158",
+"strIngredient": "Jarabe de oro",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "159",
+"strIngredient": "Queso Gouda",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "160",
+"strIngredient": "Azúcar granulado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "161",
+"strIngredient": "Tomates de uva",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "162",
+"strIngredient": "Yogurt griego",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "163",
+"strIngredient": "Frijoles Verdes",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "165",
+"strIngredient": "Chilli verde",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "166",
+"strIngredient": "Aceitunas verdes",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "167",
+"strIngredient": "Lentejas rojas verdes",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "168",
+"strIngredient": "Salsa Verde",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "169",
+"strIngredient": "Almendras molidas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "170",
+"strIngredient": "Comino molido",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "171",
+"strIngredient": "Jengibre molido",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "172",
+"strIngredient": "Gruyère",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "173",
+"strIngredient": "Conchas de tacos duros",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "175",
+"strIngredient": "Harissa Spice",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "176",
+"strIngredient": "Crema pesada",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "177",
+"strIngredient": "Miel",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "178",
+"strIngredient": "Rábano picante",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "179",
+"strIngredient": "Caldo de carne caliente",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "180",
+"strIngredient": "Hotsauce",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "181",
+"strIngredient": "Helado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "182",
+"strIngredient": "Salchichas de hinojo italiano",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "183",
+"strIngredient": "Condimento italiano",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "184",
+"strIngredient": "Jalapeño",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "185",
+"strIngredient": "Arroz jazmín",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "186",
+"strIngredient": "Alcachofas de Jerusalén",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "187",
+"strIngredient": "Kale",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "188",
+"strIngredient": "Khus Khus",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "189",
+"strIngredient": "Rey Langostinos",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "190",
+"strIngredient": "Sal kosher",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "191",
+"strIngredient": "Cordero",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "192",
+"strIngredient": "Chuletas de lomo de cordero",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "193",
+"strIngredient": "Picar de cordero",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "194",
+"strIngredient": "Hojas de lasaña",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "195",
+"strIngredient": "Carne picada magra",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "196",
+"strIngredient": "Leek",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "197",
+"strIngredient": "Limón",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "198",
+"strIngredient": "Jugo de limón",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "199",
+"strIngredient": "ralladura de limón",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "200",
+"strIngredient": "Limones",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "201",
+"strIngredient": "Lechuga",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "202",
+"strIngredient": "lima",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "203",
+"strIngredient": "Little Gem Lettuce",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "204",
+"strIngredient": "Macarrones",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "205",
+"strIngredient": "Caballa",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "206",
+"strIngredient": "Pasta de madras",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "207",
+"strIngredient": "Marjoram",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "208",
+"strIngredient": "Pasta de curry Massaman",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "209",
+"strIngredient": "Fechas de Medjool",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "210",
+"strIngredient": "Nidos de merengue",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "211",
+"strIngredient": "Leche",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "212",
+"strIngredient": "Ajo picado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "213",
+"strIngredient": "Malvaviscos en miniatura",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "214",
+"strIngredient": "Menta",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "215",
+"strIngredient": "Queso Monterey Jack",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "216",
+"strIngredient": "Bolas de mozzarella",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "217",
+"strIngredient": "Azúcar de moscovado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "218",
+"strIngredient": "Champiñones",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "219",
+"strIngredient": "Mostaza",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "220",
+"strIngredient": "Polvo de mostaza",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "221",
+"strIngredient": "Semillas de mostaza",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "222",
+"strIngredient": "Nuez moscada",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "223",
+"strIngredient": "Aceite",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "224",
+"strIngredient": "Aceite de oliva",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "226",
+"strIngredient": "Sal de cebolla",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "227",
+"strIngredient": "Cebollas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "228",
+"strIngredient": "Naranja",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "229",
+"strIngredient": "Zest naranja",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "230",
+"strIngredient": "Orégano",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "231",
+"strIngredient": "Salsa de ostras",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "232",
+"strIngredient": "Pimentón",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "233",
+"strIngredient": "Parma Ham",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "234",
+"strIngredient": "parmesano",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "235",
+"strIngredient": "Queso parmesano",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "236",
+"strIngredient": "Parmigiano-reggiano",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "237",
+"strIngredient": "Perejil",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "238",
+"strIngredient": "Mantequilla de maní",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "239",
+"strIngredient": "Aceite de maní",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "240",
+"strIngredient": "Cacahuetes",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "241",
+"strIngredient": "Guisantes",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "242",
+"strIngredient": "Pecorino",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "243",
+"strIngredient": "Penne Rigate",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "244",
+"strIngredient": "Pimienta",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "245",
+"strIngredient": "Tuercas de pino",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "246",
+"strIngredient": "Aceitunas negras sin hueso",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "247",
+"strIngredient": "Chocolate simple",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "248",
+"strIngredient": "Harina lisa",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "249",
+"strIngredient": "Tomates de ciruela",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "252",
+"strIngredient": "Almidón de papa",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "253",
+"strIngredient": "Patatas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "254",
+"strIngredient": "Langostinos",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "255",
+"strIngredient": "Hojaldre",
+"strDescription": null,
+"strType": "Pastelería"
+},
+{
+"idIngredient": "256",
+"strIngredient": "Mermelada de frambuesa",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "257",
+"strIngredient": "Langostinos Reyes Ravos",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "258",
+"strIngredient": "Copos rojos de Chile",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "259",
+"strIngredient": "Chilli rojo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "261",
+"strIngredient": "Polvo de chile rojo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "263",
+"strIngredient": "Cebollas rojas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "264",
+"strIngredient": "Pimienta Roja",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "265",
+"strIngredient": "Copos de pimienta roja",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "266",
+"strIngredient": "Vino tinto",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "267",
+"strIngredient": "Frijoles Refritos",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "268",
+"strIngredient": "Arroz",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "269",
+"strIngredient": "Fideos de arroz",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "270",
+"strIngredient": "Fideos de palo de arroz",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "271",
+"strIngredient": "Arroz Vermicelli",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "272",
+"strIngredient": "Rigatoni",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "273",
+"strIngredient": "Cohete",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "274",
+"strIngredient": "Avena enrollada",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "276",
+"strIngredient": "Azafrán",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "277",
+"strIngredient": "Sabio",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "278",
+"strIngredient": "Sake",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "280",
+"strIngredient": "Salsa",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "281",
+"strIngredient": "Sal",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "282",
+"strIngredient": "Mantequilla Salada",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "283",
+"strIngredient": "Salchichas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "284",
+"strIngredient": "Sal marina",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "286",
+"strIngredient": "Harina auto-levantadora",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "287",
+"strIngredient": "Leche semidesnatada",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "288",
+"strIngredient": "Semilla de sésamo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "289",
+"strIngredient": "Shallots",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "290",
+"strIngredient": "Queso mexicano rallado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "291",
+"strIngredient": "Queso Jack Monterey Triturado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "292",
+"strIngredient": "Papas pequeñas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "293",
+"strIngredient": "Pimentón ahumado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "294",
+"strIngredient": "Pimentón ahumado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "295",
+"strIngredient": "Crema agria",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "296",
+"strIngredient": "Salsa de soja",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "297",
+"strIngredient": "Leche de soja",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "298",
+"strIngredient": "Espagueti",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "299",
+"strIngredient": "Espinacas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "301",
+"strIngredient": "Cebollas de primavera",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "302",
+"strIngredient": "Calabaza",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "303",
+"strIngredient": "Verduras salteadas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "304",
+"strIngredient": "Fresas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "305",
+"strIngredient": "Azúcar",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "306",
+"strIngredient": "Sultanas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "307",
+"strIngredient": "Aceite de girasol",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "308",
+"strIngredient": "Bola Tamarind",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "309",
+"strIngredient": "Pasta de tamarindo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "310",
+"strIngredient": "Salsa de pescado tailandés",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "311",
+"strIngredient": "Pasta de curry verde tailandés",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "312",
+"strIngredient": "Pasta de curry rojo tailandés",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "313",
+"strIngredient": "Tomillo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "315",
+"strIngredient": "Salsa de tomate",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "316",
+"strIngredient": "Puré de tomate",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "317",
+"strIngredient": "Tomates",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "318",
+"strIngredient": "Toor Dal",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "319",
+"strIngredient": "Atún",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "320",
+"strIngredient": "Cúrcuma",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "321",
+"strIngredient": "Polvo de cúrcuma",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "322",
+"strIngredient": "Nabos",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "323",
+"strIngredient": "Vainilla",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "324",
+"strIngredient": "Extracto de vainilla",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "325",
+"strIngredient": "Ternera",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "326",
+"strIngredient": "Mantequilla vegana",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "327",
+"strIngredient": "Aceite vegetal",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "328",
+"strIngredient": "Stock de verduras",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "329",
+"strIngredient": "Cubo de material vegetal",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "330",
+"strIngredient": "Vestirse Vinagreta",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "331",
+"strIngredient": "Hojas de vid",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "332",
+"strIngredient": "Vinagre",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "333",
+"strIngredient": "Agua",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "334",
+"strIngredient": "Chips de chocolate blanco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "335",
+"strIngredient": "Pescado blanco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "336",
+"strIngredient": "Filetes de pescado blanco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "337",
+"strIngredient": "Vinagre blanco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "338",
+"strIngredient": "Vino blanco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "339",
+"strIngredient": "Leche entera",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "340",
+"strIngredient": "Trigo entero",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "341",
+"strIngredient": "Pan integral",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "342",
+"strIngredient": "Salsa Worcestershire",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "343",
+"strIngredient": "Yogurt",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "344",
+"strIngredient": "Calabacín",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "345",
+"strIngredient": "Pretzels",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "346",
+"strIngredient": "Queso Crema",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "347",
+"strIngredient": "Azúcar helado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "348",
+"strIngredient": "Palomitas de maíz",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "349",
+"strIngredient": "Caramelo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "350",
+"strIngredient": "Salsa de caramelo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "351",
+"strIngredient": "Tagliatelle",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "352",
+"strIngredient": "Fettuccine",
+"strDescription": "",
+"strType": null
+},
+{
+"idIngredient": "353",
+"strIngredient": "Crema Coagulada",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "354",
+"strIngredient": "Harina de maíz",
+"strDescription": "",
+"strType": null
+},
+{
+"idIngredient": "355",
+"strIngredient": "Mejillones",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "356",
+"strIngredient": "Fideo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "357",
+"strIngredient": "Pez monje",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "358",
+"strIngredient": "Pasta Vermicelli",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "359",
+"strIngredient": "Calamar bebé",
+"strDescription": "",
+"strType": null
+},
+{
+"idIngredient": "360",
+"strIngredient": "Calamar",
+"strDescription": "",
+"strType": null
+},
+{
+"idIngredient": "361",
+"strIngredient": "Stock de pescado",
+"strDescription": "",
+"strType": null
+},
+{
+"idIngredient": "362",
+"strIngredient": "Pilchards",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "363",
+"strIngredient": "Aceitunas negras",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "364",
+"strIngredient": "Cebolla",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "365",
+"strIngredient": "Tomate",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "366",
+"strIngredient": "Pato",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "367",
+"strIngredient": "Patas de pato",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "368",
+"strIngredient": "Cubo de pollo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "369",
+"strIngredient": "Pappardelle Pasta",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "370",
+"strIngredient": "Pasta Paccheri",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "371",
+"strIngredient": "Pasta Linguine",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "373",
+"strIngredient": "Guisantes de azúcar",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "374",
+"strIngredient": "Pan crujiente",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "375",
+"strIngredient": "Fromage Frais",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "376",
+"strIngredient": "Almejas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "377",
+"strIngredient": "Passata",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "378",
+"strIngredient": "Aceite de colza",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "379",
+"strIngredient": "Queso Stilton",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "380",
+"strIngredient": "Pierna de cordero",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "381",
+"strIngredient": "Hombro de cordero",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "382",
+"strIngredient": "Albaricoque",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "383",
+"strIngredient": "Calabaza Butternut",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "384",
+"strIngredient": "Cuscús",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "387",
+"strIngredient": "Carne picada",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "388",
+"strIngredient": "Turkey Mince",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "389",
+"strIngredient": "Salsa de barbacoa",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "390",
+"strIngredient": "Maíz dulce",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "391",
+"strIngredient": "Grasa de ganso",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "392",
+"strIngredient": "Pato gordo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "393",
+"strIngredient": "Hinojo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "394",
+"strIngredient": "Vinagre de vino tinto",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "395",
+"strIngredient": "Frijoles de Haricot",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "396",
+"strIngredient": "Romero",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "397",
+"strIngredient": "Frijoles de mantequilla",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "398",
+"strIngredient": "Frijoles Pinto",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "399",
+"strIngredient": "Salsa de tomate",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "401",
+"strIngredient": "Mascarpone",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "402",
+"strIngredient": "Mozzarella",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "403",
+"strIngredient": "Ricotta",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "405",
+"strIngredient": "Albaricoques secos",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "406",
+"strIngredient": "Alcaparras",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "407",
+"strIngredient": "Plátano",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "408",
+"strIngredient": "Frambuesas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "409",
+"strIngredient": "Arándanos",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "410",
+"strIngredient": "Nueces",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "411",
+"strIngredient": "Nueces de pecan",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "412",
+"strIngredient": "Jarabe de arce",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "413",
+"strIngredient": "Azúcar suave marrón claro",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "414",
+"strIngredient": "Azúcar suave marrón oscuro",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "415",
+"strIngredient": "Chips de chocolate negro",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "416",
+"strIngredient": "Chocolate con leche",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "417",
+"strIngredient": "Chocolate negro",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "418",
+"strIngredient": "Calabaza",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "419",
+"strIngredient": "Pastelería de corteza corta",
+"strDescription": null,
+"strType": "Pastelería"
+},
+{
+"idIngredient": "420",
+"strIngredient": "Galletas de maní",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "421",
+"strIngredient": "Hojas de gelatina",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "422",
+"strIngredient": "Frijol Brittle",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "423",
+"strIngredient": "Melocotones",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "424",
+"strIngredient": "Pimienta amarilla",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "425",
+"strIngredient": "Pimienta Verde",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "426",
+"strIngredient": "Calabacines",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "427",
+"strIngredient": "Tomatos estañados",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "428",
+"strIngredient": "Castañas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "429",
+"strIngredient": "Champiñones salvajes",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "430",
+"strIngredient": "Aceite de trufa",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "431",
+"strIngredient": "Panel",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "432",
+"strIngredient": "Pan Naan",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "433",
+"strIngredient": "Lentejas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "434",
+"strIngredient": "Verduras Asadas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "435",
+"strIngredient": "Frijoles",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "436",
+"strIngredient": "Grano mixto",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "437",
+"strIngredient": "Tahini",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "438",
+"strIngredient": "Tortillas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "439",
+"strIngredient": "Fideos Udon",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "440",
+"strIngredient": "Repollo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "441",
+"strIngredient": "Champiñones Shiitake",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "442",
+"strIngredient": "Mirin",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "443",
+"strIngredient": "Aceite de semilla de sésamo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "444",
+"strIngredient": "Baguette",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "445",
+"strIngredient": "Tomates de vid",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "446",
+"strIngredient": "Suet",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "447",
+"strIngredient": "sueco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "448",
+"strIngredient": "Jamón",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "449",
+"strIngredient": "Ostras",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "450",
+"strIngredient": "Stout",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "451",
+"strIngredient": "manteca de cerdo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "452",
+"strIngredient": "Riñón de cordero",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "453",
+"strIngredient": "Riñón de carne",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "454",
+"strIngredient": "Haddock",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "455",
+"strIngredient": "eglefino ahumado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "456",
+"strIngredient": "Coles de Bruselas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "457",
+"strIngredient": "Pasas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "458",
+"strIngredient": "Grosellas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "459",
+"strIngredient": "Natillas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "460",
+"strIngredient": "Pelo Mixto",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "461",
+"strIngredient": "Grosellas rojas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "462",
+"strIngredient": "Moras",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "463",
+"strIngredient": "Cuellos de mareo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "464",
+"strIngredient": "Manzanas Braeburn",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "465",
+"strIngredient": "Coloración de comida roja",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "466",
+"strIngredient": "Coloración de comida rosa",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "467",
+"strIngredient": "Coloración de comida azul",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "468",
+"strIngredient": "Coloración de alimentos amarillos",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "469",
+"strIngredient": "Mermelada de albaricoque",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "470",
+"strIngredient": "Marzipan",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "471",
+"strIngredient": "Almendras",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "472",
+"strIngredient": "Pudín negro",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "473",
+"strIngredient": "Frijoles Horneados",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "474",
+"strIngredient": "Harina blanca",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "475",
+"strIngredient": "Levadura",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "476",
+"strIngredient": "Mezcla de frutas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "477",
+"strIngredient": "Fruta seca",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "478",
+"strIngredient": "Cereza",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "479",
+"strIngredient": "Cereza de glace",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "480",
+"strIngredient": "Milagro",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "481",
+"strIngredient": "Avena",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "482",
+"strIngredient": "Avena",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "483",
+"strIngredient": "Huevo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "484",
+"strIngredient": "Espinilla de carne",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "485",
+"strIngredient": "Bouquet Garni",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "486",
+"strIngredient": "Crema individual",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "487",
+"strIngredient": "Jalea de vino tinto",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "488",
+"strIngredient": "Manzanas",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "489",
+"strIngredient": "Queso de cabra",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "490",
+"strIngredient": "Prosciutto",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "491",
+"strIngredient": "Mantequilla sin sal",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "492",
+"strIngredient": "Brie",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "493",
+"strIngredient": "Hojas de estragón",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "494",
+"strIngredient": "Cebollino",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "495",
+"strIngredient": "Peras",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "496",
+"strIngredient": "Chocolate blanco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "497",
+"strIngredient": "Anís estrellado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "498",
+"strIngredient": "Langostinos Tigre",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "499",
+"strIngredient": "Polvo de crema",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "500",
+"strIngredient": "Coco desecado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "501",
+"strIngredient": "Guisantes congelados",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "502",
+"strIngredient": "Cerdo picado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "503",
+"strIngredient": "Maíz Creado",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "504",
+"strIngredient": "Tomates secados al sol",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "505",
+"strIngredient": "Mostaza Dijon",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "506",
+"strIngredient": "Salsa Tabasco",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "507",
+"strIngredient": "Aceite de canola",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "508",
+"strIngredient": "Bacalao",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "509",
+"strIngredient": "Bacalao",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "510",
+"strIngredient": "Ackee",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "511",
+"strIngredient": "Imbécil",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "512",
+"strIngredient": "Carne molida",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "513",
+"strIngredient": "Berenjena bebé",
+"strDescription": "Berenjena ( Solanum melongena ) o berenjena es una especie de solanácea cultivada por su fruto comestible. Berenjenas es el nombre común en América del Norte, Australia y Nueva Zelanda; en inglés británico, es berenjena, y en el sur de Asia y Sudáfrica, brinjal. La fruta es ampliamente utilizada en la cocina. Como miembro del género Solanum, está relacionado con el tomate y la papa. Originalmente fue domesticado de la especie de solanáceas silvestres, la espina o la manzana amarga, S. incanum, probablemente con dos domesticaciones independientes, una en el sur de Asia y otra en el este de Asia.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "514",
+"strIngredient": "Arroz paella",
+"strDescription": "Paella [ a ] es un plato de arroz valenciano que tiene raíces antiguas pero su forma moderna se originó a mediados del siglo XIX en el área alrededor de la laguna de Albufera en la costa este de España, adyacente a la ciudad de Valencia. Muchos no españoles ven la paella como el plato nacional de España, pero la mayoría de los españoles lo consideran un plato valenciano regional. Los valencianos, a su vez, consideran la paella como uno de sus símbolos de identificación.  Los tipos de paella incluyen paella valenciana, paella vegetal ( Español: paella de verduras ), paella de mariscos ( Español: paella de mariscos ) y paella mixta ( Español: paella mixta ), entre muchos otros. Se cree que la paella valenciana es la receta original y consiste en arroz blanco, judías verdes ( bajoqueta y tavella ), carne ( pollo, pato y conejo ), frijoles blancos ( garrofón ), caracoles, y condimentos como el azafrán y el romero.Otro ingrediente muy común pero estacional son las alcachofas. La paella de mariscos reemplaza la carne con mariscos y omite frijoles y verduras verdes. La paella mixta es una combinación de carne de animales terrestres, mariscos, verduras y, a veces, frijoles. La mayoría de los chefs de paella usan arroz bomba debido a que es menos probable que se cocine en exceso, pero los valencianos tienden a usar una variedad ligeramente más pegajosa ( y, por lo tanto, más susceptible a la sobrecocción ) conocida como Senia. Todos los tipos de paellas usan aceite de oliva.pero los valencianos tienden a usar una variedad ligeramente más pegajosa ( y, por lo tanto, más susceptibles a la sobrecocción ) conocida como Senia. Todos los tipos de paellas usan aceite de oliva.pero los valencianos tienden a usar una variedad ligeramente más pegajosa ( y, por lo tanto, más susceptibles a la sobrecocción ) conocida como Senia. Todos los tipos de paellas usan aceite de oliva.",
+"strType": null
+},
+{
+"idIngredient": "515",
+"strIngredient": "Botón escocés",
+"strDescription": "El capó escocés, también conocido como pimientos de hueso o pimientos rojos caribeños, es una variedad de chile llamado así por su parecido con un sombrero de tam o 'shanter. También llamado ata rodo por hablantes de yoruba de Nigeria, se encuentra principalmente en las islas del Caribe; También se encuentra en Guyana (, donde se llama el pimiento de bola de fuego ), las Islas Maldivas ( donde se llama githeyo mirus ), Panamá ( donde se llama aji chombo ) y África occidental. La mayoría de los capó escocés tienen una clasificación de calor de 100,000 – 350,000 unidades Scoville. A modo de comparación, la mayoría de los pimientos jalapeños tienen una clasificación de calor de 2.500 a 8.000 en la escala Scoville. Sin embargo, se cultivan variedades completamente dulces de capó escocés en algunas de las islas del Caribe, llamadas pimientos de cachucha.\r  Estos pimientos se usan para dar sabor a muchos platos y cocinas diferentes en todo el mundo y a menudo se usan en salsas picantes y condimentos. El capó escocés tiene un sabor más dulce y una forma más fuerte, distinta de su pariente habanero con el que a menudo se confunde, y le da platos de idiota ( cerdo/pollo ) y otros platos caribeños su sabor único. Los gorros escoceses se usan principalmente en África occidental, Antigua, Kittitian / Nevisian, Anguilan, Dominican, St. Cocina y salsas de pimienta de Luciano, San Vicenciano, Grenadian, Trinidadian, Barbadian, Guyanese, Surinamés, Haitiano y Caimán, aunque a menudo aparecen en otras recetas caribeñas. También se usa en Costa Rica y Panamá para recetas de estilo caribeño como arroz y frijoles, Rondón, salchichas, empanadas de carne y Ceviche.  nFresh, los gorros escoceses maduros pueden cambiar de verde a amarillo a rojo escarlata,Sin embargo, muchas otras razas de este pimiento pueden madurar a naranja, amarillo, durazno o incluso marrón chocolate.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "516",
+"strIngredient": "Mintail",
+"strDescription": "La cola de buey ( ocasionalmente deletreada con cola de buey o cola de buey ) es el nombre culinario de la cola del ganado. Anteriormente, se refería solo a la cola de un buey o novillo, un becerro ( un macho castrado ). [ cita necesaria ] Una cola de buey generalmente pesa de 2 a 4 lbs. ( 1 – 1.8 kg ) y se desolla y corta en trozos cortos para la venta. nOxtail es una carne huesuda rica en gelatina, que generalmente se cocina lentamente como estofado [ 1 ] o estofado. Es una base de existencias tradicional para una sopa. Las preparaciones tradicionales implican una cocción lenta, por lo que algunas recetas modernas toman un atajo usando una olla a presión. El rabo de buey es el ingrediente principal del plato italiano coda alla vaccinara ( un clásico de la cocina romana ). Es un sabor popular para sopas enlatadas en polvo, instantáneas y prefabricadas en el Reino Unido e Irlanda. Los detalles también son una de las bases populares para los platos de aperitivo aspic ruso ( холодец o студень ),junto con manitas de cerdo o orejas o vacas rodillas, pero son los ingredientes preferidos entre los judíos rusos porque pueden ser kosher. Las versiones de sopa de rabo de buey son platos tradicionales populares en América del Sur, África occidental, China, España [ 2 ] e Indonesia. En la cocina china, generalmente se convierte en una sopa llamada 电 尾 与 ( niúwěi tāng,  sopa de rabo de buey  ). En la cocina coreana, una sopa hecha con rabo de buey se llama kkori gomtang ( ver gomguk ). Es una sopa espesa sazonada con sal y que se come con un tazón de arroz. Se puede usar como stock para hacer tteokguk ( sopa de pastel de arroz ). La cola de buey guisada con frijoles de mantequilla o como plato principal ( con arroz ) es popular en Jamaica, Trinidad y otras culturas de las Indias Occidentales. El rabo de buey también es muy popular en Sudáfrica, donde a menudo se cocina en una sartén tradicional llamada potjie,que es una olla de hierro fundido de tres patas colocada sobre un fuego abierto. El rabo de buey también se come en otras partes del sur de África, como Zimbabwe, y se sirve con sadza y verduras. En los Estados Unidos, el rabo de buey es un pilar en los hogares afroamericanos e indios occidentales. En la cocina cubana, se puede hacer un estofado con rabo cerdido. En Filipinas, se prepara en un estofado a base de maní llamado Kare-kare. En Irán, el rabo de buey se cocina a fuego lento y se sirve como sustituto del vástago en un plato principal llamado Baghla-Poli-Mahicheh que se prepara con arroz, vástago ( u oxtail ) y una mezcla de hierbas que incluyen eneldo, cilantro, perejil y ajo.  En los Estados Unidos, la cola de buey tiene la clasificación de corte de carne NAMP 1791.En los Estados Unidos, el rabo de buey es un pilar en los hogares afroamericanos e indios occidentales. En la cocina cubana, se puede hacer un estofado con rabo cerdido. En Filipinas, se prepara en un estofado a base de maní llamado Kare-kare. En Irán, el rabo de buey se cocina a fuego lento y se sirve como sustituto del vástago en un plato principal llamado Baghla-Poli-Mahicheh que se prepara con arroz, vástago ( u oxtail ) y una mezcla de hierbas que incluyen eneldo, cilantro, perejil y ajo.  En los Estados Unidos, la cola de buey tiene la clasificación de corte de carne NAMP 1791.En los Estados Unidos, el rabo de buey es un pilar en los hogares afroamericanos e indios occidentales. En la cocina cubana, se puede hacer un estofado con rabo cerdido. En Filipinas, se prepara en un estofado a base de maní llamado Kare-kare. En Irán, el rabo de buey se cocina a fuego lento y se sirve como sustituto del vástago en un plato principal llamado Baghla-Poli-Mahicheh que se prepara con arroz, vástago ( u oxtail ) y una mezcla de hierbas que incluyen eneldo, cilantro, perejil y ajo.  En los Estados Unidos, la cola de buey tiene la clasificación de corte de carne NAMP 1791.El rabo de buey se cocina a fuego lento y se sirve como sustituto del vástago en un plato principal llamado Baghla-Poli-Mahicheh que se prepara con arroz, vástago ( u oxtail ) y una mezcla de hierbas que incluyen eneldo, cilantro, perejil y ajo.  En los Estados Unidos, la cola de buey tiene la clasificación de corte de carne NAMP 1791.El rabo de buey se cocina a fuego lento y se sirve como sustituto del vástago en un plato principal llamado Baghla-Poli-Mahicheh que se prepara con arroz, vástago ( u oxtail ) y una mezcla de hierbas que incluyen eneldo, cilantro, perejil y ajo.  En los Estados Unidos, la cola de buey tiene la clasificación de corte de carne NAMP 1791.",
+"strType": "Carne"
+},
+{
+"idIngredient": "517",
+"strIngredient": "Frijoles anchos",
+"strDescription": "Vicia faba, también conocida como frijol ancho, frijol fava, frijol faba, frijol de campo, frijol campana o frijol tic, es una especie de planta con flores en la familia de guisantes y frijoles Fabaceae. Es originaria del norte de África [ dudosa – discuta ] suroeste y sur de Asia, y se cultiva ampliamente en otros lugares. [ cita necesaria ] Una variedad Vicia faba var. equina Pers. – frijol caballo ha sido reconocido previamente.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "518",
+"strIngredient": "Pargo rojo",
+"strDescription": "El pargo rojo del norte ( Lutjanus campechanus ) es una especie de pargo nativo del Océano Atlántico occidental, incluido el Golfo de México, donde habita en ambientes asociados con arrecifes. Esta especie es comercialmente importante y también es buscada como pez de caza.  El cuerpo del pargo rojo del norte tiene una forma muy similar a otros pargos, como el pargo de manglar, el pargo de cordero, el pargo de carril y el pargo de perro. Todos cuentan con un perfil inclinado, escamas medianas a grandes, una aleta dorsal espinosa y un cuerpo comprimido lateralmente. El pargo rojo del norte tiene dientes cortos, afilados y con forma de aguja, pero carecen de los prominentes dientes caninos superiores que se encuentran en los pargos de cordero, perro y manglar. Este pargo alcanza la madurez en una longitud de aproximadamente 39 cm ( 15 en ). La longitud común del adulto es de 60 cm ( 24 en ), pero puede alcanzar los 100 cm ( 39 en ).El peso máximo publicado es de 38 kg ( 84 lb ), y la edad más antigua informada es de 100 + años. La coloración del pargo rojo del norte es de color rojo claro, con un pigmento más intenso en la parte posterior. Tiene 10 espinas dorsales, 14 rayos dorsales suaves, tres espinas anales y ocho a 9 rayos anales suaves. Los peces juveniles ( más cortos que 30 – 35 cm ) también pueden tener una mancha oscura en los costados, debajo de los rayos dorsales blandos anteriores, que se desvanece con la edad.",
+"strType": "Pescado"
+},
+{
+"idIngredient": "519",
+"strIngredient": "Vinagre de malta",
+"strDescription": "El vinagre es un líquido que consiste en aproximadamente 5 – 20% de ácido acético ( CH3COOH ), agua y otros productos químicos traza, que pueden incluir saborizantes. El ácido acético se produce por la fermentación de etanol por bacterias del ácido acético. El vinagre ahora se usa principalmente como ingrediente para cocinar o en encurtidos. Como el ácido suave más fácil de fabricar, históricamente ha tenido una gran variedad de usos industriales, médicos y domésticos, algunos de los cuales (, como su uso como limpiador doméstico general ), todavía se practican comúnmente en la actualidad. El vinagre comercial se produce mediante un proceso de fermentación rápido o lento. En general, los métodos lentos se utilizan en vinagres tradicionales donde la fermentación se realiza lentamente en el transcurso de unos meses o hasta un año. El período de fermentación más largo permite la acumulación de un limo no tóxico compuesto de bacterias del ácido acético.Los métodos rápidos agregan el cultivo bacteriano de la madre del vinagre ( al líquido fuente antes de agregar aire al oxigenado y promover la fermentación más rápida. En procesos de producción rápida, el vinagre puede producirse entre 20 horas y tres días.",
+"strType": "Condimento"
+},
+{
+"idIngredient": "520",
+"strIngredient": "Vinagre de arroz",
+"strDescription": "El vinagre de arroz es un vinagre hecho de arroz fermentado en China, Japón, Corea y Vietnam. Los vinagres de arroz chino son más fuertes que los japoneses, y varían en color de claro a varios tonos de rojo, marrón y negro y, por lo tanto, se conocen como vinagre de vino de arroz. Los vinagres chinos y especialmente los japoneses son menos ácidos que los vinagres occidentales destilados que, por esa razón, no son sustitutos apropiados para los vinagres de arroz. La mayoría de los tipos de vinagre de arroz asiático también son más suaves y dulces que los vinagres que se usan típicamente en el mundo occidental, con los vinagres negros como una notable excepción. Los vinagres de arroz chino están hechos de huangjiu, un tipo de vino de arroz.",
+"strType": "Vinagre"
+},
+{
+"idIngredient": "521",
+"strIngredient": "Castaño de agua",
+"strDescription": "Eleocharis dulcis, el castaño de agua chino o castaño de agua, es una juncia de hierba nativa de Asia ( China, Japón, India, Filipinas, etc. ), Australia, África tropical, y varias islas de los océanos Pacífico e Índico. Se cultiva en muchos países por sus cormos comestibles. El castaño de agua no es una nuez en absoluto, sino un vegetal acuático que crece en pantanos, bajo el agua, en el barro. Tiene hojas verdes tubulares en forma de tallo que crecen hasta aproximadamente 1,5 m. El caltrop de agua, al que también se hace referencia con el mismo nombre, no está relacionado y a menudo se confunde con el castaño de agua. Los cormos pequeños y redondeados tienen un crujiente, carne blanca y se puede comer cruda, ligeramente hervida o a la parrilla, y a menudo se en escabeche o se lata. Son un ingrediente popular en los platos chinos. En China, a menudo se comen crudos, a veces endulzados.También se pueden moler en una forma de harina utilizada para hacer pastel de castaño de agua, que es común como parte de la cocina de dim sum. Son inusuales entre las verduras para permanecer crujientes incluso después de ser cocinadas o enlatadas, porque sus paredes celulares están reticuladas y fortalecidas por ciertos compuestos fenólicos, como los oligómeros de ácido ferúlico. Esta propiedad es compartida por otras verduras que permanecen crujientes de esta manera, incluida la nuez de tigre y la raíz de loto. Los cormos contienen el agente antibiótico puchiina, que es estable a alta temperatura. Además de los cormos comestibles, las hojas se pueden usar para alimentación de ganado, mantillo o compost. Los cormos son ricos en carbohidratos ( alrededor del 90% en peso seco ), especialmente almidón ( alrededor del 60% en peso seco ), y también son una buena fuente de fibra dietética, riboflavina, vitamina B6, potasio, cobre y manganeso.\r Si se come sin cocinar, la superficie de las plantas puede transmitir fasciolopsiasis.",
+"strType": "Seda"
+},
+{
+"idIngredient": "522",
+"strIngredient": "Tofu",
+"strDescription": "El tofu, también conocido como cuajada de frijoles, es un alimento cultivado coagulando la leche de soya y luego presionando las cuajadas resultantes en bloques blancos suaves. Es un componente en las cocinas de Asia oriental y el sudeste asiático. El tofu puede ser suave, firme o extra firme. El tofu tiene un sabor sutil y se puede usar en platos salados y dulces. A menudo se condimenta o se marina para adaptarse al plato.  \n \r \nTofu tiene un recuento bajo en calorías y cantidades relativamente grandes de proteínas. Tiene un alto contenido de hierro y puede tener un alto contenido de calcio o magnesio, dependiendo de los coagulantes utilizados en la fabricación ( p. cloruro de calcio, sulfato de calcio, sulfato de magnesio ).",
+"strType": "Cuajada"
+},
+{
+"idIngredient": "523",
+"strIngredient": "Doubanjiang",
+"strDescription": "Doubanjiang ( IPA: [ tôupântɕjâŋ ] ), o simplemente Douban, o Toban-djan, salsa de chile, es una pasta picante y salada hecha de habas fermentadas, soja, sal, arroz y varias especias. Doubanjiang existe en versiones lisas y picantes, con esta última con chiles rojos y llamada la doubanjiang (  ⁇   ⁇ ; pinyin: là dòubànjiàng; là que significa hot \" o  picy ).\r \n \r \n Se usa particularmente en la cocina de Sichuan, y de hecho, la gente de la provincia comúnmente se refiere a ella como el alma de la cocina de Sichuan\". Una variedad particularmente conocida se llama Pixian Douban ( chino simplificado:  ⁇  县 解; chino tradicional:  ⁇  解  ⁇ ; pinyin: Píxiàn dòubàn ), llamado así por el distrito de Pixian, Sichuan. [ 1 ] \r \n\r \n Esta salsa a veces se fríe con aceite y se come con arroz o fideos como comida rápida,y también se usa comúnmente como saborizante primario para platos de tofu frito y ensaladas de tofu frío. También se mezcla con frecuencia con fideos instantáneos. \r \n \r \n En muchas comunidades chinas y fábricas de alimentos, doubanjiang se produce solo con soja y sal, y no contiene las habas o los chiles típicos de doubanjiang al estilo de Sichuan. \r \n \r \n En la cocina coreana, una forma similar de pasta de frijoles se llama doenjang.",
+"strType": "Salsa"
+},
+{
+"idIngredient": "524",
+"strIngredient": "Frijoles Negros Fermentados",
+"strDescription": "Douchi ( Chino: ̅ ⁇ ; pinyin: dòuchǐ ), o tochi es un tipo de soja negra fermentada y salada. En inglés, se conoce como soja negra fermentada, frijoles negros fermentados chinos ( chino: ╗ 解 ⁇ ; pinyin: hēidòu dòuchǐ ), frijoles negros salados, frijoles negros salados o simplemente frijoles negros. Son los sabores más populares en la cocina de China, donde se usan más ampliamente para hacer platos de salsa de frijoles negros. [ 1 ] [ página necesaria ] \r \n \r\nDouchi se hace fermentando y salando soja negra. La soja de tipo negro se usa más comúnmente y el proceso hace que los frijoles sean suaves y en su mayoría semisecos ( si se permite que los frijoles se sequen ). También se usan soja regular ( soja blanca ), pero esto no produce frijoles negros salados ; en cambio, estos frijoles se vuelven marrones. El olor es agudo, picante y picante; El sabor es salado, algo amargo y dulce.[ cita necesaria ] El producto hecho con soja blanca se llama mianchi.  \n El proceso y el producto son similares a ogiri e iru, ambos son productos de frijol fermentado africano [ cita necesaria ].\r \n \r \nDouchi, \"frijoles negros salados chinos \" y \"soja negra \" no deben confundirse con el frijol tortuga negro, Una variedad de frijoles comunes que se usa comúnmente en las cocinas de América Central, América del Sur y el Caribe.Una variedad de frijoles comunes que se usa comúnmente en las cocinas de América Central, América del Sur y el Caribe.Una variedad de frijoles comunes que se usa comúnmente en las cocinas de América Central, América del Sur y el Caribe.",
+"strType": "Frijol"
+},
+{
+"idIngredient": "525",
+"strIngredient": "Scallions",
+"strDescription": "Los cebolletas ( cebolla verde, cebolla primaveral y cebolla para ensalada ) son vegetales de varias especies de cebolla de alio. Los cebolletas tienen un sabor más suave que la mayoría de las cebollas. Sus parientes cercanos incluyen el ajo, la chalota, el puerro, el cebollín y la cebolla china. \r \n \r \n Aunque los bulbos de muchas especies de Allium se usan como alimento, La característica definitoria de las especies de cebolletas es que carecen de un bulbo completamente desarrollado. En común con todas las especies de Allium, los cebolletas tienen hojas verdes tubulares huecas que crecen directamente del bulbo. Estas hojas se usan como verdura; se comen crudos o cocidos. Las hojas a menudo se pican en otros platos, a la manera de cebollas o ajo. También conocidas como cebolletas o cebollas verdes, las cebolletas son, de hecho, cebollas muy jóvenes, cosechadas antes de que el bulbo haya tenido la oportunidad de hincharse.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "526",
+"strIngredient": "Pimienta de Sichuan",
+"strDescription": "La pimienta de Sichuan, el granos de pimienta de Sichuan o la pimienta de Szechuan, es una especia de uso común en la cocina china. Se deriva de al menos dos especies del género global Zanthoxylum, incluidas Z. simulans y Z. bungeanum. El género Zanthoxylum pertenece a la familia de la rue o los cítricos y, a pesar de su nombre, no está estrechamente relacionado con la pimienta negra ni con la pimienta de chile\n La cáscara o el casco ( pericarp ) alrededor de las semillas se puede usar entera, especialmente en la cocina de Sichuan, y el polvo finamente molido es uno de los ingredientes para el polvo de cinco especias. También se usa en la medicina tradicional china. El pericarpio se usa con mayor frecuencia, pero las hojas de varias especies también se usan en algunas regiones de China. \r \n \r \nOtras especies de Zantoxylum nativas de China, Z. schinifolium, llamado xiāng jiāo zi ( 香 子, \"esppercorn aromático \" ) o qīng huā jiāo ( 青花,\"pimienta de flor verde \" ), se usa como especia en Hebei.  \n \r \nMientras que el sabor y la composición exactos de diferentes especies del género Zanthoxylum varían, la mayoría comparte las mismas características esenciales. Entonces, si bien los términos \"Pimienta de Sichuan \" y sanshō pueden referirse específicamente a Z. simulans y Z. piperitum, respectivamente, los dos se usan comúnmente indistintamente. \n \r Las especies relacionadas se utilizan en las cocinas del Tíbet, Bután, Nepal, Tailandia e India ( los pueblos Konkani y Uttarakhandi ) y Toba Batak. En Bután, este pimiento se conoce como thingye y se usa generosamente en la preparación de sopas, gachas y phaag sha paa ( rodajas de cerdo ). [ cita necesaria ] En Nepal, timur se usa en los populares alimentos momo, thukpa, chow mein, chile de pollo y otros platos de carne. También es ampliamente utilizado en encurtidos caseros.Las personas toman el timur como medicamento para problemas estomacales o de digestión, en preparación con dientes de ajo y sal de montaña con agua tibia.",
+"strType": "Especia"
+},
+{
+"idIngredient": "527",
+"strIngredient": "piel de wonton",
+"strDescription": "Ganó ton piel. Cuadrados de masa delgados de papel hechos de harina, agua, huevos y sal utilizados para hacer toneladas ganadas, rollos de huevo y gyoza.",
+"strType": "Pastelería"
+},
+{
+"idIngredient": "528",
+"strIngredient": "Almidón",
+"strDescription": "El almidón o el amilo es un carbohidrato polimérico que consiste en una gran cantidad de unidades de glucosa unidas por enlaces glucosídicos. Este polisacárido es producido por la mayoría de las plantas verdes como almacenamiento de energía. Es el carbohidrato más común en las dietas humanas y está contenido en grandes cantidades en alimentos básicos como papas, trigo, maíz ( maíz ), arroz y yuca. \n \r\n El almidón puro es un polvo blanco, insípido e inodoro que es insoluble en agua fría o alcohol. Se compone de dos tipos de moléculas: la amilosa lineal y helicoidal y la amilopectina ramificada. Dependiendo de la planta, el almidón generalmente contiene de 20 a 25% de amilosa y de 75 a 80% de amilopectina en peso. [4 ] El glucógeno, el almacén de glucosa de los animales, es una versión más ramificada de la amilopectina.  \n \r \n En la industria, el almidón se convierte en azúcares, por ejemplo, por malteado,y fermentado para producir etanol en la fabricación de cerveza, whisky y biocombustibles. Se procesa para producir muchos de los azúcares utilizados en los alimentos procesados. La mezcla de la mayoría de los almidones en agua tibia produce una pasta, como la pasta de trigo, que se puede usar como agente espesante, rígido o pegajoso. El mayor uso industrial no alimentario del almidón es como adhesivo en el proceso de fabricación de papel. El almidón se puede aplicar a partes de algunas prendas antes de planchar, para endurecerlas.El almidón se puede aplicar a partes de algunas prendas antes de planchar, para endurecerlas.El almidón se puede aplicar a partes de algunas prendas antes de planchar, para endurecerlas.",
+"strType": "Lado"
+},
+{
+"idIngredient": "529",
+"strIngredient": "Vino de arroz",
+"strDescription": "El vino de arroz es una bebida alcohólica fermentada y destilada del arroz, tradicionalmente consumida en el este de Asia, el sudeste asiático y el sur de Asia. El vino de arroz se elabora a partir de la fermentación de almidón de arroz que se ha convertido en azúcares. Los microbios son la fuente de las enzimas que convierten los almidones en azúcar. [ 1 ] \r \n \r \n El vino de arroz generalmente tiene un contenido de alcohol de 18 – 25% ABV. Los vinos de arroz se utilizan en la gastronomía asiática en cenas formales y banquetes y en la cocina. También se usan en un contexto religioso y ceremonial.",
+"strType": "Vino"
+},
+{
+"idIngredient": "530",
+"strIngredient": "Vino de cocina",
+"strDescription": "Salpique en guisos, salsas y adobos para obtener un sabor vibrante y redondeado.",
+"strType": "Vino"
+},
+{
+"idIngredient": "531",
+"strIngredient": "Salsa de pato",
+"strDescription": "La salsa de pato ( o la salsa de naranja ) es un condimento con un sabor agridulce y una apariencia naranja translúcida similar a una gelatina delgada. Se ofrece en restaurantes chino-estadounidenses, se utiliza como salsa para platos fritos como tiras de wonton, rollitos de primavera, rollos de huevo, pato, pollo, pescado o con arroz o fideos. A menudo se proporciona en paquetes de una sola porción junto con salsa de soja, mostaza, salsa picante o chile rojo en polvo. Se puede usar como esmalte en alimentos, como aves de corral. A pesar de su nombre, la salsa no se prepara con carne de pato.",
+"strType": "Salsa"
+},
+{
+"idIngredient": "532",
+"strIngredient": "Gochujang",
+"strDescription": "Gochujang o pasta de chile rojo es un condimento fermentado salado, dulce y picante hecho de chile en polvo, arroz glutinoso, polvo de meju, yeotgireum y sal.",
+"strType": "Salsa"
+},
+{
+"idIngredient": "533",
+"strIngredient": "Brotes de frijoles",
+"strDescription": "Los brotes de soja son un ingrediente común en todo el mundo. Son particularmente comunes en la cocina de Asia oriental.  \n \r \n Hay dos tipos de brotes de frijol común: \r \n \r \n El brote de frijol mungo está hecho de frijoles verdes \r\nEl brote de soja está hecho de soja amarilla de grano más grande \r \n Por lo general, les toma una semana crecer por completo. Los frijoles germinados son más nutritivos que los frijoles originales y requieren mucho menos tiempo para cocinar.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "534",
+"strIngredient": "Fideos",
+"strDescription": "Los fideos son un alimento básico en muchas culturas. Están hechos de masa sin levadura que se estira, extruye o enrolla plana y corta en una de una variedad de formas. Si bien las tiras largas y delgadas pueden ser las más comunes, muchas variedades de fideos se cortan en ondas, hélices, tubos, cuerdas o conchas, o se pliegan o se cortan en otras formas. Los fideos generalmente se cocinan en agua hirviendo, a veces con aceite de cocina o sal agregada. A menudo son fritos o fritos. Los fideos a menudo se sirven con una salsa o en una sopa. Los fideos se pueden refrigerar para almacenamiento a corto plazo o secar y almacenar para uso futuro. La composición del material o el origen geocultural deben especificarse cuando se discuten los fideos. La palabra deriva de la palabra alemana Nudel. [1 ]",
+"strType": "Lado"
+},
+{
+"idIngredient": "535",
+"strIngredient": "Hongos de madera para oreja",
+"strDescription": "Auricularia auricula-judae, conocida como la oreja del judío, la oreja de madera, la oreja de gelatina o por varios otros nombres comunes, es una especie de hongo Auriculariales comestible que se encuentra en todo el mundo. El cuerpo fructífero se distingue por su notable forma de oreja y coloración marrón; crece sobre madera, especialmente sobre saúco. Su epíteto específico se deriva de la creencia de que Judas Iscariote se colgó de un árbol mayor; el nombre común oído de Judas fue eclipsado en gran medida por la corrupción oído de judío, mientras que hoy \"jelly ear \" y otros nombres a veces se usan. El hongo se puede encontrar durante todo el año en regiones templadas de todo el mundo, donde crece tanto en madera muerta como viva.  \n \r \n En Occidente, A. auricula-judae se usó en medicina popular en el siglo XIX para quejas como dolor de garganta,dolor en los ojos y ictericia, y como astringente. Aunque no se consume ampliamente en Occidente, durante mucho tiempo ha sido popular en China, en la medida en que Australia exportó grandes volúmenes a China a principios del siglo XX. Hoy en día, el hongo es un ingrediente popular en muchos platos chinos, como la sopa agridulce y también se usa en la medicina china. También se usa en Ghana, como un tónico sanguíneo. La investigación moderna sobre posibles aplicaciones médicas ha concluido de manera diversa que A. auricula-judae tiene propiedades antitumorales, hipoglucemiantes, anticoagulantes y reductoras del colesterol.como la sopa agridulce y también se usa en la medicina china. También se usa en Ghana, como un tónico sanguíneo. La investigación moderna sobre posibles aplicaciones médicas ha concluido de manera diversa que A. auricula-judae tiene propiedades antitumorales, hipoglucemiantes, anticoagulantes y reductoras del colesterol.como la sopa agridulce y también se usa en la medicina china. También se usa en Ghana, como un tónico sanguíneo. La investigación moderna sobre posibles aplicaciones médicas ha concluido de manera diversa que A. auricula-judae tiene propiedades antitumorales, hipoglucemiantes, anticoagulantes y reductoras del colesterol.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "536",
+"strIngredient": "Ron oscuro",
+"strDescription": "Rum es una bebida alcohólica destilada hecha de subproductos de caña de azúcar, como melaza, o directamente de jugo de caña de azúcar, mediante un proceso de fermentación y destilación. El destilado, un líquido transparente, generalmente se envejece en barricas de roble.  \n \r \n La mayoría de la producción mundial de ron se produce en el Caribe y América Latina. El ron también se produce en Australia, Portugal, Austria, Canadá, Fiji, India, Japón, Mauricio, Nepal, Nueva Zelanda, Filipinas, Isla de la Reunión, Sudáfrica, España, Suecia, Taiwán, Tailandia, el Reino Unido y los Estados Unidos. \r \n \r \nRums se producen en varios grados. Los rones ligeros se usan comúnmente en cócteles, mientras que los rones dorados y oscuros se consumían típicamente rectos o limpios, en las rocas o para cocinar, pero ahora se consumen comúnmente con mezcladores.Los rones premium también están disponibles, hechos para ser consumidos directamente o helados.  \n\r\nRum juega un papel en la cultura de la mayoría de las islas de las Indias Occidentales, así como en The Maritimes y Newfoundland. Esta bebida tiene asociaciones famosas con la Royal Navy ( donde se mezcló con agua o cerveza para hacer grog ) y piratería ( donde se consumió como bumbo ). Rum también ha servido como un medio popular de intercambio económico, utilizado para ayudar a financiar empresas como la esclavitud ( ver Comercio triangular ), crimen organizado e insurgencias militares ( por ejemplo., La Revolución Americana y la Rebelión del Ron de Australia ).Esta bebida tiene asociaciones famosas con la Royal Navy ( donde se mezcló con agua o cerveza para hacer grog ) y piratería ( donde se consumió como bumbo ). Rum también ha servido como un medio popular de intercambio económico, utilizado para ayudar a financiar empresas como la esclavitud ( ver Comercio triangular ), crimen organizado e insurgencias militares ( por ejemplo., La Revolución Americana y la Rebelión del Ron de Australia ).Esta bebida tiene asociaciones famosas con la Royal Navy ( donde se mezcló con agua o cerveza para hacer grog ) y piratería ( donde se consumió como bumbo ). Rum también ha servido como un medio popular de intercambio económico, utilizado para ayudar a financiar empresas como la esclavitud ( ver Comercio triangular ), crimen organizado e insurgencias militares ( por ejemplo., La Revolución Americana y la Rebelión del Ron de Australia ).",
+"strType": "Espíritu"
+},
+{
+"idIngredient": "537",
+"strIngredient": "Ron ligero",
+"strDescription": "Rum es una bebida alcohólica destilada hecha de subproductos de caña de azúcar, como melaza, o directamente de jugo de caña de azúcar, mediante un proceso de fermentación y destilación. El destilado, un líquido transparente, generalmente se envejece en barricas de roble.  \n \r \n La mayoría de la producción mundial de ron se produce en el Caribe y América Latina. El ron también se produce en Australia, Portugal, Austria, Canadá, Fiji, India, Japón, Mauricio, Nepal, Nueva Zelanda, Filipinas, Isla de la Reunión, Sudáfrica, España, Suecia, Taiwán, Tailandia, el Reino Unido y los Estados Unidos. \r \n \r \nRums se producen en varios grados. Los rones ligeros se usan comúnmente en cócteles, mientras que los rones dorados y oscuros se consumían típicamente rectos o limpios, en las rocas o para cocinar, pero ahora se consumen comúnmente con mezcladores.Los rones premium también están disponibles, hechos para ser consumidos directamente o helados. \nRum juega un papel en la cultura de la mayoría de las islas de las Indias Occidentales, así como en The Maritimes y Newfoundland. Esta bebida tiene asociaciones famosas con la Royal Navy ( donde se mezcló con agua o cerveza para hacer grog ) y piratería ( donde se consumió como bumbo ). Rum también ha servido como un medio popular de intercambio económico, utilizado para ayudar a financiar empresas como la esclavitud ( ver Comercio triangular ), crimen organizado e insurgencias militares ( por ejemplo., La Revolución Americana y la Rebelión del Ron de Australia ).Esta bebida tiene asociaciones famosas con la Royal Navy ( donde se mezcló con agua o cerveza para hacer grog ) y piratería ( donde se consumió como bumbo ). Rum también ha servido como un medio popular de intercambio económico, utilizado para ayudar a financiar empresas como la esclavitud ( ver Comercio triangular ), crimen organizado e insurgencias militares ( por ejemplo., La Revolución Americana y la Rebelión del Ron de Australia ).Esta bebida tiene asociaciones famosas con la Royal Navy ( donde se mezcló con agua o cerveza para hacer grog ) y piratería ( donde se consumió como bumbo ). Rum también ha servido como un medio popular de intercambio económico, utilizado para ayudar a financiar empresas como la esclavitud ( ver Comercio triangular ), crimen organizado e insurgencias militares ( por ejemplo., La Revolución Americana y la Rebelión del Ron de Australia ).",
+"strType": "Espíritu"
+},
+{
+"idIngredient": "538",
+"strIngredient": "Ron",
+"strDescription": "Rum es una bebida alcohólica destilada hecha de subproductos de caña de azúcar, como melaza, o directamente de jugo de caña de azúcar, mediante un proceso de fermentación y destilación. El destilado, un líquido transparente, generalmente se envejece en barricas de roble.  \n \r \n La mayoría de la producción mundial de ron se produce en el Caribe y América Latina. El ron también se produce en Australia, Portugal, Austria, Canadá, Fiji, India, Japón, Mauricio, Nepal, Nueva Zelanda, Filipinas, Isla de la Reunión, Sudáfrica, España, Suecia, Taiwán, Tailandia, el Reino Unido y los Estados Unidos. \r \n \r \nRums se producen en varios grados. Los rones ligeros se usan comúnmente en cócteles, mientras que los rones dorados y oscuros se consumían típicamente rectos o limpios, en las rocas o para cocinar, pero ahora se consumen comúnmente con mezcladores.Los rones premium también están disponibles, hechos para ser consumidos directamente o helados. \nRum juega un papel en la cultura de la mayoría de las islas de las Indias Occidentales, así como en The Maritimes y Newfoundland. Esta bebida tiene asociaciones famosas con la Royal Navy ( donde se mezcló con agua o cerveza para hacer grog ) y piratería ( donde se consumió como bumbo ). Rum también ha servido como un medio popular de intercambio económico, utilizado para ayudar a financiar empresas como la esclavitud ( ver Comercio triangular ), crimen organizado e insurgencias militares ( por ejemplo., La Revolución Americana y la Rebelión del Ron de Australia ).Esta bebida tiene asociaciones famosas con la Royal Navy ( donde se mezcló con agua o cerveza para hacer grog ) y piratería ( donde se consumió como bumbo ). Rum también ha servido como un medio popular de intercambio económico, utilizado para ayudar a financiar empresas como la esclavitud ( ver Comercio triangular ), crimen organizado e insurgencias militares ( por ejemplo., La Revolución Americana y la Rebelión del Ron de Australia ).Esta bebida tiene asociaciones famosas con la Royal Navy ( donde se mezcló con agua o cerveza para hacer grog ) y piratería ( donde se consumió como bumbo ). Rum también ha servido como un medio popular de intercambio económico, utilizado para ayudar a financiar empresas como la esclavitud ( ver Comercio triangular ), crimen organizado e insurgencias militares ( por ejemplo., La Revolución Americana y la Rebelión del Ron de Australia ).",
+"strType": "Espíritu"
+},
+{
+"idIngredient": "539",
+"strIngredient": "Muffins ingleses",
+"strDescription": "Las magdalenas inglesas son un pan pequeño, redondo, plano y fermentado con levadura que comúnmente se corta horizontalmente, tostado y untado con mantequilla. [2 ] Las magdalenas tostadas inglesas, que a menudo se usan en los Estados Unidos como alimento para el desayuno, se pueden servir con ingredientes dulces ( por ejemplo, mermelada de frutas, o miel ) o ingredientes salados ( por ejemplo, huevos, rondas de salchichas, tocino o queso ). Los muffins ingleses también se usan como pan en una variedad de sándwiches para el desayuno, y son un ingrediente esencial en Eggs Benedict y la mayoría de sus variaciones. En los Estados Unidos y los territorios influenciados por los EE. UU., Se llaman muffins ingleses para distinguirlos de las magdalenas de los EE. UU., Que son panes rápidos horneados en miniatura más grandes y dulces. Son muy similares al bolo do caco en la cocina portuguesa.",
+"strType": "Pan"
+},
+{
+"idIngredient": "540",
+"strIngredient": "Muffins",
+"strDescription": "Un panecillo es un producto horneado de tamaño individual. Puede referirse a dos elementos distintos, un pan plano parcialmente elevado y un pan rápido tipo magdalena. El pan plano es de derivación británica o europea, y data de al menos principios del siglo XVIII, mientras que el pan rápido se originó en América del Norte durante el siglo XIX. Ambos son comunes en todo el mundo hoy.",
+"strType": "Pan"
+},
+{
+"idIngredient": "541",
+"strIngredient": "Vinagre de vino blanco",
+"strDescription": "El vinagre de vino está hecho de vino tinto o blanco, y es el vinagre más utilizado en el sur y centro de Europa, Chipre e Israel. Al igual que con el vino, hay una gama considerable de calidad. Los vinagres de vino de mejor calidad maduran en madera hasta por dos años y exhiben un sabor complejo y suave. El vinagre de vino tiende a tener una acidez menor que los vinagres blancos o de sidra. Los vinagres de vino más caros están hechos de variedades individuales de vino, como champán, jerez o pinot gris.",
+"strType": "Vestirse"
+},
+{
+"idIngredient": "542",
+"strIngredient": "Salmón ahumado",
+"strDescription": "El salmón ahumado es una preparación de salmón, típicamente un filete que se ha curado y ahumado en caliente o en frío. Debido a su precio moderadamente alto, el salmón ahumado se considera un manjar. Aunque el término lox a veces se aplica al salmón ahumado, son productos diferentes.",
+"strType": "Pescado"
+},
+{
+"idIngredient": "543",
+"strIngredient": "Barra de Marte",
+"strDescription": "Mars es una variedad de barras de chocolate producidas por Mars, Incorporated. Fue fabricado por primera vez en 1932 en Slough, Inglaterra, por Forrest Mars, Sr. El bar se vendió en dos formulaciones diferentes. En su versión británica original, la barra consiste en chocolate con leche que rodea el caramelo y el turrón, desarrollado para parecerse a la barra de caramelo estadounidense conocida como la Vía Láctea, que se había introducido una década antes. Se produjo una versión estadounidense del Mars Bar que tenía turrón y almendras tostadas cubiertas de chocolate con leche; más tarde, el caramelo también se agregó a la receta. La versión estadounidense se suspendió en 2002, aunque se ha revivido para tiradas cortas desde entonces.",
+"strType": "Confitería"
+},
+{
+"idIngredient": "544",
+"strIngredient": "Arroz Krispies",
+"strDescription": "Rice Krispies ( también conocido como Rice Bubbles en Australia y Nueva Zelanda ) es un cereal para el desayuno comercializado por Kellogg's en 1927 y lanzado al público en 1928. Las ardillas de arroz están hechas de arroz crujiente ( arroz y pasta de azúcar que se forma en formas de arroz o \"bayas \", cocidas, secas y tostadas ), y expandirse formando paredes muy delgadas y huecas que son crujientes y crujientes. Cuando se agrega leche al cereal, las paredes tienden a colapsar, creando los sonidos Snap, crackle y pop. \n\r\nRice El cereal Krispies tiene un largo historial publicitario, con los personajes de dibujos animados de elfos Snap, Crackle y Pop promocionando la marca. En 1963, The Rolling Stones grabó una canción corta para un anuncio televisivo de Rice Krispies.",
+"strType": "Cereal"
+},
+{
+"idIngredient": "545",
+"strIngredient": "Ancho Chillies",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "546",
+"strIngredient": "Leche de almendras",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "548",
+"strIngredient": "Todo",
+"strDescription": null,
+"strType": null
+},
+{
+"idIngredient": "550",
+"strIngredient": "Extracto de almendras",
+"strDescription": "La almendra ( Prunus dulcis, syn. Prunus amygdalus ) es una especie de árbol nativo de las regiones climáticas mediterráneas de Oriente Medio, pero ampliamente cultivada en otros lugares. La almendra es también el nombre de la semilla comestible y ampliamente cultivada de este árbol. Dentro del género Prunus, se clasifica con el durazno en el subgénero Amygdalus, distinguido de los otros subgéneros por corrugaciones en el caparazón ( endocarp ) que rodea la semilla. \\n \rEl fruto de la almendra es una drupa, que consiste en un casco exterior y una cáscara dura con la semilla, que no es una nuez verdadera, en el interior. Las almendras desgranadoras se refieren a quitar la cáscara para revelar la semilla. Las almendras se venden sin cáscara o sin cáscara. Las almendras blanqueadas son almendras sin cáscara que han sido tratadas con agua caliente para suavizar la capa de semillas, que luego se retira para revelar el embrión blanco.",
+"strType": "Fruta"
+},
+{
+"idIngredient": "552",
+"strIngredient": "Tripa",
+"strDescription": "Tripe es un tipo de revestimiento comestible de los estómagos de varios animales de granja. La mayoría de las tripas son de ganado vacuno y ovino.",
+"strType": "Carne"
+},
+{
+"idIngredient": "553",
+"strIngredient": "Carne de cabra",
+"strDescription": "La cabra doméstica o simplemente la cabra ( Capra aegagrus hircus ) es una subespecie de C. aegagrus domesticada de la cabra salvaje del suroeste de Asia y Europa del Este. La cabra es miembro de la familia de animales Bovidae y la subfamilia de antílopes de cabra — Caprinae, lo que significa que está estrechamente relacionada con las ovejas. Hay más de 300 razas distintas de cabras. Las cabras son una de las especies de animales domesticados más antiguas y se han utilizado para la leche, la carne, el pelaje y las pieles en gran parte del mundo. La leche de las cabras a menudo se convierte en queso de cabra.",
+"strType": "Carne"
+},
+{
+"idIngredient": "554",
+"strIngredient": "Frijoles Negros",
+"strDescription": "El frijol tortuga negro es una variedad pequeña y brillante del frijol común ( Phaseolus vulgaris ) especialmente popular en la cocina latinoamericana, aunque también se puede encontrar en las cocinas cajún y criolla del sur de Luisiana. Como los frijoles más comunes, es originaria de las Américas, pero se ha introducido en todo el mundo. También se usa en la cocina de las Indias Orientales, la cocina punjabi y en la cocina maharashtriana, se conoce como Kala Ghevada. Se usa indistintamente con vigna mungo ( gramo negro ) en países como los Estados Unidos. El frijol tortuga negro a menudo simplemente se llama frijol negro ( frijoles negros, zaragoza, judía negra, poroto negro o caraota o habichuela negra en español; y feijão preto en portugués ), aunque esta terminología puede causar confusión con otros frijoles negros.",
+"strType": "Frijol"
+},
+{
+"idIngredient": "555",
+"strIngredient": "Filete de anchoa",
+"strDescription": "Las anchoas son peces pequeños y plateados que provienen de las costas del Mediterráneo y el sur de Europa. Se venden curados con sal, generalmente envasados con aceite y fileteados. Comúnmente, vienen planas o enrolladas en latas o frascos, o molidas y mezcladas con aceite o mantequilla para hacer una pasta que se vende en tubos. Por sí solos, las anchoas son muy saladas pero se mezclan en salsas, aderezos o pastas, agregan una maravillosa profundidad de sabor.",
+"strType": "Pescado"
+},
+{
+"idIngredient": "556",
+"strIngredient": "Ras el hanout",
+"strDescription": "Ras el hanout o rass el hanout ( Árabe: راس الحانوت raʾs al-ḥānūt, pronunciado [ rɑʔs ælħɑːnuːt ] ( Acerca de esta lista de sonido ) ) es una mezcla de especias encontrada en diferentes formas en diferentes en Túnez, y Marruecos. [1 ] Desempeña un papel similar en la cocina del norte de África que el garam masala en la cocina india. El nombre en árabe significa jefe de la tienda e implica una mezcla de las mejores especias que el vendedor tiene para ofrecer. Ras el hanout se usa en muchos platos salados, a veces frotados con carne o pescado, o revueltos en cuscús o arroz. \\ n\r\nNo existe una composición definitiva de especias que constituya ras el hanout. Cada tienda, empresa o familia puede tener su propia mezcla. La mezcla generalmente consta de más de una docena de especias, en diferentes proporciones. Los ingredientes de uso común incluyen cardamomo, comino, clavo, canela, nuez moscada, macis, pimienta de Jamaica, jengibre seco, chiles,semillas de cilantro, granos de pimienta, pimentón dulce y caliente, fenogreco y cúrcuma seca. Algunas especias pueden ser particulares de la región, como las bayas de fresno, chufa, granos del paraíso, raíz de lirio, pimienta de monje, cubos, capullo de rosa seco, semillas de hinojo o anís, galangal, pimienta larga. Los ingredientes pueden tostarse antes de ser molidos o golpeados en un mortero y mezclados. Algunas preparaciones incluyen sal o azúcar, pero esa generalmente no es la práctica aceptada. El ajo, el azafrán, las nueces o las hierbas secas generalmente no se incluyen, ya que generalmente se agregan a los platos individualmente, pero algunas preparaciones comerciales, particularmente en Europa y América del Norte, pueden contenerlos.\r \n \r \n La composición de ras el hanout difiere un poco de la mezcla de especias de Baharat,pero difieren más por los tipos de platos con los que están asociados y por región en lugar de los ingredientes en ellos. Aunque utilizado por personas bereberes, no debe confundirse con la mezcla de especias berbere de Etiopía. \\n \r \n Ciertos supuestos afrodisíacos, incluidos los escarabajos metálicos verdes \"notoriamente peligrosos\", cantharides, han aparecido en muchas recetas marroquíes, pero estas parecen ser irrelevantes para fines aromatizantes.",
+"strType": "Especia"
+},
+{
+"idIngredient": "557",
+"strIngredient": "Pastelería Filo",
+"strDescription": "Filo o phyllo ( Griego: φύλλο \"hoja \" ) es una masa sin levadura muy delgada que se usa para hacer pasteles como baklava y börek en las cocinas de Oriente Medio y los Balcanes. Los pasteles a base de filo se hacen colocando muchas hojas de filo cepilladas con aceite o mantequilla; la masa se hornea.",
+"strType": "Pastelería"
+},
+{
+"idIngredient": "558",
+"strIngredient": "Agua de azahar",
+"strDescription": "El agua de la flor de naranja, o el agua de la flor de naranja, es el subproducto claro y perfumado de la destilación de flores frescas de color naranja amarga para su aceite esencial. Uses \r \nMediterranean Relief.jpg \rEsta agua esencial se ha utilizado tradicionalmente como aromatizante en muchos platos tradicionales de postre mediterráneos, como en Francia para el gibassier y pompe à l'huile o en España para el Roscón de Reyes ( Pastel King ), o el Samsa en Túnez o en el café marroquí, pero más recientemente ha encontrado su camino en otras cocinas. Por ejemplo, el agua de la flor de naranja se usa en Europa para dar sabor a las magdalenas, en México para dar sabor a pequeños pasteles de boda y Pan de muerto, y en los Estados Unidos para hacer bollos de azahar y malvaviscos. El agua de la flor naranja también se usa como ingrediente en algunos cócteles, como el Ramos Gin Fizz.En Malta y en muchos países del norte de África y del Medio Oriente, el agua de azahar se usa ampliamente como medicamento para el dolor de estómago y se administra a niños pequeños y adultos El agua de la flor de naranja ha sido un ingrediente tradicional utilizado a menudo en el norte de África, así como en la cocina del Medio Oriente. En las variantes árabes de baklava, el agua de azahar a menudo se mezcla con el jarabe dulce para darle sabor. Se cree que las flores de azahar se usan de esta manera porque se ven como la flor nupcial tradicional y, por lo tanto, simbolizan la pureza ( blanca, pequeña y delicada ). También se agrega al agua corriente en el Medio Oriente para enmascarar un alto contenido mineral y otros sabores desagradables ( p. los que surgen del almacenamiento en una qulla, un tipo de jarra de arcilla que mantiene el agua fría de manera similar al zeer );algunos agregan la fragancia independientemente del sabor del agua corriente.",
+"strType": "Beber"
+},
+{
+"idIngredient": "559",
+"strIngredient": "Peel confitado",
+"strDescription": "La fruta confitada, también conocida como fruta cristalizada o fruta glaseada, existe desde el siglo XIV. Las frutas enteras, las piezas más pequeñas de fruta o las cáscaras se colocan en jarabe de azúcar calentado, que absorbe la humedad del interior de la fruta y finalmente la conserva.",
+"strType": "Confitería"
+},
+{
+"idIngredient": "560",
+"strIngredient": "Gran Marnier",
+"strDescription": "Grand Marnier es una marca francesa de licores. El producto más conocido de la marca es Grand Marnier Cordon Rouge, un licor con sabor a naranja creado en 1880 por Alexandre Marnier-Lapostolle. Está hecho de una mezcla de brandy de coñac, esencia destilada de naranja amarga y azúcar. Grand Marnier Cordon Rouge es 40% de alcohol.",
+"strType": "Licor"
+},
+{
+"idIngredient": "561",
+"strIngredient": "Jerez",
+"strDescription": "El jerez es un vino fortificado elaborado con uvas blancas que se cultivan cerca de la ciudad de Jerez de la Frontera en Andalucía, España.",
+"strType": "Vino"
+},
+{
+"idIngredient": "562",
+"strIngredient": "Agua de rosas",
+"strDescription": "El agua de rosas es un agua con sabor hecha al remojar pétalos de rosa en agua. Además, es la porción de hidrosol del destilado de pétalos de rosa, un subproducto de la producción de aceite de rosa para su uso en perfume. Se utiliza para dar sabor a los alimentos, como componente en algunas preparaciones cosméticas y médicas, y con fines religiosos en toda Europa y Asia.",
+"strType": "Beber"
+},
+{
+"idIngredient": "563",
+"strIngredient": "Especia mixta",
+"strDescription": "La especia mixta, también llamada especias de budín, es una mezcla británica [ 1 ] de especias dulces, similar a la especia de pastel de calabaza utilizada en los Estados Unidos. La canela es el sabor dominante, con nuez moscada y pimienta de Jamaica. A menudo se usa para hornear o para complementar frutas u otros alimentos dulces.",
+"strType": "Especia"
+},
+{
+"idIngredient": "564",
+"strIngredient": "Carne picada",
+"strDescription": "La carne picada es una mezcla de frutas secas picadas, aguardientes y especias destiladas y, a veces, sebo, carne de res o venado. Originalmente, la carne picada siempre contenía carne. Muchas recetas modernas contienen sebo de res, aunque a veces se usa manteca de verduras en su lugar.",
+"strType": "Especia"
+},
+{
+"idIngredient": "565",
+"strIngredient": "Papas dulces",
+"strDescription": "La batata o el batato es una planta dicotiledónea que pertenece a la familia de las enredaderas o la gloria de la mañana, Convolvulaceae. Sus raíces tuberosas grandes, almidonadas, de sabor dulce son un tubérculo. Las hojas y brotes jóvenes a veces se comen como verduras.",
+"strType": "Vegetal de raíz"
+},
+{
+"idIngredient": "566",
+"strIngredient": "Rollos de pan",
+"strDescription": "Un rollo es pequeño, generalmente pan de pan individual redondo u oblongo servido como acompañamiento de comida ( comido simple o con mantequilla ) Se puede servir un rollo entero o cortado transversalmente y vestido con relleno entre Las dos mitades. Los rollos también se usan comúnmente para hacer sándwiches similares a los producidos con rebanadas de pan. Se encuentran en la mayoría de las cocinas de todo el mundo. En Deipnosophistae, el autor Athenaeus ( c. 170 – c. 230 ) describe algunos de los panes, pasteles y pasteles disponibles en el mundo clásico. Entre los panes mencionados se encuentran los pasteles de plancha, el pan de miel y aceite, los panes en forma de hongo cubiertos con semillas de amapola y la especialidad militar de los rollos horneados en una saliva.",
+"strType": "Pan"
+},
+{
+"idIngredient": "567",
+"strIngredient": "Bun",
+"strDescription": "Un bollo es un artículo pequeño, a veces dulce, a base de pan [ 1 ] o rollo. Aunque vienen en muchas formas y tamaños, son más comúnmente de tamaño manual o más pequeños, con una parte superior redonda y una parte inferior plana.",
+"strType": "Pan"
+},
+{
+"idIngredient": "568",
+"strIngredient": "Bollos de papa",
+"strDescription": "El pan de papa es una forma de pan en el que la harina de papa o la papa reemplaza una porción de la harina de trigo regular. Se cocina de varias maneras, incluso horneándolo en una plancha o sartén caliente, o en un horno. Puede ser fermentado o sin levadura, y puede tener una variedad de otros ingredientes horneados. La proporción de harina de papa a trigo varía significativamente de una receta a otra, con algunas recetas que tienen la mayoría de la papa, y otras que tienen la mayoría de la harina de trigo. Algunas recetas requieren puré de papas, y otras piden hojuelas de papa deshidratadas. Está disponible como producto comercial en muchos países, con variaciones similares en ingredientes, método de cocción y otras variables.",
+"strType": "Pan"
+},
+{
+"idIngredient": "569",
+"strIngredient": "Cerdo molido",
+"strDescription": "Carne molida, llamada carne picada o picada fuera de América del Norte ( i.e. en el Reino Unido y los países de la Commonwealth ), y keema o qeema ( Hindustani: क़ीमा ( Devanagari ), قیمpur (, ( pronunciado [ ˈqiːmaː ] ) ) en el subcontinente indio, es carne finamente picada por un molinillo de carne o un cuchillo para cortar. Un tipo común de carne molida es la carne molida, pero muchos otros tipos de carnes se preparan de manera similar, incluyendo carne de cerdo, cordero y aves de corral. En el subcontinente indio, tanto la carne de cordero como la de cabra también se pican para producir keema.",
+"strType": "Carne"
+},
+{
+"idIngredient": "570",
+"strIngredient": "Chuletas de cerdo",
+"strDescription": "Una chuleta de cerdo, como otras chuletas de carne, es un corte de lomo tomado perpendicular a la columna vertebral del cerdo y generalmente contiene una costilla o parte de una vértebra. Las chuletas de cerdo no se procesan y son más delgadas que otros cortes de carne de cerdo. Las chuletas se sirven comúnmente como una porción individual.",
+"strType": "Carne"
+},
+{
+"idIngredient": "571",
+"strIngredient": "Patatas de oro Yukon",
+"strDescription": "Yukon Gold es un gran cultivar de papa que se caracteriza más claramente por su piel delgada, lisa y sin ojos y su carne teñida de amarillo. Esta papa fue desarrollada en la década de 1960 por Garnet Johnston en Guelph, Ontario, Canadá, con la ayuda de Geoff Rowberry en la Universidad de Guelph. La cruz oficial se hizo en 1966 y Yukon Gold finalmente se lanzó al mercado en 1980.",
+"strType": "Vegetal de raíz"
+},
+{
+"idIngredient": "572",
+"strIngredient": "Cebolla amarilla",
+"strDescription": "La cebolla marrón o la cebolla amarilla es una variedad de cebolla seca con un sabor fuerte. Tienen un interior blanco verdoso, amarillo claro o blanco; Sus capas de piel de papel tienen un color amarillo-marrón o dorado pálido.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "573",
+"strIngredient": "Concentrado de stock de carne",
+"strDescription": "El caldo, a veces llamado caldo de hueso, es un líquido de cocción salado que forma la base de muchos platos, particularmente sopas, guisos y salsas. Hacer caldo implica hervir huesos de animales o carne, mariscos o verduras en agua o vino, a menudo durante un período prolongado de tiempo. Mirepoix u otros aromáticos se pueden agregar para obtener más sabor.",
+"strType": "Stock"
+},
+{
+"idIngredient": "574",
+"strIngredient": "Concentrado de pollo",
+"strDescription": "El caldo, a veces llamado caldo de hueso, es un líquido de cocción salado que forma la base de muchos platos, particularmente sopas, guisos y salsas. Hacer caldo implica hervir huesos de animales o carne, mariscos o verduras en agua o vino, a menudo durante un período prolongado de tiempo. Mirepoix u otros aromáticos se pueden agregar para obtener más sabor.",
+"strType": "Stock"
+},
+{
+"idIngredient": "575",
+"strIngredient": "Pepino persa",
+"strDescription": "El pepino ( El cucumis sativus ) es una planta ampliamente cultivada en la familia de las calabazas, Cucurbitaceae. Es una enredadera que produce frutas cucumiformes que se usan como vegetales. Hay tres variedades principales de pepino: corte, decapado y sin semillas. Dentro de estas variedades, se han creado varios cultivares. En América del Norte, el término pizcocho salvaje se refiere a las plantas en los géneros Echinocystis y Marah, pero estas no están estrechamente relacionadas. El pepino es originario del sur de Asia, pero ahora crece en la mayoría de los continentes. Muchos tipos diferentes de pepino se comercializan en el mercado global.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "576",
+"strIngredient": "Mayonesa",
+"strDescription": "La mayonesa, informalmente la mayonesa, es un condimento o aderezo frío y grueso que se usa comúnmente en sándwiches y ensaladas compuestas o en papas fritas. También es una base en salsas como la salsa tártara.",
+"strType": "Salsa"
+},
+{
+"idIngredient": "577",
+"strIngredient": "Sriracha",
+"strDescription": "Sriracha es un tipo de salsa picante o salsa de chile hecha de una pasta de chiles, vinagre destilado, ajo, azúcar y sal.",
+"strType": "Salsa"
+},
+{
+"idIngredient": "578",
+"strIngredient": "Ruibarbo",
+"strDescription": "Ruibarbo es un término general utilizado para las plantas cultivadas en el género Rheum en la familia Polygonaceae. Es una planta herbácea perenne que crece a partir de rizomas cortos y gruesos. Históricamente, diferentes plantas han sido llamadas \"ruibarbo \" en inglés.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "579",
+"strIngredient": "Pan de pita",
+"strDescription": "Pita o pitta, es una familia de panes planos redondos con levadura horneados a partir de harina de trigo, común en el Mediterráneo, Oriente Medio y áreas vecinas.",
+"strType": "Pan"
+},
+{
+"idIngredient": "580",
+"strIngredient": "Trigo Bulgur",
+"strDescription": "Bulgur es un alimento de cereales hecho de los granos cocidos y sancochados de varias especies de trigo diferentes, con mayor frecuencia de trigo duro. Se origina en la cocina del Medio Oriente.",
+"strType": "Cereal"
+},
+{
+"idIngredient": "581",
+"strIngredient": "Quinua",
+"strDescription": "La quinua es una planta con flores en la familia de las amaranto. Es una planta herbácea anual cultivada principalmente por sus semillas comestibles; las semillas son ricas en proteínas, fibra dietética, vitaminas B, y minerales dietéticos en cantidades mayores que en muchos granos.",
+"strType": "Grano"
+},
+{
+"idIngredient": "582",
+"strIngredient": "Encurtidos de eneldo",
+"strDescription": "Un pepino en escabeche es un pepino que se ha encurtido en una salmuera, vinagre u otra solución y se ha dejado fermentar durante un período de tiempo, sumergiendo los pepinos en una solución ácida o agriando por lactofermentación. Los pepinos en escabeche a menudo son parte de encurtidos mixtos.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "583",
+"strIngredient": "Bollos de hamburguesa con semillas de sésamo",
+"strDescription": "Un bollo es un artículo o rollo pequeño, a veces dulce, a base de pan. Aunque vienen en muchas formas y tamaños, son más comúnmente de tamaño manual o más pequeños, con una parte superior redonda y una parte inferior plana. Los bollos generalmente están hechos de harina, azúcar, leche, levadura y mantequilla.",
+"strType": "Pan"
+},
+{
+"idIngredient": "585",
+"strIngredient": "Bollos",
+"strDescription": "Un bollo es un artículo o rollo pequeño, a veces dulce, a base de pan. Aunque vienen en muchas formas y tamaños, son más comúnmente de tamaño manual o más pequeños, con una parte superior redonda y una parte inferior plana. Los bollos generalmente están hechos de harina, azúcar, leche, levadura y mantequilla.",
+"strType": "Pan"
+},
+{
+"idIngredient": "586",
+"strIngredient": "Lechuga Iceberg",
+"strDescription": "Iceberg es una variedad de lechuga con hojas crujientes que crecen en una cabeza esférica que se asemeja al repollo. Es considerada una de las variedades de lechuga más dulces como el romaine y el butterhead. La lechuga iceberg madura crece hasta aproximadamente un pie de diámetro.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "587",
+"strIngredient": "Alivio de pepinillo",
+"strDescription": "Un condimento es un producto cocido y en escabeche hecho de vegetales picados, frutas o hierbas y es un alimento que generalmente se usa como condimento para mejorar un alimento básico. Ejemplos son las chutneys y el condimento norteamericano, una mermelada de pepino en escabeche que se come con hot dogs o hamburguesas.",
+"strType": "Salsa"
+},
+{
+"idIngredient": "588",
+"strIngredient": "Rebanadas de queso",
+"strDescription": "El queso procesado es un producto alimenticio hecho de queso y otros ingredientes lácteos no fermentados mezclados con emulsionantes. Se pueden incluir ingredientes adicionales, como aceites vegetales, sal, colorante alimentario o azúcar. Como resultado, existen muchos sabores, colores y texturas de queso procesado.",
+"strType": "Queso"
+},
+{
+"idIngredient": "589",
+"strIngredient": "Acortamiento",
+"strDescription": "El acortamiento es cualquier grasa que es sólida a temperatura ambiente y se usa para hacer pasteles desmenuzables y otros productos alimenticios. Aunque la mantequilla es sólida a temperatura ambiente y se usa con frecuencia para hacer pasteles, el término acortamiento rara vez se refiere a la mantequilla, pero está más estrechamente relacionado con la margarina.",
+"strType": "Grasa"
+},
+{
+"idIngredient": "590",
+"strIngredient": "Agua tibia",
+"strDescription": "El agua es una sustancia química inorgánica, transparente, insípida, inodoro y casi incolora, que es el componente principal de la hidrosfera de la Tierra y los fluidos de la mayoría de los organismos vivos. Es vital para todas las formas de vida conocidas, a pesar de que no proporciona calorías ni nutrientes orgánicos. Su fórmula química es H2O, lo que significa que cada una de sus moléculas contiene un oxígeno y dos átomos de hidrógeno, conectados por enlaces covalentes. El agua es el nombre del estado líquido de H2O a temperatura y presión ambiente estándar. Forma precipitaciones en forma de lluvia y aerosoles en forma de niebla. Las nubes se forman a partir de gotas suspendidas de agua y hielo, su estado sólido. Cuando está finamente dividido, el hielo cristalino puede precipitar en forma de nieve. El estado gaseoso del agua es vapor o vapor de agua.El agua se mueve continuamente a través del ciclo del agua de evaporación, transpiración ( evapotranspiración ), condensación, precipitación y escorrentía, generalmente llegando al mar.",
+"strType": "Líquido"
+},
+{
+"idIngredient": "591",
+"strIngredient": "Agua hirviendo",
+"strDescription": "El agua es una sustancia química inorgánica, transparente, insípida, inodoro y casi incolora, que es el componente principal de la hidrosfera de la Tierra y los fluidos de la mayoría de los organismos vivos. Es vital para todas las formas de vida conocidas, a pesar de que no proporciona calorías ni nutrientes orgánicos. Su fórmula química es H2O, lo que significa que cada una de sus moléculas contiene un oxígeno y dos átomos de hidrógeno, conectados por enlaces covalentes. El agua es el nombre del estado líquido de H2O a temperatura y presión ambiente estándar. Forma precipitaciones en forma de lluvia y aerosoles en forma de niebla. Las nubes se forman a partir de gotas suspendidas de agua y hielo, su estado sólido. Cuando está finamente dividido, el hielo cristalino puede precipitar en forma de nieve. El estado gaseoso del agua es vapor o vapor de agua.El agua se mueve continuamente a través del ciclo del agua de evaporación, transpiración ( evapotranspiración ), condensación, precipitación y escorrentía, generalmente llegando al mar.",
+"strType": "Líquido"
+},
+{
+"idIngredient": "592",
+"strIngredient": "Jugo de pepinillo",
+"strDescription": "El decapado es el proceso de preservar o extender la vida útil de los alimentos mediante fermentación anaeróbica en salmuera o inmersión en vinagre. En Asia oriental, la vinagreta también se usa como medio de decapado. El procedimiento de decapado generalmente afecta la textura, el sabor y el sabor de los alimentos.",
+"strType": "Jugo"
+},
+{
+"idIngredient": "593",
+"strIngredient": "Azúcar en polvo",
+"strDescription": "El azúcar en polvo, también llamado azúcar de confitería o azúcar glas, es un azúcar finamente molido producido al moler azúcar granulada en un estado en polvo. Por lo general, contiene una pequeña cantidad de agente antiaglomerante para evitar la agrupación y mejorar el flujo.",
+"strType": "Azúcar"
+},
+{
+"idIngredient": "594",
+"strIngredient": "Kielbasa",
+"strDescription": "Kielbasa es cualquier tipo de salchicha de carne de Polonia y un alimento básico de la cocina polaca. En inglés americano, la palabra generalmente se refiere a una salchicha ahumada gruesa en forma de U de cualquier tipo de carne, que se parece mucho a la salchicha Wiejska en inglés británico.",
+"strType": "Carne"
+},
+{
+"idIngredient": "595",
+"strIngredient": "Salchicha Polaca",
+"strDescription": "Kielbasa es cualquier tipo de salchicha de carne de Polonia y un alimento básico de la cocina polaca. En inglés americano, la palabra generalmente se refiere a una salchicha ahumada gruesa en forma de U de cualquier tipo de carne, que se parece mucho a la salchicha Wiejska en inglés británico.",
+"strType": "Carne"
+},
+{
+"idIngredient": "596",
+"strIngredient": "Chucrut",
+"strDescription": "El chucrut es un repollo crudo finamente cortado que ha sido fermentado por varias bacterias del ácido láctico. Tiene una larga vida útil y un sabor agrio distintivo, ambos como resultado del ácido láctico formado cuando la bacteria fermenta los azúcares en las hojas de col.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "597",
+"strIngredient": "Semilla de alcaravea",
+"strDescription": "Caraway, también conocido como hinojo meridiano y comino persa ( Carum carvi ), es una planta bienal ... Por ejemplo, se usa en goulash, chucrut y pastel de semillas de alcaravea. Las raíces se pueden cocinar como vegetales como chirivías o zanahorias.",
+"strType": "Especia"
+},
+{
+"idIngredient": "598",
+"strIngredient": "Arenque",
+"strDescription": "El arenque es un pez forraje, que pertenece principalmente a la familia Clupeidae. El arenque a menudo se mueve en grandes escuelas alrededor de bancos de pesca y cerca de la costa, particularmente en aguas poco profundas y templadas de los océanos Pacífico Norte y Atlántico Norte, incluido el Mar Báltico, así como en la costa oeste de América del Sur.",
+"strType": "Pescado"
+},
+{
+"idIngredient": "599",
+"strIngredient": "Mermelada",
+"strDescription": "Las conservas de frutas son preparaciones de frutas, verduras y azúcar, a menudo almacenadas en frascos de mermelada de vidrio y frascos Mason. \\n \r \n Muchas variedades de conservas de frutas se fabrican a nivel mundial, incluidas las conservas de frutas dulces, como los hechos de fresa o albaricoque y conservas saladas, como las hechas de tomates o calabaza. Los ingredientes utilizados y cómo se preparan determinan el tipo de conservas; mermeladas, jaleas y mermeladas son ejemplos de diferentes estilos de conservas de frutas que varían según la fruta utilizada. En inglés, la palabra, en forma plural, \"conserves \" se usa para describir todo tipo de mermeladas y jaleas.",
+"strType": "Preservar"
+},
+{
+"idIngredient": "600",
+"strIngredient": "Mulukhiyah",
+"strDescription": "Mulukhiyah, molokheyya, molokhia o mulukhiyyah ( Árabe: ملوخية mulūkhiyyah ) Griego: molokha es las hojas de Corchorus olitorius, comúnmente conocido en inglés como yute, nalta jute, tossa jute , malva de yute o malva de judío. Se usa como verdura. Es popular en los países de Medio Oriente, África Oriental y África del Norte y se llama “ Saluyot ” en Filipinas. Mulukhiyah es bastante amargo, y cuando se hierve, el líquido resultante es un caldo espeso y altamente mucilaginoso; a menudo se describe como delgado, más bien como okra cocida. Mulukhiyah generalmente se come cocido, no crudo, y con mayor frecuencia se convierte en una especie de sopa o estofado, que generalmente lleva el mismo nombre que el vegetal en el idioma local. Tradicionalmente, mulukhiyah se cocina con pollo o al menos caldo de pollo para darle sabor y se sirve con arroz blanco,acompañado de limón o lima.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "601",
+"strIngredient": "Arroz de sushi",
+"strDescription": "Como elemento básico de la dieta de Japón, saber cocinar arroz japonés es un primer paso importante para convertirse en un maestro de cocina japonés. El arroz japonés perfectamente preparado debe ser ligero, esponjoso y ligeramente pegajoso cuando se cocina",
+"strType": "Arroz"
+},
+{
+"idIngredient": "602",
+"strIngredient": "Higos",
+"strDescription": "Ficus carica es una especie asiática de planta con flores en la familia de las moreras, conocida como la figura común. Es la fuente de la fruta también llamada higo y, como tal, es un cultivo importante en aquellas áreas donde se cultiva comercialmente.",
+"strType": "Fruta"
+},
+{
+"idIngredient": "603",
+"strIngredient": "Sidra",
+"strDescription": "La sidra ( / ˈsaɪdər / SY- dər ) es una bebida alcohólica hecha del jugo fermentado de manzanas. La sidra está ampliamente disponible en el Reino Unido ( particularmente en el oeste del país ) y la República de Irlanda. El Reino Unido tiene el mayor consumo per cápita del mundo, así como sus mayores empresas productoras de sidra. Las sidras del suroeste de Inglaterra son generalmente más fuertes. La sidra también es popular en muchos países de la Commonwealth, como India, Canadá, Australia y Nueva Zelanda. Además del Reino Unido y sus antiguas colonias, la sidra es popular en Portugal ( principalmente en Minho y Madeira ), Francia ( particularmente Normandía y Bretaña ), norte de Italia ( Piamonte y Friuli ), y el norte de España ( especialmente el Principado de Asturias y el País Vasco ).Europa Central también tiene sus propios tipos de sidra con Renania-Palatinado y Hesse produciendo una versión particularmente agria conocida como Apfelwein. En los EE. UU., Las variedades de sidra fermentada a menudo se llaman sidra dura para distinguir la sidra alcohólica de la sidra de manzana no alcohólica o sidra dulce, también hecha de manzanas. En Canadá, la sidra no se puede llamar sidra si no hay manzanas. Además, de acuerdo con las Regulaciones de Alimentos y Medicamentos en Canadá, la sidra no puede contener menos del 2.5% o más del 13% de alcohol absoluto en volumen.De acuerdo con las Regulaciones de Alimentos y Medicamentos en Canadá, la sidra no puede contener menos del 2.5% o más del 13% de alcohol absoluto en volumen.De acuerdo con las Regulaciones de Alimentos y Medicamentos en Canadá, la sidra no puede contener menos del 2.5% o más del 13% de alcohol absoluto en volumen.",
+"strType": "Beber"
+},
+{
+"idIngredient": "604",
+"strIngredient": "Remolacha",
+"strDescription": "La remolacha es la porción de raíz principal de una planta de remolacha, generalmente conocida en Canadá y los EE. UU. Como remolacha, mientras que la verdura se conoce como remolacha en inglés británico, y también conocida como la remolacha de la mesa, la remolacha del jardín, la remolacha roja, la remolacha de la cena o la remolacha dorada.",
+"strType": "Vegetal"
+},
+{
+"idIngredient": "605",
+"strIngredient": "Sardinas",
+"strDescription": "\"Sardina \" y \"pilchard \" son nombres comunes que se refieren a varios peces pequeños y aceitosos en la familia de arenques Clupeidae. El término sardina se utilizó por primera vez en inglés a principios del siglo XV y puede provenir de la isla mediterránea de Cerdeña, alrededor de la cual las sardinas fueron abundantes.",
+"strType": "Mariscos"
+},
+{
+"idIngredient": "606",
+"strIngredient": "Ciabatta",
+"strDescription": "Ciabatta es un pan blanco italiano hecho de harina de trigo, agua, sal, levadura y aceite de oliva, creado en 1982 por un panadero en Adria, provincia de Rovigo, Véneto, Italia, en respuesta a la popularidad de las baguettes francesas.",
+"strType": "Pan"
+},
+{
+"idIngredient": "607",
+"strIngredient": "Alforfón",
+"strDescription": "El trigo sarraceno ( Fagopyrum esculentum ), o trigo sarraceno común, es una planta cultivada por sus semillas de grano y como cultivo de cobertura. El nombre \"trigo sarraceno \" se usa para varias otras especies, como Fagopyrum tataricum, una planta alimenticia domesticada criada en Asia. A pesar del nombre, el trigo sarraceno no está estrechamente relacionado con el trigo, ya que no es una hierba. En cambio, el trigo sarraceno está relacionado con la acedera, el knotweed y el ruibarbo. El trigo sarraceno se conoce como pseudocereal porque el uso culinario de sus semillas es el mismo que el de los cereales, debido a su composición de carbohidratos complejos.",
+"strType": "Grano"
+}
+]}

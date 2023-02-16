@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pageContainer">
+        <div class="tabla">
+
+        </div>
+        <div>
+            <h1>Crear receta</h1>
+            <form id="createRecipe">
+                <div>
+                    <label for="name">Nombre</label>
+                    <input id="name">
+                </div>
+                <div>
+                    <label for="time_preparation">Tiempo De Preparacion</label>
+                    <input id="time_preparation">
+                </div>
+                <div>
+                    <label for="difficulty">Dificultad</label>
+                    <input id="difficulty">
+                </div>
+            </form>
+        </div>
+        <div>
+            <h1>Crear ingrediente</h1>
+            <form id="createIngredient">
+                <div>
+                    <label for="Iname">Nombre</label>
+                    <input id="Iname">
+                </div>
+                <div>
+                    <label for="description">Descripcion</label>
+                    <input id="description">
+                </div>
+                <button type="submit">enviar</button>
+            </form>
+        </div>
+        <div>
+            <h1>Crear Categoria</h1>
+            <form id="createCategories">
+                <div>
+                    <label for="Cname">Nombre</label>
+                    <input id="Cname">
+                </div>
+                <button type="submit">enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    const form = document.getElementById("submit", (event) =>{
+        event.preventDefault();
+        const userData = eventToUserData(event);
+        const userDataJson = JSON.stringify(event);
+        fetch('http://localhost:3000/users',{
+            method: "POST",  
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: userDataJson,
+        })
+    });
+    
+    function eventToUserData(event){
+        const elements = event.target.elements;
+        const name = elements.name.value;
+        const time_preparation = elements.time_preparation.value;
+        const difficulty = elements.difficulty.value;
+        const Iname = elements.Iname.value;
+        const description = elements.description.value;
+        const Cname = elements.Cname.value;
+        return{
+            name : name,
+            time_preparation: time_preparation,
+            difficulty: difficulty,
+            Iname: Iname,
+            description: description,
+            Cname: Cname
+        };
+    }
+</script>
