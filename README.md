@@ -1,7 +1,11 @@
 # We-Cook
 ## Instalacion necesaria para el proyecto:
-- node.js ultima version o la mas estable y como base de datos vamos a usar Postgres como una Instalacion opcional puede usar el DBeaver por mas comodidad 
-y tambien para que vea la entidad relacion de la base de datos
+- node.js ultima version o la mas estable y como base de datos vamos a usar Postgres como una Instalacion opcional puede usar el DBeaver por mas comodidad
+
+y tambien para que vea la entidad relacion de la base de datos 
+
+https://nodejs.org/es/
+https://www.postgresql.org/download/
 - Por el momento se esta usando la api https://www.themealdb.com/api.php y para la
 ## Instalar las dependencias de node con:
 - npm install --package 
