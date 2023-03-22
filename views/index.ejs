@@ -1,0 +1,23 @@
+<%- include('partials/header'); -%>
+
+
+    <section>
+        <H2 style="color: white;">WeCook</H2>
+        <div class="row">
+            <input type="text" id="input" placeholder="Busca el ingrediente..." />
+            <button class="btn btn-primary" onclick="agregarValor()">Agregar</button>
+        </div>
+        <div style="height: 300px;">
+            <ul class="list"></ul>
+        </div>
+        <div class="mt-4" style="color: white; background-color: black;" id="result">Aquí, resultados.</div>
+    </section>
+   
+    <%- include('partials/tags'); %>
+    
+
+  
+
+    <%- include('partials/params'); %>
+    
+        <%- include('partials/footer'); %>

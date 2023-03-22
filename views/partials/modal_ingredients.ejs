@@ -1,0 +1,32 @@
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Lista De Ingredientes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <% for (var i = 0; i < recipe.length; i++) { %>
+            <%= recipe[i].name %>
+            <%= recipe[i].url %>
+            <%= recipe[i].description %>
+            <%= recipe[i].difficulty %>
+          <% } %>
+
+          <% for (var i = 0; i < ingredients.length; i++) { %>
+            <%= ingredients[i].name %>
+            <%= ingredients[i].name %>
+            <%= ingredients[i].name %>
+            <%= ingredients[i].name %>
+          <% } %>
+            
+          <% for (var i = 0; i < intermedie.length; i++) { %>
+            <%= intermedie[i].name %>
+            <%= intermedie[i].name %>
+            <%= intermedie[i].name %>
+            <%= intermedie[i].name %>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </div>

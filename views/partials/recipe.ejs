@@ -1,0 +1,16 @@
+
+
+
+<% for (var i = 0; i < recipe.length; i++) { %>
+  <li></li>
+
+<div class="card">
+  <img src= ""  class="card-img-top" alt="..."> <%= recipe[i].url %>
+  <div class="card-body">
+    <h5 class="card-title"><%= recipe[i].name %></h5>
+    <p class="card-text"><%= recipe[i].instructions %></p>
+    <p class="card-text"><small class="text-muted"><%= recipe[i].difficulty %></small></p>
+  </div>
+</div>
+<% } %>
+

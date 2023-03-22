@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    body {
+      background-image: url("https://ambar.com/wp-content/uploads/2019/04/especie-scaled.jpg");
+      background-color: #cccccc;
+    }
+    
+  </style>
+  <title>Buscador</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <form class="d-flex" autocomplete="off" method="get" action="/add">
+          <H2>WeCook</H2>
+          <div class="container-fluid">
+              <input type="text" class="form-control" id="input" name="text" placeholder="Busca el ingrediente..." />
+              <input type="button" id="search" value="Busca" onclick="agregarValor()" class="btn btn-primary" href="">
+          </div>
+          <ul class="list"></ul>
+      </form>
+      <ul>
+        
+      </ul>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Ingredientes
+        </button>
+      </div>
+    </nav>
+  </header>
+  <%- include('partials/params'); %>
+
+  <%- include('partials/tags'); %>
+  
+  <div class="masthead">
+    <nav>
+
+    </nav>
+
+    <div class="container mt-5">
+      <div class="card-group">
+        
+      </div>
+    </div>
+    
+  </div>
+  
+</body>
+
+</html>

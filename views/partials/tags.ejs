@@ -1,0 +1,23 @@
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+
+  const tags = [];
+
+  function agregarValor() {
+
+    const valor = document.getElementById("input").value;
+    tags.push(valor);
+    input.value = "";
+    var result = document.getElementById('result');
+    result.innerHTML = tags;
+    var array = valor.split(',')
+    axios.get('/add', { array })
+      .then(response => {
+        console.log(response.data);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }
+
+</script>
