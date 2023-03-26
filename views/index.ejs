@@ -1,23 +1,41 @@
 <%- include('partials/header'); -%>
 
 
-    <section>
+    <section class="container">
         <H2 style="color: white;">WeCook</H2>
-        <div class="row">
-            <input type="text" id="input" placeholder="Busca el ingrediente..." />
-            <button class="btn btn-primary" onclick="agregarValor()">Agregar</button>
+        <div class="container-fluid">
+            <input type="text" id="input" class="form-control" style="width: 75%;"
+                placeholder="Busca el ingrediente..." />
+            <input type="text" id="" name="tags" class="form-control tagin" >
+            <script>
+                new Tagin(document.querySelector('.tagin'))
+            </script>
+            <button class="btn btn-primary" type="submit" style="width: 24%;" onclick="agregarValor()">Agregar</button>
         </div>
         <div style="height: 300px;">
             <ul class="list"></ul>
         </div>
         <div class="mt-4" style="color: white; background-color: black;" id="result">Aquí, resultados.</div>
     </section>
-   
+
     <%- include('partials/tags'); %>
-    
 
-  
+        <div class="container my-3">
+            <div class="card-group" id="recipes">
+            </div>
+        </div>
 
-    <%- include('partials/params'); %>
-    
-        <%- include('partials/footer'); %>
+        <%- include('partials/params'); %>
+            <%- include('partials/recipe'); %>
+                <%- include('partials/modal_ingredients'); %>
+
+
+                    <!-- Botón para abrir el modal -->
+
+
+                    <!-- Scripts de Bootstrap 5.0.2 -->
+                    <script
+                        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+
+
+                    <%- include('partials/footer'); %>

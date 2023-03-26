@@ -29,14 +29,14 @@
   "Glen",
   "Peter",
 ];*/
-var usuarios = <%- JSON.stringify(usuarios) %>;
+var ingredients = <%- JSON.stringify(ingredients) %>;
 
 
-    console.log('Usuarios:', usuarios);
+    console.log('ingredients:', ingredients);
 
     const names = [];
 
-usuarios.forEach((usuario) => {
+ingredients.forEach((usuario) => {
     names.push(usuario.name);
 });
 //Sort names in ascending order

@@ -9,11 +9,32 @@
     tags.push(valor);
     input.value = "";
     var result = document.getElementById('result');
+
     result.innerHTML = tags;
     var array = valor.split(',')
-    axios.get('/add', { array })
+    axios.post('/add', tags)
       .then(response => {
-        console.log(response.data);
+        console.log(response.data.recipes);
+        const data = response.data.recipes;
+        let html = '';
+
+        data.forEach(recipe => {
+          html += 
+          '<div class= "col-md-4">'
+          +'<div class="card mx-1 shadow" style="width: 18rem;">'
+            +'<img src="'+ recipe.url +'" class="card-img-top" alt="..." >'
+              +'<div class="card-body">'
+                +'<h5 class="card-title">'+ recipe.name +'</h5>'
+                +'<p class="card-text">'+ recipe.instructions +'</p>'
+                +'<a id ="number" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="addRecipe('+recipe.id+')">Ver Receta</a>'
+              +'</div>'
+          +'</div>'
+          +'</div>';
+        });
+
+        html += '';
+        document.getElementById('recipes').innerHTML = html;
+
       })
       .catch(error => {
         console.error(error);

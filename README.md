@@ -1,4 +1,9 @@
 # We-Cook
+
+
+clonar repositorio
+
+
 ## Instalacion necesaria para el proyecto:
 - node.js ultima version o la mas estable y como base de datos vamos a usar Postgres como una Instalacion opcional puede usar el DBeaver por mas comodidad
 
