@@ -1,26 +1,43 @@
 <%- include('partials/header'); -%>
 
-
+    <div style="background-image: url('https://ambar.com/wp-content/uploads/2019/04/especie-scaled.jpg');">
     <section class="container">
         <H2 style="color: white;">WeCook</H2>
         <div class="container-fluid">
-            <input type="text" id="input" class="form-control" style="width: 75%;"
-                placeholder="Busca el ingrediente..." />
-            <input type="text" id="" name="tags" class="form-control tagin" >
-            <script>
-                new Tagin(document.querySelector('.tagin'))
-            </script>
-            <button class="btn btn-primary" type="submit" style="width: 24%;" onclick="agregarValor()">Agregar</button>
+            <div>
+                <label for="input-autocompletado">Ingrese tags:</label>
+                <input id="input-autocompletado" type="text">
+            </div>
+            <div id="tags-container" class="slider"></div>
         </div>
-        <div style="height: 300px;">
+        
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" onclick="mostrarPaises()" aria-expanded="false">
+              paises
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="dropdown">
+              
+            </ul>
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" onclick="mostrarCategorias()" aria-expanded="false">
+                categorias
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="dropdown1">
+                
+              </ul>
+          </div>
+        <div style="height: 100px;">
             <ul class="list"></ul>
         </div>
-        <div class="mt-4" style="color: white; background-color: black;" id="result">Aquí, resultados.</div>
+        
     </section>
+</div>
 
-    <%- include('partials/tags'); %>
+<%- include('partials/categories'); %>
+
+<%- include('partials/tags'); %>
 
         <div class="container my-3">
+            <h2 class="text-center mb-4">Recetas</h2>
             <div class="card-group" id="recipes">
             </div>
         </div>

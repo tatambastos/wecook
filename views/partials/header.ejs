@@ -11,9 +11,7 @@
 
     <!-- Stylesheet -->
     <style>
-        body {
-            background-image: url('https://ambar.com/wp-content/uploads/2019/04/especie-scaled.jpg');
-        }
+        
 
         input[type="text"],
         input[type="submit"] {
@@ -24,9 +22,17 @@
             font-size: 16px;
         }
 
-        p {
+        .text_ingredient {
             display: -webkit-box;
             -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .title_ingredient{
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -47,6 +53,10 @@
             list-style: none;
         }
 
+        .d-block{
+            list-style: circle;
+        }
+
         .list {
             width: 75%;
             background-color: #ffffff;
@@ -60,9 +70,39 @@
         .list-items:hover {
             background-color: #dddddd;
         }
+
+        .tag {
+            margin-right: 5px;
+            margin-bottom: 5px;
+            border-radius: 20px;
+            padding: 3px 8px;
+        }
+
+        .tag .tag-text {
+            display: inline-block;
+        }
+
+        .eliminar-tag {
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+        .slick-slide {
+            width: auto !important;
+            margin: 0 10px;
+            /* Agrega un margen a la izquierda y derecha del elemento */
+        }
     </style>
-    <link rel="stylesheet" href="https://unpkg.com/tagin@2.0.2/dist/tagin.min.css">
-    <script src="https://unpkg.com/tagin@2.0.2/dist/tagin.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://kit.fontawesome.com/d88a4a229e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 </head>
 
 <body>

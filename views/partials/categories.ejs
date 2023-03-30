@@ -1,0 +1,39 @@
+
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+  function mostrarPaises() {
+    var html = ''; // Define la variable html antes de agregar elementos a ella
+
+    axios.get('/paises')
+      .then(response => {
+        console.log(response.data);
+        var data = response.data.categories;
+        data.forEach(recipe => {
+          html += '<li><a class="dropdown-item">' + recipe.name + '</a></li>'; // Corrige las comillas dobles y elimina las comillas adicionales
+        });
+        html += '';
+        document.getElementById('dropdown').innerHTML = html; // Especifica el ID del elemento donde deseas agregar la lista de países
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }
+  function mostrarCategorias() {
+    var html = ''; // Define la variable html antes de agregar elementos a ella
+
+    axios.get('/categories')
+      .then(response => {
+        console.log(response.data);
+        var data = response.data.categories;
+        data.forEach(recipe => {
+          html += '<li><a class="dropdown-item">' + recipe.name + '</a></li>'; // Corrige las comillas dobles y elimina las comillas adicionales
+        });
+        html += '';
+        document.getElementById('dropdown1').innerHTML = html; // Especifica el ID del elemento donde deseas agregar la lista de países
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }
+</script>

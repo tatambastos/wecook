@@ -1,0 +1,22 @@
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+
+  
+  function agregarUser() {
+
+    var nick = document.getElementById("email").value
+    var pass = document.getElementById("password").value
+
+    var user = [nick,pass]
+
+    
+    
+    axios.post('/register', user)
+    .then(response => {
+        console.log(response.data)
+    })
+      .catch(error => {
+        console.error(error);
+      });
+  }
+</script>

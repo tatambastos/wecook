@@ -1,87 +1,73 @@
 <script>
+$(document).ready(function () {
 
+  var ingredients = <%- JSON.stringify(ingredients) %>;
+  console.log('ingredients:', ingredients);
 
-/*let names = [
-  "Ayla",
-  "Jake",
-  "Sean",
-  "Henry",
-  "Brad",
-  "Stephen",
-  "Taylor",
-  "Timmy",
-  "Cathy",
-  "John",
-  "Amanda",
-  "Amara",
-  "Sam",
-  "Sandy",
-  "Danny",
-  "Ellen",
-  "Camille",
-  "Chloe",
-  "Emily",
-  "Nadia",
-  "Mitchell",
-  "Harvey",
-  "Lucy",
-  "Amy",
-  "Glen",
-  "Peter",
-];*/
-var ingredients = <%- JSON.stringify(ingredients) %>;
+  var tags = JSON.parse(localStorage.getItem('tags')) || [];
+  for (let i = 0; i < tags.length; i++) {
+    crearTag(tags[i]);
+  }
+  // console.log(tags[1]);
 
+  $("#input-autocompletado").autocomplete({
+    source: function (request, response) {
+      // Buscar en el arreglo de objetos y filtrar por los nombres de los ingredientes
+      var matches = $.map(ingredients, function (obj) {
+        if (obj.name.toLowerCase().indexOf(request.term.toLowerCase()) !== -1) {
+          return obj.name;
+        }
+      });
+      // Devolver el arreglo filtrado de nombres de ingredientes
+      response(matches.slice(0, 5)); // Limitar a solo 5 sugerencias
+    },
+    select: seleccionarOpcion
+  });
 
-    console.log('ingredients:', ingredients);
-
-    const names = [];
-
-ingredients.forEach((usuario) => {
-    names.push(usuario.name);
-});
-//Sort names in ascending order
-let sortedNames = names.sort();
-
-//reference
-let input = document.getElementById("input");
-
-//Execute function on keyup
-input.addEventListener("keyup", (e) => {
-//loop through above array
-//Initially remove all elements ( so if user erases a letter or adds new letter then clean previous outputs)
-removeElements();
-for (let i of sortedNames) {
-    //convert input to lowercase and compare with each string
-
-    if (
-        i.toLowerCase().startsWith(input.value.toLowerCase()) &&
-        input.value != ""
-    ) {
-        //create li element
-        let listItem = document.createElement("li");
-        //One common class name
-        listItem.classList.add("list-items");
-        listItem.style.cursor = "pointer";
-        listItem.setAttribute("onclick", "displayNames('" + i + "')");
-        //Display matched part in bold
-        let word = "<b>" + i.substr(0, input.value.length) + "</b>";
-        word += i.substr(input.value.length);
-        //display the value in array
-        listItem.innerHTML = word;
-        document.querySelector(".list").appendChild(listItem);
+  function seleccionarOpcion(event, ui) {
+    event.preventDefault();
+    var tag = ui.item.label;
+    console.log('selected: ' +tags)
+    if(!tags.includes(tag))
+    {
+      crearTag(tag);
     }
+    $("#input-autocompletado").val("");
+  }
+
+  function crearTag(tag) {
+  var tagHtml = "<span class='tag badge bg-dark'><span class='tag-text'>" + tag + "</span><i class='eliminar-tag fa fa-times-circle'></i></span>";
+  $("#tags-container").append(tagHtml);
+  if(!tags.includes(tag))
+  {
+    tags.push(tag);
+    localStorage.setItem('tags', JSON.stringify(tags));
+  }
+  agregarValor(tags);
 }
+
+
+  $(document).on("click", ".eliminar-tag", function () {
+    var tag = $(this).closest(".tag");
+    var tagIndex = tags.indexOf(tag.text().replace("x", "").trim());
+    // removeItem(tag);
+    tag.remove();
+    tags.splice(tagIndex, 1);
+    agregarValor(tags);
+    localStorage.setItem('tags', JSON.stringify(tags));
+  });
+
+  $(document).ready(function(){
+  $('.slider').slick({
+    appendArrows: '.slider-arrows',
+    slidesToShow: 'auto', // número de elementos a mostrar por slide
+    slidesToScroll: 'auto', // número de elementos a desplazar por slide
+    dots: true, // mostrar indicadores de posición
+    infinite: false // desactivar bucle infinito
+  });
 });
-function displayNames(value) {
-input.value = value;
-removeElements();
-}
-function removeElements() {
-//clear all the item
-let items = document.querySelectorAll(".list-items");
-items.forEach((item) => {
-    item.remove();
+
+ 
 });
-}
 
 </script>

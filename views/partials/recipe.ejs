@@ -1,24 +1,27 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
   
-
   function addRecipe(id) {
     axios.post('/query', {id: id})
       .then(response => {
         console.log(response.data);
         var recipeName = response.data.recipe.name;
-        var recipeInstrucions = response.data.recipe.instructions;
+        var recipeInstructions = response.data.recipe.instructions;
         var recipeImage = response.data.recipe.url;
+        var calorias = response.data.value_nutritional.calories;
+        var carbo = response.data.value_nutritional.carbohydrate;
+        var proteina = response.data.value_nutritional.protein;
+        var grasa = response.data.value_nutritional.fat;
         var ingredientsList = "";
         response.data.ingredients.forEach(ingredient => {
             ingredientsList += "<li>" + ingredient.name + " - " + ingredient.amount + "</li>";
         });
-        var recipeHtml = "<h2>" + recipeName + "</h2><p>" + recipeInstrucions + '</p> <img src="'+ recipeImage +'" class="card-img-top" alt="..." ><ul>'+ ingredientsList + "</ul>";
+        var valueNutritionalHtml = "<h5>Información nutricional:</h5><ul class='d-block'><li>Carbohidratos: " + carbo + "</li><li>Proteínas: " + proteina + "</li><li>Grasas: " + grasa + "</li></ul>";
+        var recipeHtml = "<h2>" + recipeName + '</h2><img src="'+ recipeImage +'" class="card-img-top" alt="..." ><h5>Descripción:</h5><p>' + recipeInstructions + '</p><h5>Ingredientes:</h5><ul class="d-block">'+ ingredientsList + "</ul>" + valueNutritionalHtml;
         document.getElementById("recipe-container").innerHTML = recipeHtml;
       })
       .catch(error => {
         console.error(error);
       });
   }
- // Falta cerrar esta llave
 </script>

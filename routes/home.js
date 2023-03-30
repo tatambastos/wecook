@@ -9,11 +9,8 @@ router.get('/user', function (req, res) {
   res.render('user');
 });
 
-router.post('/prueba', (req, res) => {
-    const myArray = req.body.myArray1;
-    console.log(myArray); // ['1', '2', '3']
-    res.send('Datos recibidos');
-  });
+
+
   
 
 router.all("/about", (req, res) => {
