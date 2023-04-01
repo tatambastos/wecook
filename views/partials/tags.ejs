@@ -1,12 +1,12 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
 
-  function agregarValor(tag) {
-
-    console.log('agregarvalor():' + tag);
-    axios.post('/add', tag)
+  function agregarValor(tags) {
+    // console.log(Object.keys(pais)[0]);
+    console.log('agregarvalor():' + tags);
+    axios.post('/add', tags)
       .then(response => {
-        console.log(response.data.recipes);
+        
         const data = response.data.recipes;
         let html = '';
 
@@ -14,6 +14,51 @@
           html += 
           '<div class= "col-md-4 mb-4">'
           +'<div class="card mx-1 shadow" style="width: 18rem;">'
+            +'<img src="'+ recipe.url +'" class="card-img-top" alt="..." >'
+              +'<div class="card-body">'
+                +'<h5 class="card-title title_ingredient">'+ recipe.name +'</h5>'
+                +'<p class="card-text text_ingredient">'+ recipe.instructions +'</p>'
+                +'<a id ="number" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="addRecipe('+recipe.id+')">Ver Receta</a>'
+              +'</div>'
+          +'</div>'
+          +'</div>';
+        });
+
+        html += '';
+        document.getElementById('recipes').innerHTML = html;
+
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }
+
+
+  function agregarFiltro(key, value) {
+    if(key == 'country')
+    {
+      localStorage.setItem('filter_country', value)
+    }
+    if(key == 'category')
+    {
+      localStorage.setItem('filter_category', value)
+    }
+
+    var country_id = localStorage.getItem('filter_country')
+    var category_id = localStorage.getItem('filter_category')
+    var tags = JSON.parse(localStorage.getItem('tags'))
+    
+    axios.post('/filter', {tags: tags, country_id: country_id, category_id: category_id})
+      .then(response => {
+        
+        const data = response.data.recipes;
+        let html = '';
+
+        data.forEach(recipe => {
+          html += 
+          '<div class= "col-md-4 mb-4">'
+          +'<div class="card mx-1 shadow" style="width: 18rem;">'
+            +``
             +'<img src="'+ recipe.url +'" class="card-img-top" alt="..." >'
               +'<div class="card-body">'
                 +'<h5 class="card-title title_ingredient">'+ recipe.name +'</h5>'

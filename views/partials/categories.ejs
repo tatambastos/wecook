@@ -10,7 +10,7 @@
         console.log(response.data);
         var data = response.data.categories;
         data.forEach(recipe => {
-          html += '<li><a class="dropdown-item">' + recipe.name + '</a></li>'; // Corrige las comillas dobles y elimina las comillas adicionales
+          html += `<li><a class="dropdown-item" onclick="agregarFiltro('country',${recipe.id})" > ${recipe.name} </a></li>`; // Corrige las comillas dobles y elimina las comillas adicionales
         });
         html += '';
         document.getElementById('dropdown').innerHTML = html; // Especifica el ID del elemento donde deseas agregar la lista de países
@@ -27,7 +27,7 @@
         console.log(response.data);
         var data = response.data.categories;
         data.forEach(recipe => {
-          html += '<li><a class="dropdown-item">' + recipe.name + '</a></li>'; // Corrige las comillas dobles y elimina las comillas adicionales
+          html += `<li><a class="dropdown-item" onclick="agregarFiltro('category',${recipe.id})" > ${recipe.name} </a></li>`; // Corrige las comillas dobles y elimina las comillas adicionales
         });
         html += '';
         document.getElementById('dropdown1').innerHTML = html; // Especifica el ID del elemento donde deseas agregar la lista de países

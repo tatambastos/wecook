@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
   var ingredients = <%- JSON.stringify(ingredients) %>;
-  console.log('ingredients:', ingredients);
+  
 
   var tags = JSON.parse(localStorage.getItem('tags')) || [];
   for (let i = 0; i < tags.length; i++) {
@@ -43,7 +43,7 @@ $(document).ready(function () {
     tags.push(tag);
     localStorage.setItem('tags', JSON.stringify(tags));
   }
-  agregarValor(tags);
+  agregarValor(tags,'tags');
 }
 
 
@@ -57,15 +57,15 @@ $(document).ready(function () {
     localStorage.setItem('tags', JSON.stringify(tags));
   });
 
-  $(document).ready(function(){
-  $('.slider').slick({
-    appendArrows: '.slider-arrows',
-    slidesToShow: 'auto', // número de elementos a mostrar por slide
-    slidesToScroll: 'auto', // número de elementos a desplazar por slide
-    dots: true, // mostrar indicadores de posición
-    infinite: false // desactivar bucle infinito
-  });
-});
+//   $(document).ready(function(){
+//   $('.slider').slick({
+//     appendArrows: '.slider-arrows',
+//     slidesToShow: 'auto', // número de elementos a mostrar por slide
+//     slidesToScroll: 'auto', // número de elementos a desplazar por slide
+//     dots: true, // mostrar indicadores de posición
+//     infinite: false // desactivar bucle infinito
+//   });
+// });
 
  
 });
