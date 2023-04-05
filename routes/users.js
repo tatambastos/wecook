@@ -143,7 +143,41 @@ passport.serializeUser((user, done) => {
         console.log("User ID:", req.session.passport.user);
         const id = req.session.passport.user;
         // res.send(result.rows);
-        res.render('index', { ingredients: result.rows });
+        res.render('index', { ingredients: result.rows, user: req.session.passport.user });
+    });
+});
+
+router.post('/addFavorites', (req, res) => {
+
+    console.log(req.body);
+    const query = "INSERT INTO recipe_user(iduser,idrecipe,favorite) VALUES ("+req.body[1]+","+req.body[0]+", true);"
+    pool.query(query, (err, result) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Error en la consulta');
+            return;
+        }
+        
+        res.send(result.rows);
+        
+    });
+});
+
+router.post('/recipeUser', (req, res) => {
+
+    console.log("este es el id de user" + req.body.userid);
+    const query = "Select r.id,r.name,r.url,r.instructions from recipe r "
+                    +"inner join recipe_user re on r.id = re.idrecipe "
+                    +"where re.iduser = " + req.body.userid
+    pool.query(query, (err, result) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Error en la consulta');
+            return;
+        }
+        
+        res.send({ recipe: result.rows });
+        
     });
 });
 

@@ -18,6 +18,7 @@
               +'<div class="card-body">'
                 +'<h5 class="card-title title_ingredient">'+ recipe.name +'</h5>'
                 +'<p class="card-text text_ingredient">'+ recipe.instructions +'</p>'
+                +`<button id="btn-favorito-${recipe.id}" class="btn btn-outline-warning" onclick="toggleFavorito('${recipe.id}')"><i class="bi bi-heart"></i> Favoritos</button>`
                 +'<a id ="number" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="addRecipe('+recipe.id+')">Ver Receta</a>'
               +'</div>'
           +'</div>'
@@ -63,6 +64,7 @@
               +'<div class="card-body">'
                 +'<h5 class="card-title title_ingredient">'+ recipe.name +'</h5>'
                 +'<p class="card-text text_ingredient">'+ recipe.instructions +'</p>'
+                +`<button id="btn-favorito" class="btn btn-outline-warning" onclick="toggleFavorito('${recipe.id}')"> <i id="icono-favorito" class="bi bi-star"></i> Favoritos</button>`
                 +'<a id ="number" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="addRecipe('+recipe.id+')">Ver Receta</a>'
               +'</div>'
           +'</div>'

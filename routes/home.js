@@ -43,7 +43,9 @@ router.get('/signin', function (req, res) {
   res.render('signin')
 });
 
-
+router.get('/admin', function (req, res) {
+  res.render('admin')
+});
 
 router.all("/about", (req, res) => {
   res.send("about page");

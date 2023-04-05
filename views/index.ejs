@@ -11,7 +11,9 @@
             <div id="tags-container" class="slider"></div>
         </div>
         
-        
+        <button id="btn-favorito" class="btn btn-outline-danger">
+            <i id="icono-favorito" class="bi bi-heart"></i> Favoritos
+        </button>
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" onclick="mostrarPaises()" aria-expanded="false">
               paises
@@ -46,7 +48,7 @@
         <%- include('partials/params'); %>
             <%- include('partials/recipe'); %>
                 <%- include('partials/modal_ingredients'); %>
-
+        <%- include('partials/favorite'); %>
 
                     <!-- Botón para abrir el modal -->
 
