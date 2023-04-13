@@ -373,8 +373,119 @@ router.get('/categories', (req, res) => {
         res.send({ categories: result.rows });
     });
 });
+router.post('/SumbitIngredient', (req, res) => {
+    const query = "INSERT INTO ingredients (id, name, type, description) VALUES ("+req.body[0]+","+req.body[1]+","+req.body[2]+","+req.body[3]+");"
+    pool.query(query, (err, result) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Error en la consulta');
+            return;
+        }
+        
+        res.send(result.rows);
+        
+    });
+});
+router.post('/SumbitRecipe', (req, res) => {
+    const query = "INSERT INTO recipe (id, name, time_prepparation, url, idcategory, idsubcategory, instructions) VALUES ("+req.body[0]+","+req.body[1]+","+req.body[2]+","+req.body[3]+","+req.body[4]+","+req.body[5]+","+req.body[6]+");"
+    pool.query(query, (err, result) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Error en la consulta');
+            return;
+        }
+        
+        res.send(result.rows);
+        
+    });
+});
+router.post('/SumbitArea', (req, res) => {
+    const query = "INSERT INTO area (id, name) VALUES ("+req.body[0]+","+req.body[1]+");"
+    pool.query(query, (err, result) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Error en la consulta');
+            return;
+        }
+        
+        res.send(result.rows);
+        
+    });
+});
+router.post('/SumbitIntermedy', (req, res) => {
+    const query = "INSERT INTO recipe_ingredients (id, idrecipe, idingredients, amount) VALUES ("+req.body[0]+","+req.body[1]+","+req.body[2]+","+req.body[3]+");"
+    pool.query(query, (err, result) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Error en la consulta');
+            return;
+        }
+        
+        res.send(result.rows);
+        
+    });
+});
+router.post('/SumbitCategory', (req, res) => {
+    const query = "INSERT INTO category (id, name, url, description) VALUES ("+req.body[0]+","+req.body[1]+","+req.body[2]+","+req.body[3]+");"
+    pool.query(query, (err, result) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Error en la consulta');
+            return;
+        }
+        
+        res.send(result.rows);
+        
+    });
+});
+router.get('/ViewArea', (req, res) => {
+    var paises = "SELECT * FROM area"
+    pool.query(paises, (err, result) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Error en la consulta');
+            return;
+        }
 
+        res.send({ areas: result.rows });
+    });
+});
 
+router.get('/ViewCategories', (req, res) => {
+    var paises = "SELECT * FROM categories"
+    pool.query(paises, (err, result) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Error en la consulta');
+            return;
+        }
 
+        res.send({ categories: result.rows });
+    });
+});
 
+router.get('/ViewRecipe', (req, res) => {
+    var paises = "SELECT * FROM recipe"
+    pool.query(paises, (err, result) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Error en la consulta');
+            return;
+        }
+
+        res.send({ recipe: result.rows });
+    });
+});
+router.get('/ViewIngredients', (req, res) => {
+    var paises = "SELECT * FROM ingredients"
+    pool.query(paises, (err, result) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Error en la consulta');
+            return;
+        }
+
+        res.send({ ingredient: result.rows });
+    });
+});
 module.exports = router;

@@ -1,0 +1,304 @@
+
+<script>
+    function EditRecipe(){
+        const idRecipe = document.getElementById('idRecipe')
+        const name_Recipe = document.getElementById('name_Recipe')
+        const type_Recipe = document.getElementById('type_Recipe')
+        const Description_Recipe = document.getElementById('Description_Recipe')
+        axios.post('/EditRecipe',[idRecipe,name_Recipe,type_Recipe,Description_Recipe])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function SumbitRecipe(){
+        const idRecipe = document.getElementById('idRecipe')
+        const name_Recipe = document.getElementById('name_Recipe')
+        const type_Recipe = document.getElementById('type_Recipe')
+        const Description_Recipe = document.getElementById('Description_Recipe')
+        axios.post('/SumbitRecipe',[idRecipe,name_Recipe,type_Recipe,Description_Recipe])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function ViewRecipe(){
+        const idRecipe = document.getElementById('idRecipe')
+        const name_Recipe = document.getElementById('name_Recipe')
+        const type_Recipe = document.getElementById('type_Recipe')
+        const Description_Recipe = document.getElementById('Description_Recipe')
+        axios.post('/ViewRecipe',[idRecipe,name_Recipe,type_Recipe,Description_Recipe])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function DeteleRecipe(){
+        const idRecipe = document.getElementById('idRecipe')
+        const name_Recipe = document.getElementById('name_Recipe')
+        const type_Recipe = document.getElementById('type_Recipe')
+        const Description_Recipe = document.getElementById('Description_Recipe')
+        axios.post('/DeteleRecipe',[idRecipe,name_Recipe,type_Recipe,Description_Recipe])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function EditIngredient(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/EditIngredient',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function SumbitIngredient(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/SumbitIngredient',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function ViewIngredient(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/ViewIngredient',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function DeteleIngredient(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/DeteleIngredient',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function EditArea(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/EditArea',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function SumbitArea(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/SumbitArea',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function ViewArea(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/ViewArea',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function DeteleArea(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/DeteleArea',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function EditCategory(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/EditCategory',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function SumbitCategory(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/SumbitCategory',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function ViewCategory(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/ViewCategory',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function DeteleCategory(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/DeteleCategory',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function EditIntermedy(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/EditCategory',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function SumbitIntermedy(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/SumbitCategory',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function ViewIntermedy(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/ViewCategory',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    function DeteleIntermedy(){
+        const idingredient = document.getElementById('idingredient')
+        const name_ingredient = document.getElementById('name_ingredient')
+        const type_ingredient = document.getElementById('type_ingredient')
+        const Description_ingredient = document.getElementById('Description_ingredient')
+        axios.post('/DeteleCategory',[idingredient,name_ingredient,type_ingredient,Description_ingredient])
+            .then(response => {
+                console.log(response)
+                
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    };
+    
+</script>
