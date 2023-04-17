@@ -140,10 +140,14 @@ passport.serializeUser((user, done) => {
             res.status(500).send('Error en la consulta');
             return;
         }
+        if (req.session && req.session.passport && req.session.passport.user) {
         console.log("User ID:", req.session.passport.user);
         const id = req.session.passport.user;
         // res.send(result.rows);
         res.render('index', { ingredients: result.rows, user: req.session.passport.user });
+        } else{
+            res.render('index', { ingredients: result.rows, user: 0})
+        }
     });
 });
 

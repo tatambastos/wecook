@@ -22,6 +22,7 @@ router.get('/registro', function (req, res) {
 
 
 router.get('/profile', (req, res, next) => {
+  
   console.log("User ID:", req.session.passport.user);
   const id = req.session.passport.user;
   const query = "select * from usuarios where id =" +id;
@@ -45,6 +46,10 @@ router.get('/signin', function (req, res) {
 
 router.get('/admin', function (req, res) {
   res.render('admin')
+});
+
+router.get('/registro', function (req, res) {
+  res.render('registro')
 });
 
 router.all("/about", (req, res) => {
