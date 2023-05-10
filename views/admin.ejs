@@ -10,7 +10,8 @@
 </head>
 
 <body>
-
+  <div class="container mt-5">
+  <form>
   <h2 class="text-center mb-4">Crear nuevo ingrediente</h2>
   <div class="mb-3">
     <label for="text" class="form-label">Codigo del ingrediente</label>
@@ -29,9 +30,10 @@
     <input type="text" class="form-control" id="Description_ingredient" name="text" required>
   </div>
   <div class="d-grid gap-2">
-    <button type="submit" class="btn btn-primary" onclick="a()">Subir ingrediente</button>
+    <button type="submit" class="btn btn-primary" onclick="SumbitIngredient()">Subir ingrediente</button>
   </div>
-
+</form>
+<form>
   <h2 class="text-center mb-4">Crear nueva receta</h2>
   <div class="mb-3">
     <label for="text" class="form-label">Codigo de la receta</label>
@@ -58,9 +60,10 @@
     <input type="text" class="form-control" id="name" name="text" required>
   </div>
   <div class="d-grid gap-2">
-    <button type="submit" class="btn btn-primary" onclick="">Subir Receta</button>
+    <button type="submit" class="btn btn-primary" onclick="SumbitRecipe()">Subir Receta</button>
   </div>
-
+</form>
+<form>
   <h2 class="text-center mb-4">Crear nuevo Pais o Area</h2>
   <div class="mb-3">
     <label for="text" class="form-label">Codigo del Area</label>
@@ -71,9 +74,10 @@
     <input type="text" class="form-control" id="name" name="text" required>
   </div>
   <div class="d-grid gap-2">
-    <button type="submit" class="btn btn-primary" onclick="">Subir Area</button>
+    <button type="submit" class="btn btn-primary" onclick="SumbitArea()">Subir Area</button>
   </div>
-
+</form>
+<form>
   <h2 class="text-center mb-4">Crear nueva Categoria</h2>
   <div class="mb-3">
     <label for="text" class="form-label">Codigo del Categoria</label>
@@ -84,9 +88,10 @@
     <input type="text" class="form-control" id="name" name="text" required>
   </div>
   <div class="d-grid gap-2">
-    <button type="submit" class="btn btn-primary" onclick="">Subir Categoria</button>
+    <button type="submit" class="btn btn-primary" onclick="SumbitCategory()">Subir Categoria</button>
   </div>
-
+</form>
+<form>
   <h2 class="text-center mb-4">Crear nueva ingrediente en receta</h2>
   <div class="mb-3">
     <label for="text" class="form-label">Codigo de la tabla intermedia</label>
@@ -105,9 +110,10 @@
     <input type="text" class="form-control" id="name" name="text" required>
   </div>
   <div class="d-grid gap-2">
-    <button type="submit" class="btn btn-primary" onclick="">Subir Datos a la tabla intermedia</button>
+    <button type="submit" class="btn btn-primary" onclick="SumbitIntermedy()">Subir Datos a la tabla intermedia</button>
   </div>
-
+</form>
+</div>
 </body>
 
 </html>

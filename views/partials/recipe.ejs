@@ -1,7 +1,8 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
   
-  function addRecipe(id) {
+  function addRecipe(id,userid) {
+    if (userid != 0) {
     axios.post('/query', {id: id})
       .then(response => {
         console.log(response.data);
@@ -23,6 +24,10 @@
       .catch(error => {
         console.error(error);
       });
+    }else{
+      var recipeHtml = "<h2>" + "Iniciar sesion" + '</h2> <p>Por favor antes de ver completamente la receta, haga el proceso de registro</p> <a href="/registro">Registrarse</a>';
+        document.getElementById("recipe-container").innerHTML = recipeHtml;
+    }
   }
 
   function showRecipeUser(id) {

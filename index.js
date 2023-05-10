@@ -49,7 +49,7 @@ const insertUser = async ()=>{
         
         const id = parseInt(data['comidas'][0]['idMeal']);
         const text ='insert into recipe_ingredients (id, idrecipe, idingredients, amount) values ($1, $2, $3, $4)';
-        const values =[(145+(i+1)),id,res1.rows[0]['id'],data['comidas'][0]['strMeasure'][i+1] ];
+        const values =[(150+(i+1)),id,res1.rows[0]['id'],data['comidas'][0]['strMeasure'][i+1] ];
         const res = await pool.query(text,values)
         console.log(res);
         }
