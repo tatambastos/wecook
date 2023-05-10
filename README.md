@@ -1,8 +1,9 @@
 # We-Cook
 
-
-clonar repositorio
-
+Ya he subido los cambios que habiamos dicho en la reunion, porfavor clona este repositorio y tambien la migracion de la base de datos que esta en la carpeta db 
+actualiza esos 2 por favor si todo lo clonas perfectamente tienes que cambiar la contraseña en la 
+ruta /routes/home.js fila 9 donde esta la configuracion de la base de datos mira bien si todo esta correcto ya que tienes una contraseña diferente y por si acaso tambien mira el puerto
+cuando vayas a ejecutar el servidor por favor usa el comando > nodemon app.js en la terminal
 
 ## Instalacion necesaria para el proyecto:
 - node.js ultima version o la mas estable y como base de datos vamos a usar Postgres como una Instalacion opcional puede usar el DBeaver por mas comodidad
