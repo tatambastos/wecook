@@ -10,7 +10,7 @@ const session = require('express-session');
 const pgSession = require('connect-pg-simple')(session);
 const bcrypt = require('bcrypt');
 const pg = require('pg');
-
+const flash = require('connect-flash');
 
 
 router.use(bodyParser.urlencoded({ extended: true }));
@@ -29,7 +29,7 @@ const config = {
 
 router.use(passport.initialize());
 router.use(passport.session());
-
+router.use(flash());
 
 global.myArray = [];
 
@@ -60,15 +60,15 @@ router.get('/search/query', (req, res) => {
 const saltRounds = 10;
 
 router.post('/register', (req, res) => {
-    bcrypt.hash(req.body[1], saltRounds, (err, hash) => {
+    bcrypt.hash(req.body[3], saltRounds, (err, hash) => {
         if (err) {
             console.error(err);
             res.status(500).send('Error al encriptar la contraseña');
             return;
         }
-
-        var query = "INSERT INTO usuarios (email, password) "
-            + "VALUES ('" + req.body[0] + "', '" + hash + "');"
+        console.log(req.body)
+        var query = "INSERT INTO usuarios (name, last_name, email, password) "
+            + "VALUES ('" + req.body[0] + "','" + req.body[1] + "','" + req.body[2] + "', '" + hash + "');"
         pool.query(query, (err, result) => {
             if (err) {
                 console.error(err);
@@ -84,11 +84,16 @@ router.post('/login', passport.authenticate('local', {
     successRedirect: '/profile',
     failureRedirect: '/signin',
     failureFlash: true
-  }));
+}), (req, res) => {
+        res.locals.messages = req.flash(); // Pasa los mensajes flash a la vista
+        res.render('signin'); // Renderiza la vista de inicio de sesión
+});
+  
   passport.use(new LocalStrategy({
     usernameField: 'email', // campo del formulario con el email del usuario
     passwordField: 'password', // campo del formulario con la contraseña del usuario
   },
+  
   async (email, password, done) => {
     try {
       const { rows } = await pool.query('SELECT * FROM usuarios WHERE email = $1', [email]);
@@ -112,6 +117,13 @@ router.post('/login', passport.authenticate('local', {
   }
 ));
 
+router.use((req, res, next) => {
+    res.locals.messages = req.flash();
+    next();
+  });
+router.get('/signin', function (req, res) {
+    res.render('signin')
+  });
 passport.serializeUser((user, done) => {
     done(null, user.id);
   });
@@ -166,6 +178,11 @@ router.post('/addFavorites', (req, res) => {
         
     });
 });
+
+router.get('/logout', (req, res) => {
+    req.logout();
+    res.redirect('/signin');
+  });
 
 router.post('/recipeUser', (req, res) => {
 

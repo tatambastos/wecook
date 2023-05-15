@@ -3,9 +3,9 @@
 
     function favorites() {
         // console.log(Object.keys(pais)[0]);
-        const userid = 5;
+        const userid = <%- user[0].id %>;
 
-        axios.post('/recipeUser', {userid: 5})
+        axios.post('/recipeUser', {userid: userid})
             .then(response => {
                 console.log(response)
                 const data = response.data.recipe;

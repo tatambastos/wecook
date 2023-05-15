@@ -1,3 +1,8 @@
+<% if (messages.error) { %>
+  <div class="alert alert-danger" role="alert">
+    <%= messages.error %>
+  </div>
+<% } %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,27 +14,41 @@
       body{
         background-image: url('https://ambar.com/wp-content/uploads/2019/04/especie-scaled.jpg')
       }
+      .signin1{
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 3px;
+        color: black;
+      }
     </style>
     <!-- Referencias a los archivos JavaScript de Bootstrap 5 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>  
+  <br>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6 col-lg-4">
-                <form action="/login" method="POST" class="border p-3">
+                <form action="/login" method="POST" class="signin1">
                     <h2 class="text-center mb-4">Iniciar sesión</h2>
-                    <div class="mb-3">
+                    <div class="mb-3" style="padding: 12px;">
                         <label for="email" class="form-label">Correo electrónico</label>
                         <input type="email" class="form-control" id="email" name="email" required>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3" style="padding: 12px;">
                         <label for="password" class="form-label">Contraseña</label>
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
-                    <div class="d-grid gap-2">
+                    <div class="d-grid gap-2" style="padding: 12px;">
                         <button type="submit" class="btn btn-primary">Iniciar sesión</button>
                     </div>
+                    
+                  </div>
                 </form>
             </div>
         </div>
@@ -58,20 +77,6 @@
       .catch(error => {
         console.error(error);
       });
-    // fetch('/check', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json'
-    //   },
-    //   body: JSON.stringify({
-    //     email: email,
-    //     password: password
-    //   })
-    // }).then(response => {
-    //   // Procesar la respuesta
-    // }).catch(error => {
-    //   // Manejar errores
-    // });
   }
 
 </script>

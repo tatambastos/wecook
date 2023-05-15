@@ -49,25 +49,61 @@
         <section>
             <img src="https://www.pngmart.com/files/21/Account-Avatar-Profile-PNG-Clipart.png" width="50px"
                 height="50px">
-            <h5 id="nickname"><%- user[0].email %></h5>
+            <h5 id="nickname"><%- user[0].name %></h5>
         </section>
         <H1>Perfil del Usuario</H1>
         <section>
-            <img src="https://cdn-icons-png.flaticon.com/512/56/56805.png" width="50px" height="50px">
+            <a href="#" id="logoutLink"><img src="https://cdn-icons-png.flaticon.com/512/56/56805.png" width="50px" height="50px"></a>
         </section>
         <br>
-        
-    </header>
-    <a href="/home" style="text-align: left;">Ir a Buscar Recetas</a>
+        </header>
+        <br>
+        <a href="/home" style="text-align: left;">Ir a Buscar Recetas</a>
+        <div class="container">
+            <div style="border: 1px solid black; border-radius: 5px;">
+                <h2 style="text-align: center;">Datos del usuario</h2>
+                <br>
+                <p>Nombre: <%- user[0].name %></p>
+                <p>Apellido: <%- user[0].last_name %></p>
+                <p>Email: <%- user[0].email %> </p> 
+            </div>
+            
+        </div>
+    
     <div class="container my-3">
-        <h2 class="text-center mb-4">Recetas</h2>
+        <div style="border: 1px solid black; border-radius: 5px; text-align: center;" >
+        <h2 class="text-center mb-4">Recetas Favoritas</h2>
         <div class="card-group" id="recipes">
+            
+        </div>
         </div>
     </div>
-    
+    <div class="container">
+        <div style="border-top: 1px solid black; border-radius: 5px; text-align: center;" >
+            <p>Bienvenido a tu perfil, puedes agregar recetas a tu perfil añadiendo en la pestaña de favoritos en la receta</p>
+        </div>
+        
+    </div>
     <%- include('partials/recipeClient'); %>
     <%- include('partials/modal_ingredients'); %>
     <%- include('partials/recipe'); %>
+    <script>
+        // Agrega un evento de clic al enlace o botón de cerrar sesión
+        document.getElementById('logoutLink').addEventListener('click', function(event) {
+          event.preventDefault();  // Evita el comportamiento predeterminado del enlace (navegar a una nueva página)
+          
+          // Realiza una solicitud al servidor para cerrar la sesión
+          fetch('/logout', { method: 'GET' })
+            .then(response => {
+              if (response.redirected) {
+                window.location.href = response.url;  // Redirige al usuario a la página especificada después de cerrar sesión
+              }
+            })
+            .catch(error => {
+              console.error(error);
+            });
+        });
+      </script>
 </body>
 
 </html>

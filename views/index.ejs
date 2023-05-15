@@ -2,10 +2,10 @@
 
     <div style="background-image: url('https://ambar.com/wp-content/uploads/2019/04/especie-scaled.jpg');">
     <section class="container">
-        <H2 style="color: white;">WeCook</H2>
+        <H2 style="color: white; text-align: center;">WeCook</H2>
         <div class="container-fluid">
             <div>
-                <label for="input-autocompletado">Ingrese tags:</label>
+                <label style="color: white;" for="input-autocompletado">Ingrese Ingredientes:</label>
                 <input id="input-autocompletado" type="text">
             </div>
             <div id="tags-container" class="slider"></div>
@@ -40,6 +40,12 @@
             <h2 class="text-center mb-4">Recetas</h2>
             <div class="card-group" id="recipes">
             </div>
+        </div>
+        <div class="container">
+            <div style="border-top: 1px solid black; border-radius: 5px; text-align: center;" >
+                <p>Bienvenido a WeCook, puedes buscar recetas añadiendo ingredientes en la barra de busqueda</p>
+            </div>
+            
         </div>
 
         <%- include('partials/params'); %>

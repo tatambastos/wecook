@@ -40,9 +40,9 @@ router.get('/profile', (req, res, next) => {
   //res.render('profile', { user: req.session.passport.user });
 }); 
 
-router.get('/signin', function (req, res) {
-  res.render('signin')
-});
+
+
+
 
 router.get('/admin', function (req, res) {
   res.render('admin')
