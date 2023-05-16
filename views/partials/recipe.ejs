@@ -25,8 +25,7 @@
         console.error(error);
       });
     }else{
-      var recipeHtml = "<h2>" + "Iniciar sesion" + '</h2> <p>Por favor antes de ver completamente la receta, haga el proceso de registro</p> <a href="/registro">Registrarse</a>';
-        document.getElementById("recipe-container").innerHTML = recipeHtml;
+      window.location.href = "registro";
     }
   }
 
