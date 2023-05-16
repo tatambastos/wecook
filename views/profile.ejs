@@ -58,7 +58,7 @@
         <br>
         </header>
         <br>
-        <a href="/home" style="text-align: left;">Ir a Buscar Recetas</a>
+        <button class="btn btn-secondary" onclick="Recipe()">Ir a buscar recetas</button>
         <div class="container">
             <div style="border: 1px solid black; border-radius: 5px;">
                 <h2 style="text-align: center;">Datos del usuario</h2>
@@ -103,6 +103,9 @@
               console.error(error);
             });
         });
+        function Recipe(){
+            window.location.href = "home";
+        }
       </script>
 </body>
 
