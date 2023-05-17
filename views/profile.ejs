@@ -40,6 +40,13 @@
             overflow: hidden;
             text-overflow: ellipsis;
         }
+        .dates{
+            border: 1px solid black; 
+            border-radius: 5px;
+            background-image: url('https://img.freepik.com/foto-gratis/joven-cocinero-feliz-preparando-bruschetta-salsa-aguacate-tomate-cherry-cocina_637285-3120.jpg');
+            height: 350px;
+            color: white;
+        }
     </style>
     <title>Perfil</title>
 </head>
@@ -60,19 +67,20 @@
         <br>
         <button class="btn btn-secondary" onclick="Recipe()">Ir a buscar recetas</button>
         <div class="container">
-            <div style="border: 1px solid black; border-radius: 5px;">
-                <h2 style="text-align: center;">Datos del usuario</h2>
+            <div class="dates">
+                <h1>Datos del usuario</h1>
                 <br>
-                <p>Nombre: <%- user[0].name %></p>
-                <p>Apellido: <%- user[0].last_name %></p>
-                <p>Email: <%- user[0].email %> </p> 
+                <p></p>
+                <h2><%- user[0].name %> <%- user[0].last_name %></h2>
+                
+                <p><%- user[0].email %> </p> 
             </div>
             
         </div>
     
-    <div class="container my-3">
-        <div style="border: 1px solid black; border-radius: 5px; text-align: center;" >
-        <h2 class="text-center mb-4">Recetas Favoritas</h2>
+    <div class="container my-3" style="background-image: url('https://www.cocinayvino.com/wp-content/uploads/2017/05/65566967_l-696x464.jpg'); border: 1px solid black; border-radius: 5px; text-align: center; ">
+        <div>
+        <h2 class="text-center mb-4" style="color: white;">Recetas Favoritas</h2>
         <div class="card-group" id="recipes">
             
         </div>
