@@ -1,74 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-    <style>
-        .tag {
-            display: inline-block;
-            margin-right: 10px;
-            padding: 5px;
-            background-color: #e6e6e6;
-            border-radius: 5px;
-        }
-
-        .eliminar-tag {
-            margin-left: 5px;
-            background-color: transparent;
-            border: none;
-            font-weight: bold;
-            color: #333;
-            cursor: pointer;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <title>Registro e Inicio de Sesión</title>
 </head>
-
 <body>
-    <div>
-        <label for="input-autocompletado">Ingrese tags:</label>
-        <input id="input-autocompletado" type="text">
+
+  <div class="container">
+    <ul class="nav nav-tabs" id="registroIngresoTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="registro-tab" data-bs-toggle="tab" data-bs-target="#registro" type="button" role="tab" aria-controls="registro" aria-selected="true">Registro</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="ingreso-tab" data-bs-toggle="tab" data-bs-target="#ingreso" type="button" role="tab" aria-controls="ingreso" aria-selected="false">Iniciar sesión</button>
+      </li>
+    </ul>
+
+    <div class="tab-content" id="registroIngresoContent">
+      <div class="tab-pane fade show active" id="registro" role="tabpanel" aria-labelledby="registro-tab">
+        <form id="form-registro">
+          <!-- Campos y elementos del formulario de registro -->
+        </form>
+      </div>
+      <div class="tab-pane fade" id="ingreso" role="tabpanel" aria-labelledby="ingreso-tab">
+        <form id="form-ingreso">
+          <!-- Campos y elementos del formulario de inicio de sesión -->
+        </form>
+      </div>
     </div>
-    <div id="tags-container"></div>
+  </div>
 
-    <script>
-        $(function () {
-            var tags = [];
-
-            $("#input-autocompletado").autocomplete({
-                source: ["JavaScript", "HTML", "CSS", "Python", "Java", "Ruby", "PHP", "C++", "C#", "Swift"],
-                select: seleccionarOpcion
-            });
-
-            function seleccionarOpcion(event, ui) {
-                event.preventDefault();
-                var tag = ui.item.label;
-                crearTag(tag);
-                $("#input-autocompletado").val("");
-            }
-
-            function crearTag(tag) {
-                var tagHtml = "<span class='tag'>" + tag + "<button class='eliminar-tag'>x</button></span>";
-                $("#tags-container").append(tagHtml);
-                tags.push(tag);
-            }
-
-            $(document).on("click", ".eliminar-tag", function () {
-                var tag = $(this).closest(".tag");
-                var tagIndex = tags.indexOf(tag.text().replace("x", "").trim());
-                tag.remove();
-                tags.splice(tagIndex, 1);
-            });
-        });
-
-
-    </script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
+
+
+
+
+
+
+

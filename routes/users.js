@@ -433,6 +433,9 @@ router.post('/SumbitArea', (req, res) => {
         
     });
 });
+router.get('/pruebas', function (req, res) {
+    res.render('pruebas')
+  });
 router.post('/SumbitIntermedy', (req, res) => {
     const query = "INSERT INTO recipe_ingredients (id, idrecipe, idingredients, amount) VALUES ("+req.body[0]+","+req.body[1]+","+req.body[2]+","+req.body[3]+");"
     pool.query(query, (err, result) => {
