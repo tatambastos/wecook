@@ -1,18 +1,15 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
     function toggleFavorito(id) {
-      const userid= <%- user %>;
-      if (userid != 0 ) {
-        
-
-        // Aquí puedes utilizar el parámetro "id" para identificar el elemento al que se le ha hecho clic
+      const userid= <%- user %>; //variable del id delusuario
+      if (userid != 0 ) {//cuando exista usuario registrado hara esta funcion
         const botonFavorito = document.getElementById("btn-favorito");
     const iconoFavorito = document.getElementById("icono-favorito");
         let esFavorito = false;
         console.log("Se hizo clic en el botón de favoritos para el elemento con ID: " + id);
         alert("se registro en tu perfil de favoritos");
         console.log(userid);
-        axios.post('/addFavorites', [id,userid])
+        axios.post('/addFavorites', [id,userid])//se pasan los parametros del usuario y de la receta a la peticion HTTP
         .then(response => {
             console.log(response.data)
         })

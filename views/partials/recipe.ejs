@@ -1,6 +1,6 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
-  
+  // esta funcion envia una peticion a la base de datos que llama los datos de lareceta
   function addRecipe(id,userid) {
     if (userid != 0) {
     axios.post('/query', {id: id})

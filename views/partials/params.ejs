@@ -26,24 +26,25 @@ $(document).ready(function () {
 
   function seleccionarOpcion(event, ui) {
     event.preventDefault();
-    var tag = ui.item.label;
-    console.log('selected: ' +tags)
+    var tag = ui.item.label;// Obtiene la etiqueta seleccionada del objeto de autocompletado
+    console.log('selected: ' +tags) // Imprime en la consola la etiqueta seleccionada
     if(!tags.includes(tag))
     {
-      crearTag(tag);
+      crearTag(tag); // Crea una etiqueta si no existe en el arreglo de etiquetas
     }
-    $("#input-autocompletado").val("");
+    $("#input-autocompletado").val(""); // Limpia el campo de entrada del autocompletado
   }
 
   function crearTag(tag) {
-  var tagHtml = "<span class='tag badge bg-dark'><span class='tag-text'>" + tag + "</span><i class='eliminar-tag fa fa-times-circle'></i></span>";
-  $("#tags-container").append(tagHtml);
+  var tagHtml = "<span class='tag badge bg-dark'><span class='tag-text'>" + tag + "</span><i class='eliminar-tag fa fa-times-circle'></i></span>";  // Crea el código HTML para mostrar la etiqueta
+  $("#tags-container").append(tagHtml); // Agrega la etiqueta al contenedor de etiquetas en el DOM
+
   if(!tags.includes(tag))
   {
-    tags.push(tag);
-    localStorage.setItem('tags', JSON.stringify(tags));
+    tags.push(tag); // Agrega la etiqueta al arreglo de etiquetas
+    localStorage.setItem('tags', JSON.stringify(tags)); // Almacena el arreglo de etiquetas en el almacenamiento local
   }
-  agregarValor(tags,'tags');
+  agregarValor(tags,'tags'); // Agrega los valores actualizados al elemento correspondiente--
 }
 
 

@@ -1,20 +1,20 @@
-const { Router } = require('express');
-const express = require('express');
-const { Pool } = require('pg');
-const router = Router();
-const axios = require('axios');
-const bodyParser = require('body-parser');
-const passport = require('passport');
-const LocalStrategy = require('passport-local').Strategy;
-const session = require('express-session');
-const pgSession = require('connect-pg-simple')(session);
-const bcrypt = require('bcrypt');
-const pg = require('pg');
-const flash = require('connect-flash');
+const { Router } = require('express');// Módulo Router de Express para crear rutas
+const express = require('express');// Framework web para Node.js
+const { Pool } = require('pg');// Dependencia para interactuar con PostgreSQL
+const router = Router();// Crear una instancia del enrutador de Express
+const axios = require('axios'); // Dependencia para realizar solicitudes HTTP
+const bodyParser = require('body-parser');// Middleware para analizar el cuerpo de las solicitudes
+const passport = require('passport'); // Middleware de autenticación para Express
+const LocalStrategy = require('passport-local').Strategy; // Estrategia de autenticación local para Passport
+const session = require('express-session');// Middleware de sesión para Express
+const pgSession = require('connect-pg-simple')(session); // Almacenamiento de sesiones en PostgreSQL para Express
+const bcrypt = require('bcrypt'); // Dependencia para el cifrado de contraseñas
+const pg = require('pg'); // Dependencia para interactuar con PostgreSQL
+const flash = require('connect-flash'); // Middleware para mensajes flash en Express
 
 
-router.use(bodyParser.urlencoded({ extended: true }));
-router.use(bodyParser.json());
+router.use(bodyParser.urlencoded({ extended: true }));// Analizar el cuerpo de las solicitudes en formato URL-encoded
+router.use(bodyParser.json());// Analizar el cuerpo de las solicitudes en formato JSON
 
 const config = {
     user: 'postgres',
@@ -24,66 +24,68 @@ const config = {
     port: '5434'
   };
   
-  const pool = new Pool(config);
+  const pool = new Pool(config); // Crear una instancia del grupo de conexiones de PostgreSQL
 
 
-router.use(passport.initialize());
-router.use(passport.session());
-router.use(flash());
+router.use(passport.initialize());// Inicializar el middleware de autenticación de Passport
+router.use(passport.session()); // Utilizar el middleware de sesión de Passport
+router.use(flash()); // Utilizar el middleware de mensajes flash en Express
 
 global.myArray = [];
 
 
-
+//ruta tipo post donde se consultan las recetas por cada ingrediente que se envia
 router.get('/search/query', (req, res) => {
     console.log(myArray)
-    var searchTerms = myArray;
+    var searchTerms = myArray; // Obtiene los términos de búsqueda de la variable global myArray
     var sqlQuery = "SELECT * FROM recipe r " +
         "INNER JOIN recipe_ingredients ri ON r.id = ri.idrecipe " +
         "INNER JOIN ingredients i ON i.id = ri.idingredients " +
-        "WHERE 1=0 ";
+        "WHERE 1=0 "; // Consulta SQL inicial con una cláusula WHERE que siempre es falsa
     for (var i = 0; i < searchTerms.length; i++) {
-        sqlQuery += "OR i.name LIKE '%" + searchTerms[i] + "%' ";
+        sqlQuery += "OR i.name LIKE '%" + searchTerms[i] + "%' "; // Agrega condiciones a la consulta SQL utilizando los términos de búsqueda
     }
     pool.query(sqlQuery, (err, result) => {
         if (err) {
             console.error(err);
-            res.status(500).send('Error en la consulta');
+            res.status(500).send('Error en la consulta'); // Envía una respuesta de error al cliente
             return;
         }
         // res.send(result.rows);
-        res.send({ recipes: result.rows });
+        res.send({ recipes: result.rows }); // Envía los resultados de la consulta al cliente como un objeto JSON con una propiedad "recipes"
     });
 
 })
 
 const saltRounds = 10;
 
+//ruta tipo post donde se hace el registro de cada usuario encriptando su contraseña antes de enviarlo a la tabla
 router.post('/register', (req, res) => {
     bcrypt.hash(req.body[3], saltRounds, (err, hash) => {
         if (err) {
-            console.error(err);
-            res.status(500).send('Error al encriptar la contraseña');
+            console.error(err);// Imprime el error en la consola en caso de que ocurra uno
+            res.status(500).send('Error al encriptar la contraseña'); // Envía una respuesta de error al cliente
             return;
         }
-        console.log(req.body)
+        console.log(req.body) 
         var query = "INSERT INTO usuarios (name, last_name, email, password) "
-            + "VALUES ('" + req.body[0] + "','" + req.body[1] + "','" + req.body[2] + "', '" + hash + "');"
+            + "VALUES ('" + req.body[0] + "','" + req.body[1] + "','" + req.body[2] + "', '" + hash + "');" // Construye la consulta SQL para insertar los datos del usuario en la base de datos
         pool.query(query, (err, result) => {
             if (err) {
                 console.error(err);
-                res.status(500).send('Error en la consulta');
+                res.status(500).send('Error en la consulta');  // Envía una respuesta de error al cliente
                 return;
+                
             }
-            res.send(result);
+            res.send(result); // Envía los resultados de la consulta al cliente
         });
     });
 });
-
+// Ruta POST donde se hace la validacion del usuario y se crea una sesion
 router.post('/login', passport.authenticate('local', {
-    successRedirect: '/profile',
-    failureRedirect: '/signin',
-    failureFlash: true
+    successRedirect: '/profile',// Redirecciona al usuario a la página de perfil en caso de inicio de sesión exitoso
+    failureRedirect: '/signin', // Redirecciona al usuario a la página de inicio de sesión en caso de inicio de sesión fallido
+    failureFlash: true // Habilita el uso de mensajes flash en caso de inicio de sesión fallido
 }), (req, res) => {
         res.locals.messages = req.flash(); // Pasa los mensajes flash a la vista
         res.render('signin'); // Renderiza la vista de inicio de sesión
@@ -99,17 +101,17 @@ router.post('/login', passport.authenticate('local', {
       const { rows } = await pool.query('SELECT * FROM usuarios WHERE email = $1', [email]);
 
       if (rows.length === 0) {
-        return done(null, false, { message: 'El correo electrónico o la contraseña son incorrectos.' });
+        return done(null, false, { message: 'El correo electrónico o la contraseña son incorrectos.' });  // El usuario no existe, se llama a done con false y se pasa un mensaje de error
       }
 
       const user = rows[0];
 
-      const match = await bcrypt.compare(password, user.password);
+      const match = await bcrypt.compare(password, user.password); // Compara la contraseña proporcionada con la contraseña almacenada en la base de datos
 
       if (match) {
         return done(null, user);
       } else {
-        return done(null, false, { message: 'El correo electrónico o la contraseña son incorrectos.' });
+        return done(null, false, { message: 'El correo electrónico o la contraseña son incorrectos.' });  // Las contraseñas no coinciden, se llama a done con false y se pasa un mensaje de error
       }
     } catch (error) {
       return done(error);
@@ -118,29 +120,29 @@ router.post('/login', passport.authenticate('local', {
 ));
 
 router.use((req, res, next) => {
-    res.locals.messages = req.flash();
-    next();
+    res.locals.messages = req.flash();// Pasa los mensajes flash a las vistas
+    next(); // Llama a la siguiente función en la cadena de middleware
   });
 router.get('/signin', function (req, res) {
-    res.render('signin')
+    res.render('signin') // Renderiza la vista de inicio de sesión   
   });
 passport.serializeUser((user, done) => {
-    done(null, user.id);
+    done(null, user.id); // Serializa al usuario almacenando su ID en la sesión
   });
   
   passport.deserializeUser(async (id, done) => {
     try {
-      const { rows } = await pool.query('SELECT * FROM usuarios WHERE id = $1', [id]);
+      const { rows } = await pool.query('SELECT * FROM usuarios WHERE id = $1', [id]); // Consulta para obtener el usuario con el ID proporcionado
   
       if (rows.length === 0) {
-        return done(new Error('El usuario no existe.'));
+        return done(new Error('El usuario no existe.')); // El usuario no existe, se llama a done con un error
       }
   
-      const user = rows[0];
+      const user = rows[0]; 
   
-      done(null, user);
+      done(null, user);// Se llama a done con el usuario encontrado
     } catch (error) {
-      done(error);
+      done(error);// Ocurrió un error durante la consulta a la base de datos, se llama a done con el error
     }
   });
   router.get("/home", (req, res) => {
@@ -149,20 +151,20 @@ passport.serializeUser((user, done) => {
     pool.query('SELECT name FROM ingredients', (err, result) => {
         if (err) {
             console.error(err);
-            res.status(500).send('Error en la consulta');
+            res.status(500).send('Error en la consulta'); // Envía una respuesta de error al cliente
             return;
         }
         if (req.session && req.session.passport && req.session.passport.user) {
-        console.log("User ID:", req.session.passport.user);
+        console.log("User ID:", req.session.passport.user);  // Imprime el ID del usuario en la consola
         const id = req.session.passport.user;
         // res.send(result.rows);
-        res.render('index', { ingredients: result.rows, user: req.session.passport.user });
+        res.render('index', { ingredients: result.rows, user: req.session.passport.user }); // Renderiza la vista 'index' y pasa los ingredientes y el ID del usuario como datos
         } else{
-            res.render('index', { ingredients: result.rows, user: 0})
+            res.render('index', { ingredients: result.rows, user: 0}) // Renderiza la vista 'index' con un ID de usuario de 0 (no autenticado)
         }
     });
 });
-
+// Ruta que agrega datos del usuario y la receta en la tabla intermedia
 router.post('/addFavorites', (req, res) => {
 
     console.log(req.body);
@@ -178,12 +180,12 @@ router.post('/addFavorites', (req, res) => {
         
     });
 });
-
+//Cerrar sesion y redirige a iniciar sesion
 router.get('/logout', (req, res) => {
     req.logout();
     res.redirect('/signin');
   });
-
+//Ruta tipo POST donde se buscan las recetas favoritas del usuario atravez de la tabla intermedia
 router.post('/recipeUser', (req, res) => {
 
     console.log("este es el id de user" + req.body.userid);
@@ -313,7 +315,7 @@ router.post('/filter', function (req, res) {
         res.send({ recipes: result.rows });
     });
 });
-
+//ruta Tipo POST donde se consulta toda la informacion de la receta para ingresarlas al modal de la receta completa
 router.post('/query', function (req, res) {
     const myArray = req.body;
     var searchTerms = myArray.id;
@@ -360,7 +362,7 @@ router.post('/query', function (req, res) {
                 }
             });
         })
-    ])
+    ])//Se utiliza Promise.all para ejecutar las tres consultas en paralelo y obtener los resultados. 
         .then(([value_nutritional, recipe, ingredients]) => {
             res.send({ value_nutritional: value_nutritional.rows[0], recipe: recipe.rows[0], ingredients: ingredients.rows });
         })
@@ -369,7 +371,7 @@ router.post('/query', function (req, res) {
             res.status(500).send('Error en la consulta');
         });
 });
-
+//Ruta tipo post que envia los datos de la tabla area
 router.get('/paises', (req, res) => {
     var paises = "SELECT id, name FROM area"
     pool.query(paises, (err, result) => {
@@ -382,6 +384,7 @@ router.get('/paises', (req, res) => {
         res.send({ categories: result.rows });
     });
 });
+//Ruta tipo post que envia los datos de la tabla categories
 router.get('/categories', (req, res) => {
     var categories = "SELECT id, name FROM categories"
     pool.query(categories, (err, result) => {
