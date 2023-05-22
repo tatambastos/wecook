@@ -286,24 +286,49 @@ router.post('/filter', function (req, res) {
     const myArray = req.body.tags;
 
     const country =  req.body.country_id;
-    const categories =  req.body.categories_id;
-    console.log(myArray)
+    const categories =  req.body.category_id;
+    // console.log(myArray)
     var searchTerms = myArray;
-    var sqlQuery = "SELECT DISTINCT r.id, r.name, r.url, r.instructions FROM recipe r " +
+    let sqlQuery = "";
+    if (country && categories) {
+        sqlQuery += `
+  SELECT DISTINCT r.id, r.name, r.url, r.instructions, r.idsubcategories, r.idcategories
+  FROM recipe r
+  INNER JOIN recipe_ingredients ri ON r.id = ri.idrecipe
+  INNER JOIN ingredients i ON i.id = ri.idingredients
+  WHERE r.idsubcategories = ${country}
+    AND r.idcategories = ${categories}
+    AND i.name IN (${searchTerms.map(name => `'${name}'`).join(', ')})
+`;
+} else if (country) {
+    sqlQuery += `  SELECT DISTINCT r.id, r.name, r.url, r.instructions, r.idsubcategories, r.idcategories
+    FROM recipe r
+    INNER JOIN recipe_ingredients ri ON r.id = ri.idrecipe
+    INNER JOIN ingredients i ON i.id = ri.idingredients
+    WHERE r.idsubcategories = ${country}
+      AND i.name IN (${searchTerms.map(name => `'${name}'`).join(', ')})`;
+  } else if (categories) {
+    sqlQuery += `   SELECT DISTINCT r.id, r.name, r.url, r.instructions, r.idsubcategories, r.idcategories
+    FROM recipe r
+    INNER JOIN recipe_ingredients ri ON r.id = ri.idrecipe
+    INNER JOIN ingredients i ON i.id = ri.idingredients
+    WHERE r.idcategories = ${categories}
+      AND i.name IN (${searchTerms.map(name => `'${name}'`).join(', ')})`;
+  }
+    /*var sqlQuery = "SELECT DISTINCT r.id, r.name, r.url, r.instructions, r.idsubcategories, r.idcategories FROM recipe r " +
         "INNER JOIN recipe_ingredients ri ON r.id = ri.idrecipe " +
         "INNER JOIN ingredients i ON i.id = ri.idingredients " +
-        "INNER JOIN area a ON a.id = r.idsubcategories " +
-        "INNER JOIN categories c ON c.id = r.idcategories " +
         "WHERE 1=0 ";
-    for (var i = 0; i < searchTerms.length; i++) {
-        sqlQuery += "OR i.name LIKE '%" + searchTerms[i] + "%' ";
-    }
-    if(country != null){
-        sqlQuery += "AND a.id =" + country + " ";
-    }
-    if(categories != null){
-        sqlQuery += "AND c.id =" + categories + " ";
-    }
+        if(country != null){
+            sqlQuery += "AND r.idsubcategories = " + country + " ";
+        }
+        if(categories != null){
+            sqlQuery += "AND r.idcategories = " + categories + " ";
+        }
+        for (var i = 0; i < searchTerms.length; i++) {
+            sqlQuery += "OR i.name LIKE '%" + searchTerms[i] + "%' ";
+        }*/
+    console.log(sqlQuery)
     pool.query(sqlQuery, (err, result) => {
         if (err) {
             console.error(err);
@@ -311,7 +336,7 @@ router.post('/filter', function (req, res) {
             return;
         }
         // res.send(result.rows);
-        console.log(result.rows)
+        // console.log(result.rows)
         res.send({ recipes: result.rows });
     });
 });
