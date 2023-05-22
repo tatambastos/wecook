@@ -44,7 +44,7 @@
               <input type="password" class="form-control" id="password" name="password" required>
             </div>
             <div class="d-grid gap-2">
-              <button class="btn btn-primary" onclick="agregarUser(event)">Registrarse</button>
+              <button class="btn btn-primary" onclick="agregarUser()">Registrarse</button>
             </div>
           </form>
           <a href="/signin">O Iniciar Sesion</a>
@@ -74,7 +74,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
-      function agregarUser(event) {
+      function agregarUser() {
         event.preventDefault();
         var name = document.getElementById("name").value
         var last_name = document.getElementById("last_name").value
