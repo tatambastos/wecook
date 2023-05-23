@@ -346,15 +346,20 @@ router.post('/query', function (req, res) {
     var searchTerms = myArray.id;
 
     var value_nutritional = 'SELECT v.calories, v.carbohydrate, v.protein, v.fat FROM value_nutritional v '
-        + "inner join recipe r on r.id = v.idrecipe "
-        + " WHERE r.id = " + searchTerms;
+        + "INNER JOIN recipe r ON r.id = v.idrecipe "
+        + "WHERE r.id = " + searchTerms;
 
-    var recipe = "SELECT * FROM recipe where id = " + searchTerms;
+    var recipe = "SELECT * FROM recipe WHERE id = " + searchTerms;
 
     var sqlQuery = "SELECT i.name, ri.amount FROM ingredients i " +
-        "inner join recipe_ingredients ri ON i.id = ri.idingredients " +
-        "inner join recipe r on r.id = ri.idrecipe " +
-        "WHERE r.id = " + searchTerms + " ";
+        "INNER JOIN recipe_ingredients ri ON i.id = ri.idingredients " +
+        "INNER JOIN recipe r ON r.id = ri.idrecipe " +
+        "WHERE r.id = " + searchTerms;
+
+    var categories = "SELECT a.name AS narea, c.name AS ncategoria FROM recipe r " +    
+        "INNER JOIN area a ON a.id = r.idsubcategories " +
+        "INNER JOIN categories c ON c.id = r.idcategories " +
+        "WHERE r.id = " + searchTerms;
 
     Promise.all([
         new Promise((resolve, reject) => {
@@ -386,16 +391,27 @@ router.post('/query', function (req, res) {
                     resolve(result);
                 }
             });
+        }),
+        new Promise((resolve, reject) => {
+            pool.query(categories, (err, result) => {
+                if (err) {
+                    console.error(err);
+                    reject(err);
+                } else {
+                    resolve(result);
+                }
+            });
         })
-    ])//Se utiliza Promise.all para ejecutar las tres consultas en paralelo y obtener los resultados. 
-        .then(([value_nutritional, recipe, ingredients]) => {
-            res.send({ value_nutritional: value_nutritional.rows[0], recipe: recipe.rows[0], ingredients: ingredients.rows });
+    ]) // Se utiliza Promise.all para ejecutar las cuatro consultas en paralelo y obtener los resultados.
+        .then(([value_nutritional, recipe, ingredients, categories]) => {
+            res.send({ value_nutritional: value_nutritional.rows[0], recipe: recipe.rows[0], ingredients: ingredients.rows, categories: categories.rows });
         })
         .catch((err) => {
             console.error(err);
             res.status(500).send('Error en la consulta');
         });
 });
+
 //Ruta tipo post que envia los datos de la tabla area
 router.get('/paises', (req, res) => {
     var paises = "SELECT id, name FROM area"

@@ -1,9 +1,9 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
   // esta funcion envia una peticion a la base de datos que llama los datos de lareceta
-  function addRecipe(id,userid) {
-    if (userid != 0) {// condicional si el usuario ya esta registrado y logueado
-    axios.post('/query', {id: id})
+  function addRecipe(id, userid) {
+  if (userid != 0) {
+    axios.post('/query', { id: id })
       .then(response => {
         console.log(response.data);
         var recipeName = response.data.recipe.name;
@@ -15,19 +15,22 @@
         var grasa = response.data.value_nutritional.fat;
         var ingredientsList = "";
         response.data.ingredients.forEach(ingredient => {
-            ingredientsList += "<li>" + ingredient.name + " - " + ingredient.amount + "</li>";
+          ingredientsList += "<li>" + ingredient.name + " - " + ingredient.amount + "</li>";
         });
+        var category = response.data.categories[0].ncategoria;
+        var area = response.data.categories[0].narea;
         var valueNutritionalHtml = "<h5>Información nutricional:</h5><ul class='d-block'><li>Carbohidratos: " + carbo + "</li><li>Proteínas: " + proteina + "</li><li>Grasas: " + grasa + "</li></ul>";
-        var recipeHtml = "<h2>" + recipeName + '</h2><img src="'+ recipeImage +'" class="card-img-top" alt="..." ><h5>Descripción:</h5><p>' + recipeInstructions + '</p><h5>Ingredientes:</h5><ul class="d-block">'+ ingredientsList + "</ul>" + valueNutritionalHtml;
+        var recipeHtml = "<h2>" + recipeName + '</h2><h5>Categoría: ' + category + '</h5><h5>Área: ' + area + '</h5><img src="' + recipeImage + '" class="card-img-top" alt="..." ><h5>Descripción:</h5><p>' + recipeInstructions + '</p><h5>Ingredientes:</h5><ul class="d-block">' + ingredientsList + "</ul>" + valueNutritionalHtml;
         document.getElementById("recipe-container").innerHTML = recipeHtml;
       })
       .catch(error => {
         console.error(error);
       });
-    }else{
-      window.location.href = "registro";//si no esta logueado/registrado pasa a registro
-    }
+  } else {
+    window.location.href = "registro";
   }
+}
+
 
   function showRecipeUser(id) {
     console.log(id);
