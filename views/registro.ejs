@@ -85,7 +85,7 @@
         axios.post('/register', user)
           .then(response => {
             console.log(response.data)
-            document.getElementById("email").value = ""
+            document.getElementById("email1").value = ""
             document.getElementById("password").value = ""
             $('#registroExitosoModal').modal('show');
           })
