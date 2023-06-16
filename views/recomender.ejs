@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://kit.fontawesome.com/d88a4a229e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <script
+                        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+    <style>
+        section, h1 {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .text_ingredient {
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .title_ingredient{
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .dates{
+            border: 1px solid black; 
+            border-radius: 5px;
+            background-image: url('https://img.freepik.com/foto-gratis/joven-cocinero-feliz-preparando-bruschetta-salsa-aguacate-tomate-cherry-cocina_637285-3120.jpg');
+            height: 350px;
+            color: white;
+            background-size: cover; /* Ajusta la imagen al tamaño del elemento */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+        }
+    </style>
+    <title>Perfil</title>
+</head>
+
+<body>
+    <header class="container-fluid text-center" style="display: inline-block; background-image: url('https://ambar.com/wp-content/uploads/2019/04/especie-scaled.jpg'); background-size: cover">
+        
+        <H1 style="color: white;">Recomendaciones para el Usuario</H1>
+
+        <br>
+        </header>
+        <br>
+        <button class="btn btn-secondary" onclick="Recipe()">Ir a buscar recetas</button>
+    
+</div>
+<div class="container my-3">
+    <h2 class="text-center mb-4">Recomendaciones de tus recetas favoristas</h2>
+    <div class="card-group" id="recipes_recommendation">
+    </div>
+</div>
+    <div class="container">
+        <div style="border-top: 1px solid black; border-radius: 5px; text-align: center;" >
+            <p>Agrega favoritos para empezar darte recomendaciones de recetas afines a tus gustos</p>
+        </div>
+        
+    </div>
+
+    <%- include('partials/modal_ingredients'); %>
+    <%- include('partials/recipe'); %>
+    <%- include('partials/recipeRecomender'); %>
+    
+ 
+</body>
+
+</html>

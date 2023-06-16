@@ -243,7 +243,24 @@ router.post('/check', (req, res) => {
     });
 });
 
-
+router.get('/recomender', (req, res, next) => {
+  
+    console.log("User ID:", req.session.passport.user);
+    const id = req.session.passport.user;
+    const query = "select * from usuarios where id =" +id;
+    pool.query(query, (err, result) => {
+      if (err) {
+          console.error(err);
+          res.status(500).send('Error en la consulta');
+          return;
+      }
+      console.log(result.rows);
+      // res.send(result.rows);
+      res.render('recomender', { user: result.rows });
+  });
+    
+    //res.render('profile', { user: req.session.passport.user });
+  });
 
 router.get('/search', function (req, res) {
     pool.query('SELECT name FROM ingredients', (err, result) => {
