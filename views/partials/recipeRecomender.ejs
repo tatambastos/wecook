@@ -2,9 +2,9 @@
 <script>
     function agregarRecomendacion() {
     // console.log(Object.keys(pais)[0]);
-    
-    const userid= <%- user[0].id %>;
-    axios.post('/recomendation',{userid})
+    const url = 'http://localhost:8888/recetas_favoritas';
+    const userId= <%- user[0].id %>;
+    axios.post(url,{userId})
     
       .then(response => {
         

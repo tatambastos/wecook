@@ -274,7 +274,7 @@ router.get('/search', function (req, res) {
     });
 });
 
-router.post('/recomendation', function (req, res) {
+/*router.post('/recomendation', function (req, res) {
     const user_id = req.body.userid;
     console.log(user_id)
     var sqlQuery = "SELECT DISTINCT r.idcategories FROM recipe r " +
@@ -305,7 +305,7 @@ router.post('/recomendation', function (req, res) {
       });
     });
 
-});
+});*/
 
 router.post('/add', function (req, res) {
     // Almacenar un array en la sesión
