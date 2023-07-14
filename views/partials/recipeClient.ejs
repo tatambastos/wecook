@@ -82,4 +82,33 @@ data.forEach(recipe => {
       });
   }
   agregarRecomendacion();
+  
+function obtenerRecomendaciones() {
+    const axios = window.axios; // Accede a Axios desde el objeto global window
+
+    // URL del servidor de Jupyter Notebook
+    const jupyterURL = 'http://localhost:8888'; // Reemplaza con la URL correcta
+
+    // ID de usuario para obtener las recomendaciones
+    const usuarioId = <%- user[0].id %>; // Cambia este valor según corresponda
+
+    // Realizar solicitud POST al servidor de Jupyter Notebook
+    axios.post(`${jupyterURL}/recommendations`, {
+      usuario_id: usuarioId
+    })
+      .then(response => {
+        // Procesar los datos recibidos desde el servidor de Jupyter Notebook
+        const recomendaciones = response.data;
+        console.log(recomendaciones);
+
+        // Aquí puedes imprimir los datos en la vista, por ejemplo, actualizando elementos HTML
+        
+      })
+      .catch(error => {
+        console.error('Error al obtener las recomendaciones:', error);
+      });
+  }
+
+  // Llama a la función para obtener las recomendaciones
+  obtenerRecomendaciones();
 </script>

@@ -30,7 +30,8 @@
     "passport-local-mongoose": "^8.0.0",
     "path": "^0.12.7",
     "pg": "^8.10.0",
-    "render": "^0.1.4"
+    "render": "^0.1.4",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.21"

@@ -10,11 +10,15 @@ const express = require ('express');
 const fs = require('fs');
 
 
- 
 
+
+  
+ 
 const port = 3000;
 
 const app = express();
+
+app.use(cors()) 
 
 
 //Credenciales de la BD

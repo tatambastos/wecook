@@ -13,6 +13,7 @@ const pg = require('pg'); // Dependencia para interactuar con PostgreSQL
 const flash = require('connect-flash'); // Middleware para mensajes flash en Express
 
 
+
 router.use(bodyParser.urlencoded({ extended: true }));// Analizar el cuerpo de las solicitudes en formato URL-encoded
 router.use(bodyParser.json());// Analizar el cuerpo de las solicitudes en formato JSON
 
@@ -149,7 +150,6 @@ passport.serializeUser((user, done) => {
   });
   router.get("/home", (req, res) => {
 
-
     pool.query('SELECT name FROM ingredients', (err, result) => {
         if (err) {
             console.error(err);
@@ -187,6 +187,22 @@ router.post('/addFavorites', (req, res) => {
 router.get('/logout', (req, res) => {
     req.logout();
     res.redirect('/signin');
+  });
+  router.get('/obtener', (req, res, next) => {
+    if (req.session && req.session.passport && req.session.passport.user) {
+      console.log("User ID:", req.session.passport.user);
+      const id = req.session.passport.user;
+      res.json({ usuario_id: id }); // Enviar el ID del usuario como una respuesta JSON
+    } else {
+      res.status(401).json({ error: 'No autenticado' }); // Enviar un código de estado 401 y un mensaje de error en formato JSON
+    }
+  });
+   
+  
+router.post('/data', (req, res) => {
+    const data = req.body;
+    console.log('Datos recibidos:', data);
+    res.send('Datos recibidos en el servidor');
   });
 //Ruta tipo POST donde se buscan las recetas favoritas del usuario atravez de la tabla intermedia
 router.post('/recipeUser', (req, res) => {
@@ -274,7 +290,7 @@ router.get('/search', function (req, res) {
     });
 });
 
-/*router.post('/recomendation', function (req, res) {
+router.post('/recomendation', function (req, res) {
     const user_id = req.body.userid;
     console.log(user_id)
     var sqlQuery = "SELECT DISTINCT r.idcategories FROM recipe r " +
@@ -305,7 +321,7 @@ router.get('/search', function (req, res) {
       });
     });
 
-});*/
+});
 
 router.post('/add', function (req, res) {
     // Almacenar un array en la sesión

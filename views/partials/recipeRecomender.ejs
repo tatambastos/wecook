@@ -1,10 +1,10 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
-    function agregarRecomendacion() {
+function agregarRecomendacion() {
     // console.log(Object.keys(pais)[0]);
-    const url = 'http://localhost:8888/recetas_favoritas';
-    const userId= <%- user[0].id %>;
-    axios.post(url,{userId})
+    
+    const userid= <%- user[0].id %>;
+    axios.post('/recomendation',{userid})
     
       .then(response => {
         
@@ -14,7 +14,7 @@
 let counter = 0;  // Initialize counter variable
 
 data.forEach(recipe => {
- // Check if the counter is less than 3
+ 
     html += 
       '<div class="col-md-4 mb-4">'
       + '<div class="card mx-1 shadow" style="width: 18rem;">'
@@ -28,7 +28,7 @@ data.forEach(recipe => {
       + '</div>'
       + '</div>';
 
-
+    
 });
 
 

@@ -7,9 +7,9 @@ const fs = require('fs'); // Módulo de sistema de archivos de Node.js
 const session = require('express-session'); // Middleware de sesión para Express
 const path = require('path'); // Módulo de rutas de archivos y directorios de Node.js
 require('ejs'); // Dependencia para el motor de plantillas EJS
-
+var cors = require('cors')
 const app = express(); // Crear una instancia de la aplicación Express
-
+app.use(cors());
 app.use(session({
     secret: '2C44-4D44-WppQ38S', // Clave secreta utilizada para firmar y cifrar las cookies de sesión
     resave: false,
@@ -36,4 +36,4 @@ app.get('/', function (req, res) {
 });
 
 app.listen(3000); // Iniciar el servidor en el puerto 3000
-console.log('server is online'); // Imprimir un mensaje en la consola indicando que el servidor está en línea
+console.log('El servidor está en línea en el puerto 3000'); // Imprimir un mensaje en la consola indicando que el servidor está en línea

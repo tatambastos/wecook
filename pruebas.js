@@ -1,22 +1,19 @@
-// server.js
 const express = require('express');
-const bodyParser = require('body-parser');
-
 const app = express();
+const port = 3000;
 
-// Configurar body-parser para analizar solicitudes POST
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+app.use(express.json());
 
-// Manejar solicitud POST para ruta '/prueba'
-app.post('/prueba', (req, res) => {
-  const myArray = req.body.myArray;
-  console.log(myArray); // ['1', '3']
-
-  res.send('Datos recibidos');
+app.get('/', (req, res) => {
+  res.send('¡Hola desde Express!');
 });
 
-// Iniciar servidor
-app.listen(3000, () => {
-  console.log('Servidor en línea en el puerto 3000');
+app.post('/data', (req, res) => {
+  const data = req.body;
+  console.log('Datos recibidos:', data);
+  res.send('Datos recibidos en el servidor');
+});
+
+app.listen(port, () => {
+  console.log(`Servidor Express funcionando en http://localhost:${port}`);
 });
