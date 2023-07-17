@@ -330,12 +330,18 @@ router.post('/add', function (req, res) {
     // console.log(myArray)
     var searchTerms = myArray;
     var sqlQuery = "SELECT DISTINCT r.id, r.name, r.url, r.instructions FROM recipe r " +
-        "INNER JOIN recipe_ingredients ri ON r.id = ri.idrecipe " +
-        "INNER JOIN ingredients i ON i.id = ri.idingredients " +
-        "WHERE 1=0 ";
+    "LEFT JOIN recipe_ingredients ri ON r.id = ri.idrecipe " +
+    "LEFT JOIN ingredients i ON i.id = ri.idingredients ";
+
+if (searchTerms.length > 0) {
+    sqlQuery += "WHERE ";
     for (var i = 0; i < searchTerms.length; i++) {
-        sqlQuery += "OR i.name LIKE '%" + searchTerms[i] + "%' ";
+        sqlQuery += "i.name LIKE '%" + searchTerms[i] + "%' ";
+        if (i < searchTerms.length - 1) {
+            sqlQuery += "OR ";
+        }
     }
+}
     pool.query(sqlQuery, (err, result) => {
         if (err) {
             console.error(err);
