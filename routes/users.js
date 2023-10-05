@@ -292,36 +292,44 @@ router.get('/search', function (req, res) {
 
 router.post('/recomendation', function (req, res) {
     const user_id = req.body.userid;
-    console.log(user_id)
+    console.log(user_id);
+
     var sqlQuery = "SELECT DISTINCT r.idcategories FROM recipe r " +
       "INNER JOIN recipe_user ri ON r.id = ri.idrecipe " +
-      "where iduser = " + user_id;
-    
-      pool.query(sqlQuery, function(err, result) {
+      "WHERE iduser = " + user_id;
+
+    pool.query(sqlQuery, function(err, result) {
         if (err) {
             console.error(err);
             res.status(500).send('Error en la consulta');
             return;
         }
-        
-       console.log(result.rows[0].idcategories)
-       var sqlQuery1 = "SELECT DISTINCT r.id, r.name, r.url, r.instructions FROM recipe r Where r.idcategories = " + result.rows[0].idcategories;
-       pool.query(sqlQuery1, function(err, result1) {
-        if (err) {
-          console.error(err);
-          res.status(500).send('Error en la consulta');
-          return;
-        }
-  
-        // Aquí puedes trabajar con los resultados de la segunda consulta
-        res.send({ recipes: result1.rows });
-  
-        // Envía la respuesta al cliente, por ejemplo, usando 'res.json'
-        
-      });
-    });
 
+        // Verifica si el usuario tiene favoritos
+        if (result.rows.length === 0) {
+            res.send({ recipes: [] }); // Usuario sin favoritos, enviar una respuesta vacía o algún indicador.
+            return;
+        }
+
+        var idcategories = result.rows[0].idcategories;
+
+        var sqlQuery1 = "SELECT DISTINCT r.id, r.name, r.url, r.instructions FROM recipe r WHERE r.idcategories = " + idcategories;
+
+        pool.query(sqlQuery1, function(err, result1) {
+            if (err) {
+                console.error(err);
+                res.status(500).send('Error en la consulta');
+                return;
+            }
+
+            // Aquí puedes trabajar con los resultados de la segunda consulta
+            res.send({ recipes: result1.rows });
+
+            // Envía la respuesta al cliente, por ejemplo, usando 'res.json'
+        });
+    });
 });
+
 
 router.post('/add', function (req, res) {
     // Almacenar un array en la sesión
